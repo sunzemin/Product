@@ -1,0 +1,2301 @@
+[ 2018-11-21T17:07:04+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:07:43+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:07:45+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:07:46+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:07:46+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:07:46+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:07:46+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:07:47+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:07:47+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:07:47+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:07:47+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:07:48+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-11-21T17:07:48+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2018-11-21T17:07:48+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:07:49+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:08:12+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:08:13+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:08:13+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:08:13+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-11-21T17:08:13+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:08:14+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:11:52+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:11:53+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:11:59+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:14:36+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-11-21T17:15:37+08:00 ] 192.168.0.108 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:16+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:20:16+08:00 ] 127.0.0.1 /index.php/Mobile/Index/css/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+ERR: 非法操作:css
+
+[ 2018-11-21T17:20:17+08:00 ] 127.0.0.1 /index.php/Mobile/Index/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:css
+
+[ 2018-11-21T17:20:17+08:00 ] 127.0.0.1 /index.php/Mobile/Index/layui-v2.4.5/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:layui-v2.4.5
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/css/swiper.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:css
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/phone.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/xian.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/layui-v2.4.5/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layui-v2.4.5
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img83.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/js/swiper.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img24.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img10.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img25.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img26.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img30.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img28.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img27.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img29.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img31.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img33.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img32.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img36.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img37.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img34.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img35.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img38.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/layui-v2.4.5/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layui-v2.4.5
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/img2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:18+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:20:19+08:00 ] 127.0.0.1 /index.php/Mobile/Index/img/banner.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:22:55+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:24:55+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 34 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-21T17:26:31+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 34 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 43 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:28:27+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 34 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 43 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:28:33+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 34 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 43 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:28:33+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 34 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 43 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:29:22+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 34 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 43 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:31:09+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-11-21T17:31:12+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:32:29+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:33:23+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:35:23+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:54:17+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T17:57:37+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T17:58:08+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T18:01:32+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_product_classify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_product_classify` ORDER BY pc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: pc_name C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 84 行.
+NOTIC: [8] Undefined variable: pc_name C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 84 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T18:02:12+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_product_classify` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_product_classify` ORDER BY pc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: pc_name C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 84 行.
+NOTIC: [8] Undefined variable: pc_name C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 84 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T18:03:29+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_product_classify` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_product_classify` ORDER BY pc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T18:04:04+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_product_classify` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_product_classify` ORDER BY pc_sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 130 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 130 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T18:05:10+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zn_product_classify` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_product_classify` ORDER BY pc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T19:09:00+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_product_classify` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `zn_product_classify` ORDER BY pc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T19:09:08+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_product_classify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_product_classify` ORDER BY pc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-21T19:10:04+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0320s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_product_classify` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_product_classify` ORDER BY pc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-21T19:11:10+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_product_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_product_classify` ORDER BY pc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T19:11:29+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_product_classify` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_product_classify` ORDER BY pc_sort desc  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-11-21T19:36:29+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_product_classify` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_product_classify` ORDER BY pc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T19:44:34+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_product_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_product_classify` ORDER BY pc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-21T19:45:49+08:00 ] 127.0.0.1 /index.php/Mobile/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_nav` ORDER BY nav_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_lunbo` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_footer` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_footer` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_company_introduce` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_company_introduce` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_scene` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_scene` ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_case` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_home_decorate_title` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 7 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 16 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 17 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 18 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_head` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_all_head` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_product_classify` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_product_classify` ORDER BY pc_sort desc  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 35 行.
+NOTIC: [8] Undefined index: nav_url C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 44 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+NOTIC: [8] Undefined variable: k C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Mobile\59803a09875c7569286531ef77035039.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
