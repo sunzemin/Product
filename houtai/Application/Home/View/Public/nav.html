@@ -1,0 +1,24 @@
+<div class="headerCent-right">
+	<ul>
+		<li>
+			<a href="/index.php/Home/Index/index" target="_blank">
+				<div class="headerCentleft hide"></div>
+				<div class="headerCentright orangeColor">
+					<div class="headerCenttop">首页</div>
+					<div class="headerCentbot">home</div>
+				</div>
+			</a>
+		</li>
+		<volist name="navres" id="navs">
+			<li>
+				<a href="{$navs.nav_url}/nav_id/{$navs.nav_id}" target="_blank">
+					<div class="headerCentleft"></div>
+					<div class="headerCentright">
+						<div class="headerCenttop">{$navs.nav_name}</div>
+						<div class="headerCentbot">{$navs.nav_english_name}</div>
+					</div>
+				</a>
+			</li>
+		</volist>
+	</ul>
+</div>

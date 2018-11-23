@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>关于我们</title>
+		<link rel="icon" href="__PUBLIC__/Home/img/favicon.ico" type="image/x-icon" />
+	    <link rel="shortcut icon" href="__PUBLIC__/Home/img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="layui/__PUBLIC__/Home/css/layui.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/certify.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/index.css"/>
+	</head>
+	<body>
+		<!--公共头部-->
+		<header>
+			<div class="headerCent">
+				<div class="headerCent-left">
+					<img src="__PUBLIC__/Home/img/img1.png" alt="logo"/>
+				</div>
+				<include file="Public/nav"/>
+			</div>
+		</header>
+		<!--内容区域-->
+		<section>
+			<!--轮播-->
+			<div class="Demo">
+				<div class="swiper-container topImagesCaontainer">
+				    <div class="swiper-wrapper">
+				    	<volist name="lunboData" id="lunbo">
+				    		 <div class="swiper-slide">
+						      	<img src="{$lunbo.lb_image}" alt="..."/>
+						      </div>
+				    	</volist>
+				    </div>
+				    <div class="swiper-button-next"></div>
+				    <div class="swiper-button-prev"></div>
+				</div>		
+				 <!--底部轮播-->
+			    <div class="bottomImages">
+			    	<div class="bottomImages-left">
+			    		<img src="__PUBLIC__/Home/img/img7.png" alt="left"/>
+			    	</div>
+			    	<div class="bottomImages-center">
+			    		<ul>
+			    			<volist name="lunboData" id="lunbo">
+			    				<li>
+				    				<div class="hidetop"></div>
+					      			<div class="hideRed hide">
+					      				<div class="hideRed-top">{$lunbo.lb_title}</div>
+					      				<div class="hideRed-bot">{$lunbo.lb_time|date="Y-m-d",###}</div>
+					      			</div>	
+				    			</li>
+			    			</volist>
+			    		</ul>
+			    	</div>
+			    	<div class="bottomImages-right">
+			    		<img src="__PUBLIC__/Home/img/img8.png" alt="right"/>
+			    	</div>
+			    </div>
+			</div>
+			<!--关于薇拉-->
+			<div class="PublicCall">
+				<img src="__PUBLIC__/Home/img/img47.png" alt="img"/>
+			</div>
+			<div class="aboutUs">
+				<img src="{$background_imageData[0].bi_image}" alt="img"/>
+				<div class="aboutUsData">
+					<div class="aboutUsCent">
+						<div class="aboutUsCent-one">
+							{$basedata_res.title1}
+						</div>
+						<div class="aboutUsCent-two">
+							<div class="aboutUsCent-left">
+								{$basedata_res.title2}
+							</div>
+							<div class="aboutUsCent-right">
+								<div class="aboutUsCent-top">
+									{$basedata_res.title3}
+								</div>
+								<div class="aboutUsCent-bot">
+									{$basedata_res.title4}
+								</div>
+							</div>
+						</div>
+						<div class="aboutUsCent-three">
+							<div>{$basedata_res.title5}</div>
+						</div>
+						<div class="aboutUsCent-four">
+							<img src="__PUBLIC__/Home/img/img48.png" alt="img"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="aboutUsImages">
+				<div class="aboutUsImages-left">
+					<img src="{$background_imageData[1].bi_image}" alt="img"/>
+				</div>
+				<div class="aboutUsImages-right">
+					<div class="aboutUsImages-one">
+						<div>{$company_introduce.ci_logotitle}</div>
+						
+					</div>
+					<div class="aboutUsImages-two">
+						<div>
+							{$company_introduce.ci_content}
+						</div>
+						<div>
+							{$company_introduce.ci_content_english}
+						</div>
+					</div>
+					<div class="aboutUsImages-three">
+						Vera photo
+					</div>
+				</div>
+			</div>
+			<!--公司地址-->			
+			<include file="Public/content"/>
+		</section>
+		<!--公共底部-->
+		<include file="Public/footer"/>
+		<!--固定浮窗-->
+		<include file="Public/float"/>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="//api.html5media.info/1.2.2/html5media.min.js"></script>
+		<script src="__PUBLIC__/Home/js/swiper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="layui/layui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/Home/js/count.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/Home/js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+//				设置宽度
+				var wid=$(".aboutUsCent-two").width();
+				$(".aboutUsCent-two").width(wid+3);
+				$(".aboutUsCent-two").css("display","block");
+			});
+		</script>
+	</body>
+</html>
