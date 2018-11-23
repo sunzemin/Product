@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>图文列表</title>
+<link href="__PUBLIC__/admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/admin/css/css.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="__PUBLIC__/admin/js/jquery.js"></script>
+<script type="text/javascript"> 
+function del(){ 
+    if(!confirm("确认要删除？")){ 
+        window.event.returnValue = false; 
+    } 
+} 
+</script>
+<body>
+<div class="place">
+<span>位置：</span>
+<ul class="placeul">
+<!-- <li><a href="#">内容管理</a></li> -->
+<li><a href="#">导航管理</a></li>
+</ul>
+</div>
+<div class="index-right">
+    <div class="formbody">
+        <div class="tools">
+            <ul class="toolbar">
+                <a href="/index.php/Admin/Index/footer_nav_add">
+                <li class="click"><span><img src="__PUBLIC__/admin/images/pic/t01.png" /></span>添加导航</li>
+                </a>
+            </ul>
+        </div>
+        <table class="tablelist">
+            <thead>
+            <tr>
+            <th>编号</th>
+            <th>导航名称</th>  
+            <th>英文名称</th>
+            <th>链接</th>
+            <th>排序</th>
+            <th>操作</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <volist name="footer_navres" id="vo" key="k">
+            <tr>
+            <td>{$k}</td>
+            <td>{$vo.fn_nav_name}</td>
+            <td>{$vo.fn_english_name}</td>
+            <td>{$vo.fn_url}</td>
+            <td>{$vo.fn_sort}</td>
+            <td>
+                <a href="/index.php/Admin/Index/footer_nav_update/fn_id/{$vo.fn_id}">修改</a>
+                <a href="/index.php/Admin/Index/footer_nav_del/fn_id/{$vo.fn_id}" onclick="return del()">删除</a>
+            </td>
+            </tr>
+	            <volist name="navfooterarr[$k-1]" id="vos">
+	            	<tr>
+		            <td><span style="color: red;">***</span></td>
+		            <td>{$vos.fn_nav_name}</td>
+                    <td>{$vos.fn_english_name}</td>
+                    <td>{$vos.fn_url}</td>
+		            <td>{$vos.fn_sort}</td>
+		            <td>
+		                <a href="/index.php/Admin/Index/footer_nav_update/fn_id/{$vos.fn_id}">修改</a>
+                        <a href="/index.php/Admin/Index/footer_nav_del/fn_id/{$vos.fn_id}" onclick="return del()">删除</a>
+		            </td>
+		            </tr>
+	            </volist>
+            </volist>
+            </tbody> 
+        </table>
+        <if condition="$page eq ''">
+            <else/>
+            <ul class="pageul" style="border:1px solid pink;float: left;margin-top: 20px;">
+            <if condition="$p eq 1">
+                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Index/footer_nav/p/1" style="margin-left: 20px;"><<</a></li>
+                <else/>
+                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Index/footer_nav/p/{$p-1}" style="margin-left: 20px;"><<</a></li>
+            </if>
+            
+            <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Index/footer_nav/p/1" style="margin-left: 20px;">首页</a></li>
+            <for start="1" end="$page+1">
+            <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Index/footer_nav/p/{$i}" style="margin-left: 20px;">{$i}</a></li>
+            </for>
+            
+            <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Index/footer_nav/p/{$page}" style="margin-left: 20px;">尾页</a></li>
+            
+            <if condition="$p eq $page">
+                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Index/footer_nav/p/{$page}" style="margin-left: 20px;">>></a></li>
+                <else/>
+                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Index/footer_nav/p/{$p+1}" style="margin-left: 20px;">>></a></li>
+            </if>
+        </ul>
+        </if>
+         <table class="tablelist">
+            <tr>
+                <th>导航名称</th>
+                <th>导航链接</th>
+                <th>父级导航名称</th>
+            </tr>
+            <tr>
+                <td>薇拉公馆</td>
+                <td>/index.php/Home/Index/index</td>
+                <td>无</td>
+            </tr>
+            <tr>
+                <td>客样欣赏</td>
+                <td>/index.php/Home/Index/keyangxinshang</td>
+                <td>薇拉公馆</td>
+            </tr>
+            <tr>
+                <td>最新特惠</td>
+                <td>/index.php/Home/Index/zuixintehui</td>
+                <td>薇拉公馆</td>
+            </tr>
+            <tr>
+                <td>精彩花絮</td>
+                <td>/index.php/Home/Index/jingcaihuaxu</td>
+                <td>薇拉公馆</td>
+            </tr>
+            <tr>
+                <td>客户评价</td>
+                <td>/index.php/Home/Index/kehupingjia</td>
+                <td>薇拉公馆</td>
+            </tr>
+            <tr>
+                <td>作品展示</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>内景作品</td>
+                <td></td>
+                <td>作品展示</td>
+            </tr>
+            <tr>
+                <td>外景作品</td>
+                <td></td>
+                <td>作品展示</td>
+            </tr>
+            <tr>
+                <td>关于我们</td>
+                <td>/index.php/Home/Index/aboutUs</td>
+                <td></td>
+            </tr>
+        </table> 
+        
+        <table class="tablelist">
+            <tbody>
+	            
+            </tbody> 
+        </table>
+        <div class="Paginationn">{$page}</div>
+    </div><!-- formbody结束 -->
+</div>
+<script type="text/javascript">
+    $('.tablelist tbody tr:odd').addClass('odd');
+</script>
+</body>
+
+</html>

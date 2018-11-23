@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="bright"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="flexible" content="initial-dpr=2" />
+		<title>{$room_scenery_classify11.rsc_name}</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Mobile/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Mobile/css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Mobile/layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Mobile/css/index.css"/>
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="headerCent">
+				<div>{$company_introduce.ci_logotitle}</div>
+				<div>{$company_introduce.ci_logotitle_english} </div>
+			</div>
+			<img src="__PUBLIC__/Mobile/img/img1.png" alt="img" class="headerCent-right"/>
+		</header>
+		<!--菜单下拉框-->
+		<include file="Public/nav"/>
+		
+		<div class="bannerImages">
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <volist name="lunboData" id="lunbo">
+			    		<div class="swiper-slide">
+				      		<div class="bannerImages-top">
+					      		<img src="{$lunbo.lb_image}" alt="..."/>
+				      		</div>
+				      		<div class="bannerImages-bot">
+				      			<div class="bannerImg">
+				      				<div class="bannerImg-top"></div>
+				      				<div class="bannerImg-bot">
+										{$lunbo.lb_title}
+				      				</div>
+				      			</div>
+				      		</div>
+				        </div>
+	    			</volist>
+			    </div>
+			    <div class="swiper-pagination"></div>
+			</div>	
+		</div>
+		<!--标题-->
+		<div class="PublicCall">
+			<img src="__PUBLIC__/Mobile/img/img7.png" alt="img"/>
+		</div>
+		<!--分类-->
+		<div class="Interior">
+			<volist name="room_scenery_classify_res" id="room_scenery_classify">
+				<a href="/index.php/Mobile/Index/erjifenlei/rsc_id/{$room_scenery_classify.rsc_id}">{$room_scenery_classify.rsc_name}</a>
+			</volist>
+		</div>
+		<!--风格样片-->
+		<div class="StyleSample"></div>
+		<div class="StyleSample-bot">
+			<div id="demo1"></div>
+		</div>
+		<!--公司地址-->			
+		<include file="Public/content"/>
+		<input type="hidden" class="rsc_name" value="{$room_scenery_classify11.rsc_name}" />
+		<input type="hidden" id="rscId" value="{$room_scenery_classify11.rsc_id}" />
+		<!--公共底部-->
+		<include file="Public/footer"/>
+		<!--固定浮窗-->
+		<include file="Public/float"/>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="__PUBLIC__/Mobile/js/swiper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/Mobile/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/Mobile/js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				//添加样式
+				var rscNameVal=$(".rsc_name").val();
+				var len=$(".Interior").children("a").length;
+				for(var k=0;k<len;k++){
+					var val=$(".Interior").children("a").eq(k).text();
+					if(rscNameVal==val){
+						$(".Interior").children("a").eq(k).addClass("orangeColor")
+					}
+				}
+//				轮播图
+				var swiper = new Swiper('.bannerImages .swiper-container', {
+					spaceBetween: 20,
+					centeredSlides: true,
+					autoplay: {
+						delay: 2500,
+						disableOnInteraction: false,
+					},
+					pagination: {
+						el: '.bannerImages .swiper-pagination',
+						clickable: true,
+					},
+				});
+//			    js取消分类的下边框
+				var leng=$(".Interior>a").length;
+//				向下取整,拿到保留下边框的行数和个数
+				var valNumber= Math.floor(Number(leng/3));
+				var num=valNumber*3;
+//				需要去除边框的个数
+				var splictNum=Number(leng-num);
+//				去除最后一行的下边框
+				if(splictNum==0){
+					$(".Interior").children("a").eq(leng-1).addClass("hideBorder");
+					$(".Interior").children("a").eq(leng-2).addClass("hideBorder");
+					$(".Interior").children("a").eq(leng-3).addClass("hideBorder");
+				}
+				if(splictNum==1){
+					$(".Interior").children("a").eq(leng-1).addClass("hideBorder");
+				}
+				if(splictNum==2){
+					$(".Interior").children("a").eq(leng-1).addClass("hideBorder");
+					$(".Interior").children("a").eq(leng-2).addClass("hideBorder");
+				}
+				//				分页
+				var requestId = 0; //默认请求id
+				var rsc_id=$("#rscId").val();
+				console.log("id",rsc_id);
+				ajaxData(1);
+				function ajaxData( page) {
+					$.ajax({      
+						type: 'get',
+						url: '/index.php/Mobile/Public/selerjifenlei/rsc_id/'+ rsc_id +'/p/' + page,
+						cache: false,
+						dataType: 'json',
+						success: function(data) {     
+							console.log("成功",data);  
+							//	页面默认加载分页数据
+							var pageVal = 0;
+							layui.use('laypage', function() {
+								var laypage = layui.laypage;
+								laypage.render({
+									elem: 'demo1',
+									count: data.allcount, //数据总数
+									jump: function(obj) {
+										$(".RealEvaluation-bot").children().remove();
+										$.ajax({      
+											type: 'get',
+											url: '/index.php/Mobile/Public/selerjifenlei/rsc_id/'+ rsc_id +'/p/' + obj.curr,
+											cache: false,
+											dataType: 'json',
+											success: function(data) {    
+												console.log("9*99",data);   
+												$(".numPage").children("i").text(data.allcount);
+												var rsc_name2=data.room_scenery_classify11.rsc_name;
+												for(var g=0;g<data.room_scenery_res.length;g++){
+													var rs_image=data.room_scenery_res[g].rs_image;
+													var rs_name=data.room_scenery_res[g].rs_name;
+													var rs_id=data.room_scenery_res[g].rs_id;
+													var strCent='<a href="/index.php/Mobile/Index/Information/rs_id/'+ rs_id +'"><img src="'+ rs_image +'" alt="img"/><div class="StyleSampleCent"><div class="StyleSampleCent-top">'+ rsc_name2 +'</div><div class="StyleSampleCent-bot">'+ rsc_name2 +'</div></div></a>';
+													$(".StyleSample").append(strCent);
+												}
+											},
+											error: function(err) { 
+												console.log(err);      
+												alert("获取二级分类数据请求异常！");      
+											}   
+										});
+										var leng = $("#demo1>div").children().length;
+										for(var k = 0; k < leng; k++) {
+											var valLeng = $("#demo1>div").children().eq(k).outerWidth(true);
+											pageVal += Number(valLeng);
+										}
+										var endVal = pageVal + 100;
+										$(".StyleSample-bot").css("width", endVal);
+										pageVal = 0;
+									}
+								});
+							});
+						},
+						error: function() {    
+							alert("获取二级分类数据请求异常！");      
+						}   
+					});
+				}
+			});
+		</script>
+	</body>
+</html>
