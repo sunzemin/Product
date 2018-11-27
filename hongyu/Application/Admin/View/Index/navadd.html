@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>test</title>
+<link href="__PUBLIC__/admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/admin/css/css.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="__PUBLIC__/editor/themes/default/default.css" />
+<script language="JavaScript" src="__PUBLIC__/admin/js/myjs.js"></script>
+<script language="JavaScript" src="__PUBLIC__/admin/js/jquery.js"></script>
+<body>
+<div class="place">
+<span>位置：</span>
+<ul class="placeul">
+<li><a href="#">基础设置</a></li>
+<li><a href="#">添加导航</a></li>
+</ul>
+</div>
+<form method="post" name="form" action="">
+<ul class="forminfo">
+	<li><label><b>*</b>导航等级</label>
+		<select name="nav_fid" class="dfinput state">
+			<option value="0">一级导航</option>
+			<volist name="navres" id="vo">
+				<option value="{$vo.nav_id}">{$vo.nav_name}</option>
+			</volist>
+		</select>
+	</li>
+    <li><label><b>*</b>导航名称</label><input name="nav_name" type="text" class="dfinput" value="" /></li>
+    <li><label><b>*</b>链接</label><input name="nav_url" type="text" class="dfinput" value="" /></li>
+    <li><label><b>*</b>排序</label><input name="nav_sort" type="text" class="dfinput" value="" /></li>
+    <li><label>&nbsp;</label><input name="submit" type="submit" class="btn" value="确认保存"/></li>
+</ul>
+</form>
+</body>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script>
+	$(function(){
+        var state=$('.state option:selected').val();
+        if(state==0){
+        	$(".state2b").show();
+        }else{
+        	$(".state2b").hide();
+        }
+        $(".state").click(function(){
+        	var state2=$('.state option:selected').val();
+        	if(state2==0){
+	        	$(".state2b").show();
+	        }else{
+	        	$(".state2b").hide();
+	        }
+        }) 
+    })
+</script>
+
+</html>

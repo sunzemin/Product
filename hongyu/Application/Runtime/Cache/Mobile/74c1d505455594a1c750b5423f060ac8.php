@@ -1,0 +1,185 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="flexible" content="initial-dpr=2" />
+		<title>主营业务</title>
+		<link rel="stylesheet" type="text/css" href="/Public/Mobile/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="/Public/Mobile/css/index.css" />
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	</head>
+<style type="text/css">
+	.buul{
+		background-color: firebrick;
+	}
+</style>
+	<body>
+		<!--顶部-->
+		<div class="header">
+			<div class="welcome">
+				<div class="welcome-left">您好！<?php echo ($company_introduce["ci_name"]); ?>!</div>
+			</div>
+			<div class="logo">
+				<div class="logo-center">
+					<div class="logo-left">
+						<a href="javascript;"><img src="<?php echo ($company_introduce["ci_logo"]); ?>" alt="..." /></a>
+					</div>
+					<div class="logo-right">
+						<div><img src="/Public/Mobile/images/rexian.png" alt="..." />
+							<div><?php echo ($company_introduce["ci_telephone"]); ?></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="nav">
+				<div class="nav-center">
+					<ul>
+						<li>
+							<a href="/index.php/Mobile/Index/index" target="__parent__" >网站首页</a>
+						</li>
+						
+						 <?php if(is_array($navres)): $k = 0; $__LIST__ = $navres;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navs): $mod = ($k % 2 );++$k;?><li>
+							<a href="<?php echo ($navs["nav_url"]); ?>/nav_id/<?php echo ($navs["nav_id"]); ?>"><?php echo ($navs["nav_name"]); ?></a>
+								
+							</li><?php endforeach; endif; else: echo "" ;endif; ?>
+					</ul>
+				</div>
+			</div>
+			<input type="text" class="navcss" value="<?php echo ($navben["nav_name"]); ?>"> -->
+<div class="nav">
+	<div class="nav-center">
+		<ul>
+			<li>
+				<a class="clickMenu" >
+				网站首页
+				
+			</a>
+			<input type="hidden" value="/index.php/Mobile/Index/index">
+			</li>
+			
+			 <?php if(is_array($navres)): $k = 0; $__LIST__ = $navres;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navs): $mod = ($k % 2 );++$k;?><li>
+				<a class="clickMenu"><?php echo ($navs["nav_name"]); ?>
+					
+				</a>
+				<input type="hidden" value="<?php echo ($navs["nav_url"]); ?>/nav_id/<?php echo ($navs["nav_id"]); ?>">
+				</li><?php endforeach; endif; else: echo "" ;endif; ?>
+		</ul>
+	</div>
+</div>
+ <input type="hidden" class="navcss" value="<?php echo ($navben["nav_name"]); ?>"> 
+		</div>
+		<!--图片-->
+		<div class="exclusive" style="background: url(<?php echo ($background_image_Data[0]["bi_image"]); ?>)no-repeat top center;height: 300px;"></div>
+		<!--企业概况-->
+		<div class="Situation">
+			<div class="Situation-top">
+				<p><?php echo ($primary_work_classify_res["pwc_name"]); ?></p>
+				<p>MAIN BUSINESS</p>
+			</div>
+			<div class="classification">
+				<ul>
+					<?php if(is_array($primary_work_res)): $k = 0; $__LIST__ = $primary_work_res;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$primary_work): $mod = ($k % 2 );++$k;?><li>
+						      <a href="/index.php/Mobile/Index/business/nav_id/<?php echo ($nav_id); ?>/pw_id/<?php echo ($primary_work["pw_id"]); ?>"><?php echo ($primary_work["pw_name"]); ?></a>
+						      
+					    </li><?php endforeach; endif; else: echo "" ;endif; ?>
+				</ul>
+			</div>
+			<div class="Situation-bot">
+				<?php if(is_array($primary_work_res)): $k = 0; $__LIST__ = $primary_work_res;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$primary_work): $mod = ($k % 2 );++$k; if($k == 1): ?><div>
+							<div class="SituationRight-top">
+								<span>您当前位置：<a href="/index.php/Mobile/Index/index">首页</a> > <?php echo ($primary_work_classify_res["pwc_name"]); ?> > 
+                                <?php if($primary_work_res11 == ''): echo ($primary_work_res[0]['pw_name']); ?> 
+								<?php else: ?>
+								<?php echo ($primary_work_res11["pw_name"]); endif; ?>
+								</span>
+								<h1>
+									<?php if($primary_work_res11 == ''): echo ($primary_work_res[0]['pw_name']); ?> 
+										<?php else: ?>
+										<?php echo ($primary_work_res11["pw_name"]); endif; ?>
+								</h1>
+							</div>
+							<div class="SituationRight-bot">
+								<?php if($primary_article_res[0][0] == ''): if(is_array($primary_articles11)): $i = 0; $__LIST__ = $primary_articles11;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$primary_article11): $mod = ($i % 2 );++$i;?><p><?php echo ($primary_article11["pa_content"]); ?></p><?php endforeach; endif; else: echo "" ;endif; ?>
+								    <?php else: ?>
+								    <?php if(is_array($primary_article_res[$k-1])): $i = 0; $__LIST__ = $primary_article_res[$k-1];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$primary_article): $mod = ($i % 2 );++$i;?><p><?php echo ($primary_article["pa_content"]); ?></p><?php endforeach; endif; else: echo "" ;endif; endif; ?> 
+							</div>
+						</div>
+						<?php else: endif; endforeach; endif; else: echo "" ;endif; ?>
+			</div>
+		</div>
+		<!--底部-->
+		
+<div class="footer-nav">
+	<ul>
+		<li>
+			<a href="/index.php/Mobile/Index/index">网站首页</a>
+		</li>
+		<?php if(is_array($navres)): $k = 0; $__LIST__ = $navres;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navs): $mod = ($k % 2 );++$k;?><li>
+				<a href="<?php echo ($navs["nav_url"]); ?>/nav_id/<?php echo ($navs["nav_id"]); ?>"><?php echo ($navs["nav_name"]); ?></a>
+
+			</li><?php endforeach; endif; else: echo "" ;endif; ?>
+	</ul>
+</div>
+<!-- <input type="text" class="navcss" value="<?php echo ($navben["nav_name"]); ?>">	 -->
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$(".nav-center>ul").children("li").removeClass("nav-centerBack");
+		$(".sub-nav>ul").children("li").removeClass("on");
+		var strongeVal = localStorage.sitename;
+		var headerLength = $(".nav-center>ul>li").length;
+		for(var k = 0; k < headerLength; k++) {
+			var valTxt = $(".nav-center>ul").children("li").eq(k).children("a").text();
+			if(valTxt == strongeVal) {
+				$(".nav-center>ul").children("li").eq(k).addClass("nav-centerBack");
+			}
+		}
+		$(".clickMenu").click(function(event) {
+			var txt = $(this).text();
+			var hrefVal = $(this).next().val();
+			// 设置h5储存
+			localStorage.sitename = txt;
+			window.location.href = hrefVal;
+		});
+	})
+</script>
+		<div class="address">
+			<div class="address-center">
+				<div>
+					<div>服务热线：<span><?php echo ($footer["ftelephone"]); ?></span></div>
+					<div>地址：<?php echo ($footer["faddress"]); ?></div>
+					<div>传真：<?php echo ($footer["ffax"]); ?></div>
+					<div>邮箱：<?php echo ($footer["femail"]); ?></div>
+					<div>备案号： <?php echo ($footer["frecord"]); ?></div>
+					<div>技术支持：泰雁科技</div>
+				</div>
+				<div><img src="<?php echo ($footer["ferweima"]); ?>" alt="..." style="width: 130px;height:130px;"/></div>
+			</div>
+		</div>
+	</body>
+
+</html>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+//		var strongeVal = localStorage.color;
+//		var headerLength = $(".classification>ul>li").length;
+//		for(var k = 0; k < headerLength; k++) {
+//			var valTxt = $(".classification>ul").children("li").eq(k).children("a").text();
+//			if(valTxt == strongeVal) {
+//				$(".classification>ul").children("li").eq(k).addClass("on");
+//			}
+//		}
+//		$(".classification>ul>li").click(function(event) {
+//			var txt = $(this).children("a").text();
+//			var hrefVal = $(this).children("input").val();
+//			// 设置h5储存
+//			localStorage.color = txt;
+//			window.location.href = hrefVal;
+//			console.log("当前点击的是:",txt);
+//			console.log("路径是:",hrefVal);
+//		});
+	})
+</script>
