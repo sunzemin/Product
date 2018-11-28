@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="flexible" content="initial-dpr=2" />
+		<title>{$product_classify11.pc_name}</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/index.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/swiper.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/layui-v2.4.5/layui/css/layui.css" />
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="top_big">
+			<div class="top">
+				<div class="Catalog">
+					<img src="__PUBLIC__/mobile/img/xian.png" alt="..." />
+				</div>
+				<div class="logo">
+					<div><img src="{$company_introduce.ci_logo}" alt="..." /></div>
+					<div>博越智能家居</div>
+				</div>
+				<div class="phone">
+					<a href="tel:0147-88469258"><img src="__PUBLIC__/mobile/img/phone.png" alt="..." /></a>
+				</div>
+			</div>
+		</div>
+		<div class="nav hide">
+			<div class="guanbi"><img src="__PUBLIC__/mobile/img/close.png" alt="..." /></div>
+			<div class="Navigationbar">
+				<ul>
+					<volist name="navres" id="navs" key="k">
+						<if condition="$navs.nav_url eq ''">
+							<li>
+								<a href="javascript:;">{$navs.nav_name}</a>
+								<if condition="$navarr[$k-1] eq null">
+									<else/>
+									<ul class="Arrow hide">
+										<volist name="navarr[$k-1]" id="nav11">
+											<if condition="$nav11.nav_url eq ''">
+												<li>
+													<a href="javascript:;">{$nav11.nav_name}</a>
+												</li>
+												<else/>
+												<li>
+													<a href="{$nav11.nav_url}/nav_id/{$nav11.nav_id}">{$nav11.nav_name}</a>
+												</li>
+											</if>
+										</volist>
+									</ul>
+									<span class="down">
+										<img src="__PUBLIC__/mobile/img/down.png" alt="..."/>
+										<img src="__PUBLIC__/mobile/img/up.png" alt="..." class="hide"/>
+									</span>
+								</if>
+							</li>
+							<else/>
+							<li>
+								<a href="{$navs.nav_url}/nav_id/{$navs.nav_id}">{$navs.nav_name}</a>
+								<if condition="$navarr[$k-1] eq null">
+									<else/>
+									<ul class="Arrow hide">
+										<volist name="navarr[$k-1]" id="nav11">
+											<if condition="$nav11.nav_url eq ''">
+												<li>
+													<a href="javascript:;">{$nav11.nav_name}</a>
+												</li>
+												<else/>
+												<li>
+													<a href="{$nav11.nav_url}/nav_id/{$nav11.nav_id}">{$nav11.nav_name}</a>
+												</li>
+											</if>
+										</volist>
+									</ul>
+									<span class="down">
+									<img src="__PUBLIC__/mobile/img/img/down.png" alt="..."/>
+									<img src="__PUBLIC__/mobile/img/img/up.png" alt="..." class="hide"/>
+								</span>
+								</if>
+							</li>
+						</if>
+					</volist>
+				</ul>
+			</div>
+		</div>
+		<!--banner图-->
+		<div class="banner">
+			<img src="{$background_image_data[0].bi_image}" />
+		</div>
+		<!--产品详情-->
+		<div class="IntelligentLock">
+			<div class="IntelligentLock_top">
+				<span>当前位置&nbsp;:</span>
+				<span><a href="/index.php/Home/Index/index/nav_id/{$navres[0].nav_id}">首页</a></span>
+				<span>></span>
+				<span><a href="{$navben.nav_url}/nav_id/{$navben.nav_id}">{$navben.nav_name}</a></span>
+				<span>></span>
+				<span>{$product_classify11.pc_name}</span>
+			</div>
+			<div class="IntelligentLock_title">{$product11.pname}</div>
+			<div class="IntelligentLock_img">
+				<div class="IntelligentLockImg_top">
+					<div class="IntelligentLockImg_top_left">
+						<div><img src="{$product11.pimage}" alt="..." /></div>
+						<volist name="product_res" id="product">
+							<div class="hide"><img src="{$product.pimage}" alt="..." /></div>
+						</volist>
+					</div>
+					<div class="wapperBig">
+						<div id="main">
+							<div id="warpper">
+								<div id="inner">
+									<volist name="product_res" id="product">
+										<div><img src="{$product.pimage}" alt="..." /></div>
+									</volist>
+								</div>
+							</div>
+						</div>
+						<div id="optrbtn">
+							<span class="btnleft"><img src="__PUBLIC__/mobile/img/zuo.png" alt="..."/></span>
+							<span class="btnright"><img src="__PUBLIC__/mobile/img/you.png" alt="..."/></span>
+						</div>
+					</div>
+				</div>
+				<div class="IntelligentLockImg_top_center">
+					<p>所属分类：{$product_classify11.pc_name}</p>
+					<p>产品名称：{$product11.pname}</p>
+					<p>发布日期：{$product11.ptime|date="Y-m-d",###}</p>
+					<a href="javascript:;">我要询价</a>
+				</div>
+			</div>
+			<div class="Detailed">详细介绍</div>
+			<div class="Detailed_text">
+				{$product11.pintroduce}
+			</div>
+			<div class="fingerprint"><img src="{$product11.pimage}" alt="..." /></div>
+		</div>
+		<!--底部-->
+		<include file="Public/footer" />
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				var curNum = 0;
+				var count = $("#inner").children('div').length;
+				//左滑动
+				$(".btnleft").click(function() {
+					//如果到了最后一个元素 停止
+					if((count - curNum) <= 3) {
+						return false;
+					}
+					curNum += 1;
+					$("#inner").animate({
+						left: '-=162'
+					}, 500, function() {});
+				});
+				//右滑动
+				$(".btnright").click(function() {
+					//如果到了第一个元素 停止
+					if(curNum <= 0) {
+						return false;
+					}
+					curNum -= 1;
+
+					$("#inner").animate({
+						left: '+=162'
+					}, 500, function() {
+						//curNum-=1;    //写在这里同样问题
+
+					});
+				});
+
+				$('#inner>div').click(function() {
+					var ind = $(this).index();
+					console.log('下标', ind);
+					$('.IntelligentLockImg_top_left').children('div').eq(ind).show().siblings().hide();
+				});
+				$('.Catalog').click(function() {
+						$('.nav').show();
+					});
+					$('.guanbi').click(function() {
+						$('.nav').hide();
+					});
+					var toggle = true;
+					$(".down").click(function() {
+						if(toggle) {
+							$(this).children("img").attr("src", "__PUBLIC__/mobile/img/up.png");
+							toggle = false;
+							$(this).siblings('ul').show();
+						} else {
+							$(this).children("img").attr("src", "__PUBLIC__/mobile/img/down.png");
+							toggle = true;
+							$(this).siblings('ul').hide();
+						}
+					});
+					var hei = $(window).height();
+					console.log('gaodu', hei);
+					var nav_hei = $('.nav').height(hei);
+			})
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Bright2017" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>博越智能家居</title>
+		<link rel="icon" href="__PUBLIC__/Home/img/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="__PUBLIC__/Home/img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/swiper.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/index.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/layui.css" />
+		<!--[if IE]>
+			<script src="http://libs.baidu.com/html5shiv/3.7/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<header>
+			<div class="hraderCent">
+				<div class="hraderCent-left">
+					<img src="{$company_introduce.ci_logo}" alt="img" />
+				</div>
+				<div class="hraderCent-right">
+					<div class="hraderCent-top">
+						<div class="search">
+							<input type="text" placeholder="请输入您要搜索的内容" />
+							<img src="__PUBLIC__/Home/img/img1.png" alt="img" />
+						</div>
+					</div>
+					<include file="Public/nav" />
+				</div>
+			</div>
+
+		</header>
+		<!--内容-->
+		<section>
+			<div class="combination">
+				<div class="combination-center">
+					<div>“随心所欲&nbsp;&nbsp;&nbsp;自由组合&nbsp;&nbsp;&nbsp;一键调控”</div>
+					<div>提供多种场景选择，用户可以根据自身需要和生活习惯，配置相应的场景，满足高端定制需求</div>
+					<div class="experience"></div>
+				</div>
+				<div id="demo2"></div>
+			</div>
+		</section>
+		<!--公共底部-->
+		<include file="Public/footer" />
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="__PUBLIC__/Home/js/swiper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/Home/js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/Home/layui-v2.4.5/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+				//			页面初始化加载
+				//点击上下页加载
+				var p = 1;
+				var btn = Number($('#btn').val());
+				$.ajax({
+					url: '/index.php/Home/Public/selAllData',
+					dataType: 'json',
+					type: 'post',
+					data: {
+						'nav_id': btn,
+						'p': p
+					},
+					success: function(data) {
+						//分页方法
+						layui.use(['laypage', 'layer'], function() {
+							var laypage = layui.laypage,
+								layer = layui.layer;
+							//完整功能
+							laypage.render({
+								elem: 'demo2',
+								count: data.allcount,
+								theme: '#024b97',
+								limit: 1,
+								jump: function(obj, first) {
+									console.log(obj);
+									var ind = $('#demo2>div>a').length;
+									var len = $('#demo2>div>span').length;
+									for(var k = 0; k < ind; k++) {
+										var hhh = $('#demo2>div').children('a').eq(k - 1).outerWidth(true);
+									}
+									for(var i = 0; i < len; i++) {
+										var sss = $('#demo2>div').children('span').eq(i - 1).outerWidth(true);
+									}
+									var kkk = hhh * ind;
+									var ooo = sss * len;
+									var wid = kkk + ooo;
+									var widt = $("#demo2").width(wid + 80);
+									$('#demo2').css({
+										'margin': '0 auto'
+									});
+									$.ajax({
+										url: '/index.php/Home/Public/selAllData',
+										dataType: 'json',
+										type: 'post',
+										data: {
+											'nav_id': btn,
+											'p': obj.curr
+										},
+										success: function(data) {
+											$(".experience").children().remove();
+											for(var i = 0; i < data.little_classify_res.length; i++) {
+												for(var f = 0; f < data.classify_article_res.length; f++) {
+													var con = '<a href="__PUBLIC__/mobile/mv/mp.mp4"><div class = "experience-center"><div><img src ="' +
+															data.classify_article_res[f].ca_image +
+														'"alt = "..." / ></div><div></div><div></div><div class = "experience-pos"><div><img src = "__PUBLIC__/Home/img/img57.png" alt = "" /></div><div>' +
+														data.little_classify_res[i].lc_name +'体验中心' 
+														'</div></div></div></a>';
+													$('.experience').append(con);
+												}
+											}
+										},
+										error: function() {
+											alert('hghfhhhffh');
+										}
+									})
+								}
+							});
+						});
+					},
+					error: function() {
+						alert('desrtg');
+					}
+				});
+			});
+		</script>
+	</body>
+
+</html>
