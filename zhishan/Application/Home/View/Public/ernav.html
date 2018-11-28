@@ -1,0 +1,41 @@
+<ul>
+	<volist name="navsecond" id="second" key="k">
+		<if condition="$k eq 1">
+			<li class="on">
+				<a href="{$second.nav_url}/nav_id/{$second.nav_id}">{$second.nav_name}</a><b>&gt;</b>
+			</li>
+			<else/>
+			<li>
+				<a href="{$second.nav_url}/nav_id/{$second.nav_id}">{$second.nav_name}</a><b>&gt;</b>
+			</li>
+		</if>
+	</volist>
+	
+</ul>
+
+<!-- <div class="sub-nav">
+	<div class="nav-title">
+		<h3>c</h3>
+		<h1>{$navfirst.nav_name}</h1>
+		<h2>ompany profile</h2>
+	</div>
+</div> -->
+<input type="hidden" class="navcss" value="{$navfirst.nav_name}">
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		//$(".sub-nav>ul").children("li").removeClass("nav-centerBack");
+		// 循环导航菜单样式
+				var val=$(".navcss").val();
+				console.log("当前页面是:",val);
+				var headerLength=$(".sub-nav>ul>li").length;
+				for(var k=0;k<headerLength;k++){
+					var valTxt=$(".sub-nav>ul").children("li").eq(k).children("a").text();
+					console.log("值",valTxt);
+					if(valTxt==val){
+						
+					$(".sub-nav>ul").children("li").eq(k).addClass("nav-centerBack");
+					}
+				}
+	})
+</script>

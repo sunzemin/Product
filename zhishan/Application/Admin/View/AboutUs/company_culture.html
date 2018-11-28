@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>轮播管理</title>
+<link href="__PUBLIC__/admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/admin/css/css.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="__PUBLIC__/admin/js/jquery.js"></script>
+<script type="text/javascript"> 
+function del(){ 
+    if(!confirm("确认要删除？")){ 
+        window.event.returnValue = false; 
+    } 
+} 
+</script>
+<body>
+<div class="place">
+<span>位置：</span>
+<ul class="placeul">
+<li><a href="#">关于我们</a></li>
+<li><a href="#">企业文化管理</a></li>
+</ul>
+</div>
+<div class="index-right">
+    <div class="formbody">
+        <div class="tools">
+            <ul class="toolbar">
+                <a href="/index.php/Admin/AboutUs/company_culture_add">
+                <li class="click"><span><img src="__PUBLIC__/admin/images/pic/t01.png" /></span>添加企业文化</li>
+                </a>
+            </ul>
+        </div>
+        <table class="tablelist">
+            <thead>
+            <tr>
+            <th>编号</th>
+            <th>所属导航</th>
+            <th>排序</th>
+            <th>操作</th>
+            </tr>
+            </thead>
+
+            <tbody>
+                <volist name="company_culture_res" id="vo" key="k">
+                    <tr>
+                        <td>{$k}</td>
+                        <td>{$navarr[$k-1].nav_name}</td>
+                        <td>{$vo.cc_sort}</td>
+                        <td>
+                            <a href="/index.php/Admin/AboutUs/company_culture_update/cc_id/{$vo.cc_id}">修改</a>
+                            <a href="/index.php/Admin/AboutUs/company_culture_del/cc_id/{$vo.cc_id}" onclick="return del()">删除</a>
+                        </td>
+                    </tr>
+                </volist>
+            </tbody> 
+        </table>
+    </div><!-- formbody结束 -->
+</div>
+<script type="text/javascript">
+    $('.tablelist tbody tr:odd').addClass('odd');
+</script>
+</body>
+
+</html>

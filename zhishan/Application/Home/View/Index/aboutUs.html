@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>企业概况</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/index.css" />
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="welcome">
+				<div class="welcome-left">您好！{$company_introduce.ci_name}!</div>
+			</div>
+			<div class="logo">
+				<div class="logo-center">
+					<div class="logo-left">
+						<a href="javascript;"><img src="{$company_introduce.ci_logo}" alt="..." /></a>
+					</div>
+					<div class="logo-right">
+						<div><img src="__PUBLIC__/Home/images/rexian.png" alt="..." /><span>{$company_introduce.ci_telephone}</span></div>
+					</div>
+				</div>
+			</div>
+			<include file="Public/nav"/>
+
+		</div>
+		<!-- 当前页面的导航名称 -->
+		
+		<!--图片-->
+		<div class="exclusive" style="background: url({$background_image_Data[0].bi_image})no-repeat top center;height: 300px;background-size: 100% 100%;width:100%;"></div>
+		<!--企业概况-->
+		<div class="Situation">
+			<div class="leftbox">
+				<div class="sub-nav">
+					<div class="nav-title">
+						<h3>c</h3>
+						<h1>{$navfirst.nav_name}</h1>
+						<h2>ompany profile</h2>
+					</div>
+					<ul>
+						<volist name="navsecond" id="second" key="k">
+							<if condition="$k eq 1">
+								<li class="on">
+									<a href="{$second.nav_url}/nav_id/{$second.nav_id}">{$second.nav_name}</a><b>&gt;</b>
+								</li>
+								<else/>
+								<li>
+									<a href="{$second.nav_url}/nav_id/{$second.nav_id}">{$second.nav_name}</a><b>&gt;</b>
+								</li>
+							</if>
+						</volist>
+						
+					</ul>
+
+				</div>
+				<div class="message_l"><img src="__PUBLIC__/Home/images/dh.jpg" width="251" height="60" />
+
+				</div>
+			</div>
+			<div class="Situation-right">
+				<div>
+					<div class="SituationRight-top">
+						<span>您当前位置：<a href="/index.php/Home/Index/index">首页</a> > {$navfirst.nav_name} > {$navsecond[0].nav_name}</span>
+						<h1>{$navsecond[0].nav_name}</h1>
+					</div>
+					<div class="SituationRight-bot">
+						{$company_introduce.ci_content}
+					</div>
+				</div>
+				<div style="display: none">
+					<div class="SituationRight-top">
+						<span>您当前位置：<a href="index.html">首页</a> > {$navfirst.nav_name} > {$navsecond[1].nav_name}</span>
+						<h1>{$navsecond[1].nav_name}</h1>
+					</div>
+					<div class="SituationRight-bot">
+						<p>{$company_cultureres.cc_content}</p>
+					</div>
+				</div>
+				<div style="display: none">
+					<div class="SituationRight-top">
+						<span>您当前位置：<a href="index.html">首页</a> > {$navfirst.nav_name} > {$navsecond[2].nav_name}</span>
+						<h1>{$navsecond[2].nav_name}</h1>
+					</div>
+					<div class="SituationRight-bot qualifications">
+						<volist name="certificateres" id="certificate">
+							<div>
+								<a href="DetailsOf.html">
+									<img src="{$certificate.image}" alt="..." />
+									<div>{$certificate.title}</div>
+								</a>
+							</div>
+						</volist>		
+					</div>
+					<div class="paging">
+						<a href="javascript;">1</a>
+					</div>
+				</div>
+				<div style="display: none">
+					<div class="SituationRight-top">
+						<span>您当前位置：<a href="index.html">首页</a> > {$navfirst.nav_name} > {$navsecond[3].nav_name}</span>
+						<h1>{$navsecond[3].nav_name}</h1>
+					</div>
+					<div class="SituationRight-bot">
+						<p>{$leader_speechres.ls_content}</p>
+					</div>
+				</div>
+				<div style="display: none">
+					<div class="SituationRight-top">
+						<span>您当前位置：<a href="index.html">首页</a> > {$navfirst.nav_name} > {$navsecond[4].nav_name}</span>
+						<h1>{$navsecond[4].nav_name}</h1>
+					</div>
+					<div class="SituationRight-bot advantage">
+					
+						<volist name="service_advantage_res" id="service_advantage">
+							<div>
+								<h3>{$service_advantage.sa_advantage_classify}</h3>
+								<p>{$service_advantage.sa_advantage_content}</p>
+							</div>
+
+						</volist>
+					</div>
+				</div>
+				<div style="display: none">
+					<div class="SituationRight-top">
+						<span>您当前位置：<a href="index.html">首页</a> >{$navfirst.nav_name} > {$navsecond[5].nav_name}</span>
+						<h1>{$navsecond[5].nav_name}</h1>
+					</div>
+					<div class="SituationRight-bot contact">
+						<div>服务热线：<span>{$footer.ftelephone}</span></div>
+						<div>地址：{$footer.faddress}</div>
+						<div>传真：{$footer.ffax}</div>
+						<div>邮箱：{$footer.femail}</div>
+						<div>备案号： {$footer.frecord}</div>
+						<div>技术支持：泰雁科技</div>
+					</div>
+				</div>
+				<div style="display: none">
+					<div class="Science">
+						<volist name="company_team_res" id="company_team">
+							<div><img src="{$company_team.ct_image}" alt="..." /></div>
+							<div>
+								<a href="Science.html">{$company_team.ct_title}</a>
+								<div>{$company_team.ct_content}</div>
+								<a href="Science.html">查看详情</a>
+							</div>
+						</volist>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--公司地址-->
+		<include file="Public/footer"/>
+		<div class="address">
+			<div class="address-center">
+				<div><img src="{$background_image_Data[1].bi_image}" alt="..."  style="width: 425px;height: 66px;" /></div>
+				<div>
+					<div>服务热线：<span>{$footer.ftelephone}</span></div>
+					<div>地址：{$footer.faddress}</div>
+					<div>传真：{$footer.ffax}</div>
+					<div>邮箱：{$footer.femail}</div>
+					<div>备案号： {$footer.frecord}</div>
+					<div>技术支持：泰雁科技</div>
+				</div>
+				<div><img src="{$footer.ferweima}" alt="..." style="width: 130px;height:130px;"/></div>
+			</div>
+		</div>
+		<div class="tb"><img src="__PUBLIC__/Home/images/TB.png" alt="..." /></div>
+		<div class="bg"></div>
+		<div class="Sidebar">
+			<div>
+				<a href="javascript;"></a>
+			</div>
+			<div class="code"><img src="__PUBLIC__/Home/images/ewm.png" alt="..." /></div>
+			<div class="phone">
+				<a href="javascript;">029-86353092</a>
+			</div>
+			<div class="top" style="display: none;">
+
+			</div>
+		</div>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				// 循环导航菜单样式
+				/*var val=$(".navcss").val();
+				console.log("当前页面是:",val);
+				var headerLength=$(".nav-center>ul>li").length;
+				for(var k=0;k<headerLength;k++){
+					var valTxt=$(".nav-center>ul").children("li").eq(k).children("a").text();
+					console.log("值",valTxt);
+					if(valTxt==val){
+					$(".nav-center>ul").children("li").removeClass("nav-centerBack");	
+					$(".nav-center>ul").children("li").eq(k).addClass("nav-centerBack");
+					}
+				}*/
+
+
+				//				导航下拉列表
+				$('.nav-center>ul>li').hover(function() {
+					$(this).addClass("hover");
+					$(this).children("ul").slideDown();
+				}, function() {
+					$(this).removeClass("hover");
+					$(this).children("ul").slideUp();
+				});
+
+				//企业概况切换
+				$('.sub-nav>ul>li').click(function() {
+					var ind = $(this).index();
+					console.log('下标为', ind);
+					$('.Situation-right').children('div').eq(ind).show().siblings().hide();
+				});
+				$(window).on('scroll', function() {
+					var scrollTop = $(this).scrollTop();
+					console.log(scrollTop);
+					if($(window).scrollTop() >= 300) {
+						$('.top').show();
+					}else if(scrollTop==0){
+						$('.top').hide();
+					}
+				});
+				$('.top').click(function() {
+					$('html,body').animate({
+						scrollTop: 0
+					});
+				});
+
+				$('.code').mouseenter(function() {
+					$(this).children('img').fadeIn();
+				});
+				$('.code').mouseleave(function() {
+					$(this).children('img').fadeOut();
+				});
+				$('.phone').mouseenter(function() {
+					$(this).children('a').fadeIn();
+				});
+				$('.phone').mouseleave(function() {
+					$(this).children('a').fadeOut();
+				})
+			})
+		</script>
+	</body>
+</html>

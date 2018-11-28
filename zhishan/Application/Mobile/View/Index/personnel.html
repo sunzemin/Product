@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="flexible" content="initial-dpr=2" />
+		<title>人才招聘</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Mobile/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Mobile/css/index.css" />
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	</head>
+
+	<body>
+		<!--顶部-->
+		<div class="header">
+			<div class="welcome">
+				<div class="welcome-left">您好！{$company_introduce.ci_name}!</div>
+			</div>
+			<div class="logo">
+				<div class="logo-center">
+					<div class="logo-left">
+						<a href="javascript;"><img src="{$company_introduce.ci_logo}" alt="..." /></a>
+					</div>
+					<div class="logo-right">
+						<div><img src="__PUBLIC__/Mobile/images/rexian.png" alt="..." />
+							<div>{$company_introduce.ci_telephone}</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<include file="Public/nav"/>
+		</div>
+		<!--图片-->
+		<div class="exclusive" style="background: url({$background_image_Data[0].bi_image})no-repeat top center;height: 300px;"></div>
+		<!--人才招聘-->
+		<div class="personnel">
+			<div class="personnel-top">人才招聘中心</div>
+			<div class="personnel-bot">
+				<volist name="job11_res" id="job">
+				<div class="personnel_table">
+					<div>招聘岗位：<span>{$job.jjob}</span></div>
+					<div>招聘人数：<span>{$job.jnum}</span></div>
+					<div>任职要求：{$job.jrequire}
+					</div>
+					<div>
+						<a href="/index.php/Mobile/Index/personnel1/jid/{$job.jid}/nav_id/{$nav_id}">查看详情</a>
+					</div>
+				</div>
+			   </volist>
+				
+			</div>
+
+		</div>
+		<!--底部-->
+		<include file="Public/footer"/>
+		<div class="address">
+			<div class="address-center">
+				<div>
+					<div>服务热线：<span>{$footer.ftelephone}</span></div>
+					<div>地址：{$footer.faddress}</div>
+					<div>传真：{$footer.ffax}</div>
+					<div>邮箱：{$footer.femail}</div>
+					<div>备案号： {$footer.frecord}</div>
+					<div>技术支持：泰雁科技</div>
+				</div>
+				<div><img src="{$footer.ferweima}" alt="..." style="width: 130px;height:130px;"/></div>
+			</div>
+		</div>
+	</body>
+
+</html>

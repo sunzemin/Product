@@ -1,0 +1,40 @@
+<!-- <div class="nav">
+				<div class="nav-center">
+					<ul>
+						<li>
+							<a href="/index.php/Mobile/Index/index" target="__parent__" >网站首页</a>
+						</li>
+						
+						 <volist name="navres" id="navs" key="k">
+						 	<li>
+							<a href="{$navs.nav_url}/nav_id/{$navs.nav_id}">{$navs.nav_name}</a>
+								
+							</li>  	
+						</volist>
+					</ul>
+				</div>
+			</div>
+			<input type="text" class="navcss" value="{$navben.nav_name}"> -->
+<div class="nav">
+	<div class="nav-center">
+		<ul>
+			<li>
+				<a class="clickMenu" >
+				网站首页
+				
+			</a>
+			<input type="hidden" value="/index.php/Mobile/Index/index">
+			</li>
+			
+			 <volist name="navres" id="navs" key="k">
+			 	<li>
+				<a class="clickMenu">{$navs.nav_name}
+					
+				</a>
+				<input type="hidden" value="{$navs.nav_url}/nav_id/{$navs.nav_id}">
+				</li>  	
+			</volist>
+		</ul>
+	</div>
+</div>
+ <input type="hidden" class="navcss" value="{$navben.nav_name}"> 

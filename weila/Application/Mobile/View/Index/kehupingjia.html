@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="bright" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="flexible" content="initial-dpr=2" />
+		<title>薇拉摄影</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/swiper.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/index.css" />
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<div class="headerCent">
+				<div>{$company_introduce.ci_logotitle}</div>
+				<div>{$company_introduce.ci_logotitle_english} </div>
+			</div>
+			<img src="__PUBLIC__/mobile/img/img1.png" alt="img" class="headerCent-right" />
+		</header>
+		<!--菜单下拉框-->
+		<include file="Public/nav" />
+		<div class="bannerImages">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<volist name="lunboData" id="lunbo">
+						<div class="swiper-slide">
+							<div class="bannerImages-top">
+								<img src="{$lunbo.lb_image}" alt="..." />
+							</div>
+							<div class="bannerImages-bot">
+								<div class="bannerImg">
+									<div class="bannerImg-top"></div>
+									<div class="bannerImg-bot">
+										{$lunbo.lb_title}
+									</div>
+								</div>
+							</div>
+						</div>
+					</volist>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<!--标题-->
+		<div class="PublicCall">
+			<img src="__PUBLIC__/mobile/img/img10.png" alt="img" />
+		</div>
+		<div class="RealEvaluation paddingBottom">
+			<div class="RealEvaluation-top">
+				<div class="backOrangecol">全部好评<input type="hidden" name="cwc_id" value="0"></div>
+
+				<volist name="custom_word_classify_res" id="custom_word_classify">
+					<div>{$custom_word_classify.cwc_name}<input type="hidden" name="cwc_id" value="{$custom_word_classify.cwc_id}"></div>
+
+				</volist>
+			</div>
+			<!--  -->
+			<div class="RealEvaluation-bot">
+
+			</div>
+			<div class="StyleSample-bot">
+				<div id="demo1"></div>
+			</div>
+		</div>
+		<!--公司地址-->
+		<include file="Public/content"/>
+		<!--公共底部-->
+		<include file="Public/footer" />
+		<!--固定浮窗-->
+		<include file="Public/float" />
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="__PUBLIC__/mobile/js/swiper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/Home/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/mobile/js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+				//				轮播图
+				var swiper = new Swiper('.bannerImages .swiper-container', {
+					spaceBetween: 20,
+					centeredSlides: true,
+					autoplay: {
+						delay: 2500,
+						disableOnInteraction: false,
+					},
+					pagination: {
+						el: '.bannerImages .swiper-pagination',
+						clickable: true,
+					},
+				});
+				//				tab切换
+				var requestId = 0; //默认请求id
+				ajaxData(requestId, 1);
+				//				tab切换
+				$(".RealEvaluation-top>div").click(function() {
+					$(".RealEvaluation-bot").children().remove();
+					var index = $(this).index();
+					var k = $(this).children("input").val();
+					requestId = k;
+					var p = 1;
+					$(this).addClass("backOrangecol").siblings().removeClass("backOrangecol");
+					ajaxData(requestId, 1);
+				});
+
+				function ajaxData(id, page) {
+					$.ajax({      
+						type: 'post',
+						url: '/index.php/Mobile/Public/customspeech/k/' + id + '/p/' + page,
+						cache: false,
+						dataType: 'json',
+						success: function(data) {       
+							//	页面默认加载分页数据
+							var pageVal = 0;
+							layui.use('laypage', function() {
+								var laypage = layui.laypage;
+								laypage.render({
+									elem: 'demo1',
+									groups: 2,
+									limit: 10,
+									count: data.allcount,
+									jump: function(obj) {
+										$(".RealEvaluation-bot").children().remove();
+										$.ajax({      
+											type: 'post',
+											url: '/index.php/Mobile/Public/customspeech/k/' + requestId + '/p/' + obj.curr,
+											cache: false,
+											dataType: 'json',
+											success: function(data) {       
+												for(var g = 0; g < data.custom_word_res.length; g++) {
+													var cw_image = data.custom_word_res[g].cw_image;
+													var cw_name = data.custom_word_res[g].cw_name;
+													var cw_time = data.custom_word_res[g].cw_time;
+													var secondsTime = cw_time * 1000;
+													var dateTimes = new Date(secondsTime);
+													var youwant = dateTimes.getFullYear() + '-' + (dateTimes.getMonth() + 1) + '-' + dateTimes.getDate() + ' ' + dateTimes.getHours() + ':' + dateTimes.getMinutes() + ':' + dateTimes.getSeconds();
+													var cw_content = data.custom_word_res[g].cw_content;
+													var strCent = '<div class="Evaluation"><div class="Evaluation-left"><img src="' +
+														cw_image + '" alt="img" /></div><div class="Evaluation-right"><div class="EvaluationData-left"><img src="__PUBLIC__/Home/img/img64.png" alt="img" /></div><div class="EvaluationData-right"><div class="EvaluationData-top"><div>' +
+														cw_name + '</div><div>time：' +
+														youwant + '</div></div><div class="EvaluationData-bot">' +
+														cw_content + '</div></div></div></div>';
+													$(".RealEvaluation-bot").append(strCent);
+												}
+											},
+											error: function() {       
+												alert("获取客户评价请求异常！");      
+											}   
+										});
+										var leng = $("#demo1>div").children().length;
+										for(var k = 0; k < leng; k++) {
+											var valLeng = $("#demo1>div").children().eq(k).outerWidth(true);
+											pageVal += Number(valLeng);
+										}
+										var endVal = pageVal + 100;
+										$(".StyleSample-bot").css("width", endVal);
+										pageVal = 0;
+									}
+								});
+							});
+						},
+						error: function() {       
+							alert("获取客户评价请求异常！");      
+						}   
+					});
+				}
+			});
+		</script>
+	</body>
+
+</html>

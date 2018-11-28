@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>轮播管理</title>
+<link href="__PUBLIC__/admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/admin/css/css.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="__PUBLIC__/admin/js/jquery.js"></script>
+<script type="text/javascript"> 
+function del(){ 
+    if(!confirm("确认要删除？")){ 
+        window.event.returnValue = false; 
+    } 
+} 
+</script>
+<body>
+<div class="place">
+<span>位置：</span>
+<ul class="placeul">
+<li><a href="#">首页管理</a></li>
+<li><a href="#">合作企业管理</a></li>
+</ul>
+</div>
+<div class="index-right">
+    <div class="formbody">
+        <div class="tools">
+            <ul class="toolbar">
+                <a href="/index.php/Admin/CustomWord/custom_word_add/cwc_id/{$cwc_id}/p/{$p}">
+                <li class="click"><span><img src="__PUBLIC__/admin/images/pic/t01.png" /></span>添加评论</li>
+                </a>
+            </ul>
+        </div>
+        <table class="tablelist">
+            <thead>
+            <tr>
+            <th>编号</th>
+            <th>评论者</th>
+            <th>评论时间</th>
+            <th>头像</th>
+            <th>用户等级</th>
+            <th>评论等级</th>
+            <th>是否VIP</th>
+            <th>排序</th>
+            <th>操作</th>
+            </tr>
+            </thead>
+
+            <tbody>
+                <volist name="custom_word_res" id="vo" key="k">
+                    <tr>
+                        <td>{$k}</td>
+                        <td>{$vo.cw_name}</td>
+                        <td>{$vo.cw_time|date="Y-m-d H:i:s",###}</td>
+                        <td><img src="{$vo.cw_image}" height="40px;"></td>
+                        <td>{$vo.cw_user_rank}</td>
+                        <td>
+                            <if condition="$vo.cw_word_rank eq 1">
+                                请给颗星星
+                                <elseif condition="$vo.cw_word_rank eq 2"/>
+                                一颗星
+                                <elseif condition="$vo.cw_word_rank eq 3"/>
+                                二颗星
+                                <elseif condition="$vo.cw_word_rank eq 4"/>
+                                三颗星
+                                <elseif condition="$vo.cw_word_rank eq 5"/>
+                                四颗星
+                                <elseif condition="$vo.cw_word_rank eq 6"/>
+                                五颗星
+                            </if>
+                        </td>
+                        <td>
+                            <if condition="$vo.cw_flag eq 0">
+                                普通用户
+                                <else/>
+                                VIP
+                            </if>
+                        </td>
+                        <td>{$vo.cw_sort}</td>
+                        <td>
+                            <a href="/index.php/Admin/CustomWord/custom_image/cwc_id/{$cwc_id}/p/1/cw_id/{$vo.cw_id}">照片管理</a>
+                            <a href="/index.php/Admin/CustomWord/custom_word_update/cwc_id/{$cwc_id}/p/{$p}/cw_id/{$vo.cw_id}">修改</a>
+                            <a href="/index.php/Admin/CustomWord/custom_word_update/cwc_id/{$cwc_id}/p/{$p}/cw_id/{$vo.cw_id}" onclick="return del()">删除</a>
+                        </td>
+                    </tr>
+                </volist>
+            </tbody> 
+        </table>
+        <if condition="$page eq ''">
+            <else/>
+            <ul class="pageul" style="border:1px solid pink;float: left;margin-top: 20px;">
+            <if condition="$p eq 1">
+                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/CustomWord/custom_word/p/1" style="margin-left: 20px;"><<</a></li>
+                <else/>
+                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/CustomWord/custom_word/p/{$p-1}" style="margin-left: 20px;"><<</a></li>
+            </if>
+            
+            <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/CustomWord/custom_word/p/1" style="margin-left: 20px;">首页</a></li>
+            <for start="1" end="$page+1">
+            <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/CustomWord/custom_word/p/{$i}" style="margin-left: 20px;">{$i}</a></li>
+            </for>
+            
+            <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/CustomWord/custom_word/p/{$page}" style="margin-left: 20px;">尾页</a></li>
+            
+            <if condition="$p eq $page">
+                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/CustomWord/custom_word/p/{$page}" style="margin-left: 20px;">>></a></li>
+                <else/>
+                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/CustomWord/custom_word/p/{$p+1}" style="margin-left: 20px;">>></a></li>
+            </if>
+        </ul>
+        </if>
+        
+    </div><!-- formbody结束 -->
+</div>
+<script type="text/javascript">
+    $('.tablelist tbody tr:odd').addClass('odd');
+</script>
+</body>
+
+</html>

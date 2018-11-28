@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="flexible" content="initial-dpr=2" />
+		<title>新闻资讯</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Mobile/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Mobile/css/index.css" />
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	</head>
+
+	<body>
+		<!--顶部-->
+		<div class="header">
+			<div class="welcome">
+				<div class="welcome-left">您好！{$company_introduce.ci_name}!</div>
+			</div>
+			<div class="logo">
+				<div class="logo-center">
+					<div class="logo-left">
+						<a href="javascript;"><img src="{$company_introduce.ci_logo}" alt="..." /></a>
+					</div>
+					<div class="logo-right">
+						<div><img src="__PUBLIC__/Mobile/images/rexian.png" alt="..." />
+							<div>{$company_introduce.ci_telephone}</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<include file="Public/nav"/>
+		</div>
+		<!--图片-->
+		<div class="exclusive" style="background: url({$background_image_Data[0].bi_image})no-repeat top center;height: 300px;"></div>
+		<!--企业概况-->
+		<div class="Situation">
+			<div class="Situation-top">
+				<p>{$navsecond.nav_name}</p>
+				<p>NEWS</p>
+			</div>
+			<div class="classification">
+				<ul>
+					<volist name="navsecond11" id="second" key="k">
+							<!--<if condition="$k eq 1">
+								<li class="on">
+									
+									<a href="/index.php/Mobile/Index/news/nav_id/{$navsecond.nav_id}">{$second.nav_name}</a><b>&gt;</b>
+								</li>
+								<else/>-->
+								<li>
+									
+									<a href="/index.php/Mobile/Index/news/nav_id/{$navsecond.nav_id}">{$second.nav_name}</a>
+								</li>
+							<!--</if>-->
+						</volist>
+				</ul>
+			</div>
+			<div class="Situation-bot">
+				<div class="SituationRight-top">
+					<span>您当前位置：<a href="/index.php/Mobile/Index/index">首页</a> > {$navfirst.nav_name} > {$news_classify_res.nc_name}</span>
+					<h1>{$news_classify_res.nc_name}</h1>
+				</div>
+				<div class="SituationRight-bot questions">
+					<div class="questions-top">
+						<div>{$news_articles.na_title}</div>
+						<div>作者：管理员 文章来源：本站原创 </div>
+						<div>更新时间：{$news_articles.na_update|date="Y-m-d H:i:s",###} 点击次数：<span>937</span></div>
+					</div>
+					<div class="questions-bot" style="width: 100%;text-indent: 10px;">
+						{$news_articles.na_content}
+					</div>
+					<div class="questions-tab">
+					<if condition="$news_articles1 eq null">
+						<a>上一篇: 没有了 </a>
+						<else/>
+						<a href="/index.php/Mobile/Index/news1/nav_id/{$navfirst.nav_id}/na_id/{$news_articles1.na_id}/nc_id/{$news_classify_res.nc_id}">上一篇: {$news_articles1.na_title} </a>
+					</if>
+					<if condition="$news_articles2 eq null">
+						<a>下一篇: 没有了 </a>
+						<else/>
+						<a href="/index.php/Mobile/Index/news1/nav_id/{$navfirst.nav_id}/na_id/{$news_articles2.na_id}/nc_id/{$news_classify_res.nc_id}">下一篇: {$news_articles2.na_title} </a>
+					</if>
+
+				</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<include file="Public/footer"/>
+		<div class="address">
+			<div class="address-center">
+				<div>
+					<div>服务热线：<span>{$footer.ftelephone}</span></div>
+					<div>地址：{$footer.faddress}</div>
+					<div>传真：{$footer.ffax}</div>
+					<div>邮箱：{$footer.femail}</div>
+					<div>备案号： {$footer.frecord}</div>
+					<div>技术支持：泰雁科技</div>
+				</div>
+				<div><img src="{$footer.ferweima}" alt="..." style="width: 130px;height:130px;"/></div>
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,37 @@
+
+<div class="footer-nav">
+	<ul>
+		<li>
+			<a href="/index.php/Mobile/Index/index">网站首页</a>
+		</li>
+		<volist name="navres" id="navs" key="k">
+			<li>
+				<a href="{$navs.nav_url}/nav_id/{$navs.nav_id}">{$navs.nav_name}</a>
+
+			</li>
+		</volist>
+	</ul>
+</div>
+<!-- <input type="text" class="navcss" value="{$navben.nav_name}">	 -->
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$(".nav-center>ul").children("li").removeClass("nav-centerBack");
+		$(".sub-nav>ul").children("li").removeClass("on");
+		var strongeVal = localStorage.sitename;
+		var headerLength = $(".nav-center>ul>li").length;
+		for(var k = 0; k < headerLength; k++) {
+			var valTxt = $(".nav-center>ul").children("li").eq(k).children("a").text();
+			if(valTxt == strongeVal) {
+				$(".nav-center>ul").children("li").eq(k).addClass("nav-centerBack");
+			}
+		}
+		$(".clickMenu").click(function(event) {
+			var txt = $(this).text();
+			var hrefVal = $(this).next().val();
+			// 设置h5储存
+			localStorage.sitename = txt;
+			window.location.href = hrefVal;
+		});
+	})
+</script>

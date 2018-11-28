@@ -1,0 +1,25 @@
+<div class="nav">
+		<div class="nav-center">
+			<ul>
+				<li>
+					<a href="/index.php/Home/Index/index" target="__parent__" >网站首页</a>
+				</li>
+				
+				 <volist name="navres" id="navs" key="k">
+				 	<li>
+					<a href="{$navs.nav_url}/nav_id/{$navs.nav_id}">{$navs.nav_name}</a>
+						<ul class="hide">
+						<volist name="navarr[$k-1]" id="vo">
+							
+								<li>
+								<a href="{$vo.nav_url}/nav_id/{$vo.nav_id}">{$vo.nav_name}</a>
+							    </li>
+							
+						</volist>
+						</ul>
+					</li>  	
+				</volist>
+			</ul>
+		</div>
+	</div>
+	<input type="hidden" class="navcss" value="{$navfirst.nav_name}">

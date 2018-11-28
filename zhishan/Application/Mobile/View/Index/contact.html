@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="flexible" content="initial-dpr=2" />
+		<title>联系我们</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Mobile/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Mobile/css/index.css" />
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	</head>
+
+	<body>
+		<!--顶部-->
+		<div class="header">
+			<div class="welcome">
+				<div class="welcome-left">您好！{$company_introduce.ci_name}!</div>
+			</div>
+			<div class="logo">
+				<div class="logo-center">
+					<div class="logo-left">
+						<a href="javascript;"><img src="{$company_introduce.ci_logo}" alt="..." /></a>
+					</div>
+					<div class="logo-right">
+						<div><img src="__PUBLIC__/Mobile/images/rexian.png" alt="..." />
+							<div>{$company_introduce.ci_telephone}</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<include file="Public/nav"/>
+		</div>
+		<!--图片-->
+		<div class="exclusive" style="background: url({$background_image_Data[0].bi_image})no-repeat top center;height: 300px;"></div>
+		<!--企业概况-->
+		<div class="Situation">
+			<div class="Situation-top">
+				<p>{$navben.nav_name}</p>
+				<p>CONTACT US</p>
+			</div>
+			 <div class="classification">
+				<ul>
+					<li>
+						<a href="/index.php/Mobile/Index/contact/nav_id/{$navben.nav_id}">联系方式</a>
+					</li>
+					<li>
+						<a href="/index.php/Mobile/Index/Route/nav_id/{$navben.nav_id}">行车路线</a>
+					</li>
+				</ul>
+			</div>
+			<div class="Situation-bot">
+				<div class="SituationRight-top">
+					<span>您当前位置：<a href="/index.php/Mobile/Index/index">首页</a> > {$navfirst.nav_name} > 联系方式</span>
+					<h1>联系方式</h1>
+				</div>
+				<div class="SituationRight-bot contact1">
+					<div>{$company_introduce.ci_name}</div>
+					<div>地 址：{$footer.faddress}</div>
+					<div>电 话： {$footer.ftelephone}</div>
+					<div>传 真：{$footer.ffax}</div>
+					<div>邮 箱：{$footer.femail}</div>
+				</div>
+			</div> 
+			
+		</div>
+		<!--底部-->
+		<include file="Public/footer"/>
+		<div class="address">
+			<div class="address-center">
+				<div>
+					<div>服务热线：<span>{$footer.ftelephone}</span></div>
+					<div>地址：{$footer.faddress}</div>
+					<div>传真：{$footer.ffax}</div>
+					<div>邮箱：{$footer.femail}</div>
+					<div>备案号： {$footer.frecord}</div>
+					<div>技术支持：泰雁科技</div>
+				</div>
+				<div><img src="{$footer.ferweima}" alt="..." style="width: 130px;height:130px;"/></div>
+			</div>
+		</div>
+	</body>
+
+</html>

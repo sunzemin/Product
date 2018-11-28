@@ -1,0 +1,68 @@
+<footer>
+	<div class="footerCenter">
+		<div class="footerCenter-top">
+			<div class="footerCenter-left">
+				<div class="footerCenterLeft-one">
+					<img src="__PUBLIC__/Home/img/img44.png" alt="img"/>
+					<a href="{$home_url.hu_producturl}">最新主题作品</a>
+				</div>
+				<div class="footerCenterLeft-one">
+					<img src="__PUBLIC__/Home/img/img45.png" alt="img"/>
+					<div>快速扫描二维码</div>
+				</div>
+				<div class="footerCenterLeft-two">
+					<div class="footerCode">
+						<div class="footerCode-top">
+							<img src="{$footer.wx_erweima}" alt="img"/>
+						</div>
+						<div class="footerCode-bot">官方微信</div>
+					</div>
+					<div class="footerCode">
+						<div class="footerCode-top">
+							<img src="{$footer.wb_erweima}" alt="img"/>
+						</div>
+						<div class="footerCode-bot">官方微博</div>
+					</div>
+				</div>
+			</div>
+			<div class="footerCenter-right">
+				<volist name="footer_navres" id="footer_nav" key="k">
+					<div>
+						<if condition="$navfooter.fn_url eq ''">
+						<a href="javascript:;" class="CenterRight-top">
+							<div>{$footer_nav.fn_nav_name}</div>
+							<div>{$footer_nav.fn_english_name}</div>
+						</a>
+						<else/>
+						<a href="{$footer_nav.fn_url}/fn_id/{$footer_nav.fn_id}" class="CenterRight-top">
+							<div>{$footer_nav.fn_nav_name}</div>
+							<div>{$footer_nav.fn_english_name}</div>	
+						</a>
+						</if>
+						<div class="CenterRight-bot">
+							<ul>
+								<volist name="navfooterarr[$k-1]" id="navfooter">
+									<if condition="$navfooter.fn_url eq ''">
+										<li><a href="javascript:;" target="_blank">{$navfooter.fn_nav_name}</a></li>
+										<else/>
+										<li><a href="{$navfooter.fn_url}/fn_id/{$navfooter.fn_id}" target="_blank">{$navfooter.fn_nav_name}</a></li>
+									</if>
+									
+								</volist>
+							</ul>
+						</div>
+					</div>
+				</volist>
+			</div>					
+		</div>
+		<div class="footerCenter-bot">
+			<div>{$footer.copyright}</div>
+			<div>{$footer.copyright_english}</div>
+			<div>{$footer.record}      技术支持：泰雁科技</div>
+		</div>
+	</div>		
+</footer>
+<div class="returnTop">
+	<img src="/Public/Home/img/img69.png" alt="img">
+	<div>返回顶部</div>
+</div>

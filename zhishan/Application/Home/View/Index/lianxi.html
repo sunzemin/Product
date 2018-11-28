@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>联系我们</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/index.css" />
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="welcome">
+				<div class="welcome-left">您好！{$company_introduce.ci_name}!</div>
+			</div>
+			<div class="logo">
+				<div class="logo-center">
+					<div class="logo-left">
+						<a href="javascript;"><img src="{$company_introduce.ci_logo}" alt="..." /></a>
+					</div>
+					<div class="logo-right">
+						<div><img src="__PUBLIC__/Home/images/rexian.png" alt="..." /><span>{$company_introduce.ci_telephone}</span></div>
+					</div>
+				</div>
+			</div>
+			<include file="Public/nav"/>
+		</div>
+		<!--图片-->
+		<div class="exclusive" style="background: url({$background_image_Data[0].bi_image})no-repeat top center;height: 300px;background-size: 100% 100%;width:100%;"></div>
+		<!--企业概况-->
+		<div class="Situation">
+			<div class="leftbox">
+				<div class="sub-nav">
+					<div class="nav-title">
+						<h3>c</h3>
+						<h1>{$navsecond.nav_name}</h1>
+						<h2>ompany profile</h2>
+					</div>
+					<ul>
+						<volist name="navsecond11" id="second" key="k">
+							<if condition="$k eq $nav_id">
+								<li class="on">
+									<a href="{$second.nav_url}/nav_id/{$second.nav_id}">{$second.nav_name}</a><b>&gt;</b>
+								</li>
+								<else/>
+								<li>
+									<a href="{$second.nav_url}/nav_id/{$second.nav_id}">{$second.nav_name}</a><b>&gt;</b>
+								</li>
+							</if>
+						</volist>
+						
+					</ul>
+				</div>
+				<div class="message_l"><img src="__PUBLIC__/Home/images/dh.jpg" width="251" height="60" />
+
+				</div>
+			</div>
+			<div class="Situation-right">
+				<div>
+					<div class="SituationRight-top">
+						<span>您当前位置：<a href="/index.php/Home/Index/index">首页</a> > {$navsecond.nav_name} > {$navfirst.nav_name}</span>
+						<h1>{$navfirst.nav_name}</h1>
+					</div>
+					<div class="SituationRight-bot contact">
+						<p>{$company_introduce.ci_name}</p>
+						<p>地    址：{$footer.faddress}</p>
+						<p>电    话： {$footer.ftelephone}</p>
+						<p>传    真：{$footer.ffax}</p>
+						<p>邮    箱：{$footer.femail}</p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+			<!--公司地址-->
+		<include file="Public/footer"/>
+		<div class="address">
+			<div class="address-center">
+				<div><img src="{$background_image_Data[1].bi_image}" alt="..."  style="width: 425px;height: 66px;" /></div>
+				<div>
+					<div>服务热线：<span>{$footer.ftelephone}</span></div>
+					<div>地址：{$footer.faddress}</div>
+					<div>传真：{$footer.ffax}</div>
+					<div>邮箱：{$footer.femail}</div>
+					<div>备案号： {$footer.frecord}</div>
+					<div>技术支持：泰雁科技</div>
+				</div>
+				<div><img src="{$footer.ferweima}" alt="..." style="width: 130px;height:130px;"/></div>
+			</div>
+		</div>
+		<div class="tb"><img src="__PUBLIC__/Home/images/TB.png" alt="..." /></div>
+		<div class="bg"></div>
+		<div class="Sidebar">
+			<div>
+				<a href="javascript;"></a>
+			</div>
+			<div class="code"><img src="__PUBLIC__/Home/images/ewm.png" alt="..." /></div>
+			<div class="phone">
+				<a href="javascript;">029-86353092</a>
+			</div>
+			<div class="top" style="display: none;">
+
+			</div>
+		</div>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				//				导航下拉列表
+				$('.nav-center>ul>li').hover(function() {
+					$(this).addClass("hover");
+					$(this).children("ul").slideDown();
+				}, function() {
+					$(this).removeClass("hover");
+					$(this).children("ul").slideUp();
+				});
+				
+				//企业概况切换
+				$('.sub-nav>ul>li').click(function(){
+					var ind = $(this).index();
+					console.log('下标为',ind);
+					$('.Situation-right').children('div').eq(ind).show().siblings().hide();
+				});
+				$(window).on('scroll', function() {
+					var scrollTop = $(this).scrollTop();
+					console.log(scrollTop);
+					if($(window).scrollTop() >= 500) {
+						$('.top').show();
+					}else if(scrollTop==0){
+						$('.top').hide();
+					}
+				});
+				$('.top').click(function() {
+					$('html,body').animate({
+						scrollTop: 0
+					});
+				});
+				
+				$('.code').mouseenter(function(){
+					$(this).children('img').fadeIn();
+				});
+				$('.code').mouseleave(function(){
+					$(this).children('img').fadeOut();
+				});
+				$('.phone').mouseenter(function(){
+					$(this).children('a').fadeIn();
+				});
+				$('.phone').mouseleave(function(){
+					$(this).children('a').fadeOut();
+				})
+			})
+		</script>
+	</body>
+
+</html><!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>

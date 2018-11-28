@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>薇拉摄影</title>
+		<link rel="icon" href="__PUBLIC__/Home/img/favicon.ico" type="image/x-icon" />
+	    <link rel="shortcut icon" href="__PUBLIC__/Home/img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/layui/css/layui.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/certify.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/index.css"/>
+	</head>
+	<body>
+		<!--公共头部-->
+		<header>
+			<div class="headerCent">
+				<div class="headerCent-left">
+					<img src="{$company_introduce.ci_logo}" alt="logo"/>
+				</div>
+				<include file="Public/nav"/>
+			</div>
+		</header>
+		<!--内容区域-->
+		<section>
+			<!--轮播-->
+			<div class="Demo">
+				<div class="swiper-container topImagesCaontainer">
+				    <div class="swiper-wrapper">
+				    	<volist name="lunboData" id="lunbo">
+				    		 <div class="swiper-slide">
+						      	<img src="{$lunbo.lb_image}" alt="..."/>
+						      </div>
+				    	</volist>
+				    </div>
+				    <div class="swiper-button-next"></div>
+				    <div class="swiper-button-prev"></div>
+				</div>		
+				 <!--底部轮播-->
+			    <div class="bottomImages">
+			    	<div class="bottomImages-left">
+			    		<img src="__PUBLIC__/Home/img/img7.png" alt="left"/>
+			    	</div>
+			    	<div class="bottomImages-center">
+			    		<ul>
+			    			<volist name="lunboData" id="lunbo">
+			    				<li>
+				    				<div class="hidetop"></div>
+					      			<div class="hideRed hide">
+					      				<div class="hideRed-top">{$lunbo.lb_title}</div>
+					      				<div class="hideRed-bot">{$lunbo.lb_time|date="Y-m-d",###}</div>
+					      			</div>	
+				    			</li>
+			    			</volist>
+			    		</ul>
+			    	</div>
+			    	<div class="bottomImages-right">
+			    		<img src="__PUBLIC__/Home/img/img8.png" alt="right"/>
+			    	</div>
+			    </div>
+			</div>
+			<!--最新活动-->
+			<div class="PublicCall">
+				<img src="__PUBLIC__/Home/img/img19.png" alt="img"/>
+			</div>
+			<!--图片-->
+			<img src="{$background_imageData[0].bi_image}" alt="..." class="publicImages"/>
+			<div class="PublicCall">
+				<img src="__PUBLIC__/Home/img/img20.png" alt="img"/>
+			</div>
+			<!--风格样片-->
+			<div class="StyleSample">
+				<div class="StyleSample-top"></div>
+				<div class="StyleSample-bot">
+					<div class="numPage"><i>{$caseallcount}</i>条</div>
+					<div id="demo1"></div>
+				</div>
+			</div>
+			<!--薇拉视觉-->
+			<div class="PublicCall">
+				<img src="__PUBLIC__/Home/img/img21.png" alt="img"/>
+			</div>
+			<div id="certify">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<volist name="view_res" id="view">
+							<div class="swiper-slide"><img src="{$view.image}" alt="img"/></div>
+						</volist>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+			<!--薇拉内景-->
+			<div class="PublicCall">
+				<img src="__PUBLIC__/Home/img/img22.png" alt="img"/>
+			</div>
+			<div class="vrerInterior">
+				<div class="vrerInterior-top">
+					<volist name="room_scenery_classify_res" id="room_scenery_classify" key="k">
+						<if condition="$k eq 1">
+							<a href="/index.php/Home/Index/erjifenlei/rsc_id/{$room_scenery_classify.rsc_id}" target="_blank" class="orangeColor">{$room_scenery_classify.rsc_name}</a>
+							<else/>
+							<a href="/index.php/Home/Index/erjifenlei/rsc_id/{$room_scenery_classify.rsc_id}" target="_blank">{$room_scenery_classify.rsc_name}</a>
+						</if>
+					</volist>
+				</div>
+				<div class="vrerInterior-bot">
+					<div class="vrerInterior-left">
+						<img src="{$room_scenery_res[0].rs_image}" alt="img"/>
+					</div>
+					<div class="vrerInterior-right">
+						<ul>
+							<volist name="room_scenery_res" id="room_scenery" key="k">
+								<li>
+									<a href="javascript:;" target="_blank">
+										<img src="{$room_scenery.rs_image}" alt="img"/>
+										<div class="vrerInteriorCent">
+											<h3>{$k}R</h3>
+											<h4>{$rscarr[$k-1].rsc_name}</h4>
+										</div>
+									</a>
+								</li>
+								
+							</volist>
+						</ul>
+					</div>
+				</div>				
+			</div>
+			<!--动态新闻-->
+			<div class="PublicCall">
+				<img src="__PUBLIC__/Home/img/img23.png" alt="img"/>
+			</div>
+			<div class="newsImages">
+			 	<div class="swiper-container">
+				    <div class="swiper-wrapper">
+				    	<volist name="home_news_res" id="home_news">
+				    		<div class="swiper-slide" style="background-image:url({$home_news.hn_image})"></div>
+				    	</volist>
+				    </div>
+			  	</div>
+			</div>
+			<div class="newsImagesBottom">
+				<volist name="home_news_res" id="home_news" key="k">
+					<a href="javascript:;" target="_blank" class="newsImagesCenter">
+						<div class="newsImages-one">
+							<div class="newsImagesOne-top">vera</div>
+							<div class="newsImagesOne-bot">
+								<div>Mansion-</div>
+								<div>youyue</div>
+							</div>
+						</div>
+						<div class="newsImages-two">
+							{$home_news.hn_title}
+						</div>					
+						<div class="newsImages-three">
+							<div class="newsImagesThree-top">.0{$k}</div>
+							<div class="newsImagesThree-bot">
+								<div>{$home_news.hn_short_title1}</div>
+								<div>{$home_news.hn_short_title2}</div>
+								<div>{$home_news.hn_short_title3}</div>
+							</div>
+						</div>					
+						<div class="newsImages-four">
+							<div class="newsImagesFour-left">{$company_introduce.ci_logotitle}/</div>
+							<div class="newsImagesFour-right">{$company_introduce.ci_logotitle_english}</div>
+						</div>					
+						<div class="newsImages-five">
+							<img src="__PUBLIC__/Home/img/img33.png" alt="img"/>
+						</div>					
+					</a>
+					<div class="borderLeft"></div>
+				</volist>
+			</div>
+			<!--倒计时-->
+			<div class="CountDown">
+				<div class="CountDownCent">
+					<volist name="home_base_res" id="home_base" key="k">
+						<if condition="$k eq 2">
+							<div>
+								<div class="CountDown-top">
+									<div class="CountDown-left" id="count">{$home_base.title1}</div>
+									<div class="CountDown-right">{$home_base.title2}</div>						
+								</div>
+								<div class="CountDown-bot">
+									{$home_base.title3}
+								</div>
+							</div>
+							<div class="boxShow">
+								<img src="__PUBLIC__/Home/img/img34.png" alt="img"/>
+							</div>
+							<else/>
+							<div>
+								<div class="CountDown-top">
+									<div class="CountDown-left">{$home_base.title1}</div>
+									<div class="CountDown-right">{$home_base.title2}</div>						
+								</div>
+								<div class="CountDown-bot">
+									{$home_base.title3}
+								</div>
+							</div>
+							<div class="boxShow">
+								<img src="__PUBLIC__/Home/img/img34.png" alt="img"/>
+							</div>
+						</if>
+					</volist>
+				</div>
+			</div>
+			<!--精彩花絮-->
+			<div class="PublicCall PublicCall2">
+				<img src="__PUBLIC__/Home/img/img25.png" alt="img"/>
+			</div>
+			<div id="video">
+				<video id="video1" width="100%" height="500" autoplay="autoplay" loop playsinline="true" poster webkit-playsinline="true" muted x-webkit-airplay="allow" x5-video-player-fullscreen="true" x5-video-player-type="h5">
+				    <source src="{$jingcai.jc_url}" type="video/mp4">
+				    	
+					    您的浏览器不支持 HTML5 video 标签。
+				</video>
+				<div class="hideVideo"></div>
+				<div class="hideVideo2"></div>
+				<div class="hideVideo3"></div>
+			    <div class="videoCent">
+					<div class="videoCent-top">
+						{$jingcai.jc_title}
+					</div>
+					<div class="videoCent-bot">
+						{$jingcai.jc_title_english}
+					</div>  	
+			    </div>
+			    <a href="/index.php/Home/Index/jingcaihuaxu" target="_blank" class="videoCentImages">
+				    <img src="__PUBLIC__/Home/img/img35.png" alt="img"/>
+			    </a>
+			    <a href="/index.php/Home/Index/jingcaihuaxu" target="_blank" class="videoCentCheack">点击查看更多精彩花絮</a>
+			</div>
+			<!--客户真实评价-->
+			<div class="PublicCall PublicCall3">
+				<img src="__PUBLIC__/Home/img/img24.png" alt="img"/>
+			</div>
+			<div class="evaluate">
+				<div class="evaluate-top">
+					<div class="evaluate-one">三大平台	实时点评</div>
+					<div class="evaluate-two"></div>
+				</div>
+				<div class="evaluate-bot">
+					<volist name="custom_word_classify_res" id="custom_word_classify" key="k">
+						
+					
+					<div class="evaluatePhone">
+						<img src="__PUBLIC__/Home/img/img37.png" alt="img"/>
+						<div class="evaluateData">
+							<volist name="cwclassify[$k-1]" id="custom_word" key="m">
+								
+							
+							<div class="evaluateCentData">
+								<div class="evaluateCentData-top">
+									<div class="evaluateCentData-left">
+										<img src="{$custom_word.cw_image}" alt="img"/>
+									</div>
+									<div class="evaluateCentData-right">
+										<div class="evaluateCentData-one">
+											<div>{$custom_word.cw_name}</div>
+											<div>{$custom_word.cw_user_rank}</div>
+											<div>
+												<if condition="$custom_word.cw_flag eq 0">
+													<else/>
+													 VIP
+												</if>
+											</div>
+										</div>
+										<div class="evaluateCentData-Images">
+											<for start="1" end="$custom_word.cw_word_rank">
+											<img src="__PUBLIC__/Home/img/img40.png" alt="img"/>
+											</for>
+										</div>
+										<div class="evaluateCentData-two">
+											<div class="evaluateCentDataTwo-top">
+												{$custom_word.cw_content}
+											</div>
+											<div class="evaluateCentDataTwo-bot">
+												<volist name="allcimage[$k-1][$m-1]" id="custom_image">
+													<img src="{$custom_image.ci_name}" alt="img"/>
+												</volist>
+											</div>
+										</div>
+										<div class="evaluateCentData-three">
+											{$custom_word.cw_time|date="Y-m-d",###}来自{$custom_word.cw_kind}
+										</div>
+									</div>
+								</div>
+								<div class="evaluateCentData-bot">
+									<div>收藏</div>
+									<div>转发</div>
+									<div>评论</div>
+									<div>
+										<img src="__PUBLIC__/Home/img/img38.png" alt="img"/>
+									</div>
+								</div>
+							</div>
+							</volist>
+						</div>
+						<div class="evaluateName">{$custom_word_classify.cwc_name}</div>
+					</div>
+					</volist>
+				</div>
+			</div>
+			<!--公司地址-->			
+			<include file="Public/content"/>
+		</section>
+		<input type="hidden" class="footername" value="{$footer_nav11.fn_nav_name}">
+		<!--公共底部-->
+		<include file="Public/footer"/>
+		<!--固定浮窗-->
+		<include file="Public/float"/>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="//api.html5media.info/1.2.2/html5media.min.js"></script>
+		<script src="__PUBLIC__/Home/js/swiper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/Home/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/Home/js/count.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/Home/js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+//				风格样片
+				$(document).on("mouseenter", ".StyleSampleImages", function(){ 
+					$(this).children(".StyleSampleImages-top").children(".hideDiv").animate({top:'0px'},"slow");
+					$(this).children(".StyleSampleImages-top").children(".hideDiv2").animate({top:'0px'},"slow");
+				});
+				$(document).on("mouseleave", ".StyleSampleImages", function(){ 
+					$(this).children(".StyleSampleImages-top").children(".hideDiv").animate({top:'537px'},"slow");
+					$(this).children(".StyleSampleImages-top").children(".hideDiv2").animate({top:'537px'},"slow");
+				});
+//				分页
+				var requestId = 0; //默认请求id
+				ajaxData(1);
+				function ajaxData( page) {
+					$.ajax({      
+						type: 'get',
+						url: '/index.php/Home/Public/selcase/p/' + page,
+						cache: false,
+						dataType: 'json',
+						success: function(data) {     
+							console.log("成功",data);  
+							//	页面默认加载分页数据
+							var pageVal = 0;
+							layui.use('laypage', function() {
+								var laypage = layui.laypage;
+								laypage.render({
+									elem: 'demo1',
+									count: data.allcount, //数据总数
+									jump: function(obj) {
+										$(".RealEvaluation-bot").children().remove();
+										$.ajax({      
+											type: 'get',
+											url: '/index.php/Home/Public/selcase/p/' + obj.curr,
+											cache: false,
+											dataType: 'json',
+											success: function(data) {       
+												$(".numPage").children("i").text(data.allcount);
+												    var ci_logotitle=data.company_introduce.ci_logotitle;
+													var ci_url=data.company_introduce.ci_url;
+													var ci_logotitle_english=data.company_introduce.ci_logotitle_english;
+
+												for(var g=0;g<data.caseData.length;g++){
+
+													var author=data.caseData[g].author;
+													var c_content=data.caseData[g].c_content;
+													var id=data.caseData[g].id;
+													var caseimage=data.caseData[g].image;
+													var imagetitle=data.caseData[g].imagetitle;
+													var title=data.caseData[g].title;
+													var strCent='<a href="/index.php/Home/Index/Information/id/'
+													+ id +'" target="_blank" class="StyleSampleImages"><div class="StyleSampleImages-top"><img src="'
+													+ caseimage +'" alt="img"/><div class="hideDiv"></div><div class="hideDiv2"><div><div class="hideDiv2-top"><div>'
+													+ ci_logotitle_english +'</div><div>'
+													+ imagetitle +'</div></div><div class="hideDiv2-bot"><div><img src="__PUBLIC__/Home/img/img18.png" alt="img"/><div>'
+													+ ci_logotitle +'</div></div><div>'
+													+ author +'</div><div>'
+													+ ci_url +'</div></div></div></div></div><div class="StyleSampleImages-bot"><div>'
+													+ title +'</div><div>'+ author +'</div></div></a>';
+													$(".StyleSample-top").append(strCent);
+												}
+											},
+											error: function(err) { 
+												console.log(err);      
+												alert("获取风样数据请求异常！");      
+											}   
+										});
+										var leng = $("#demo1>div").children().length;
+										for(var k = 0; k < leng; k++) {
+											var valLeng = $("#demo1>div").children().eq(k).outerWidth(true);
+											pageVal += Number(valLeng);
+										}
+										var endVal = pageVal + 100;
+										$(".StyleSample-bot").css("width", endVal);
+										pageVal = 0;
+									}
+								});
+							});
+						},
+						error: function() {    
+							alert("获取风样数据请求异常！");      
+						}   
+					});
+				}
+//				============================
+//				维拉视觉轮播图
+				var certifySwiper = new Swiper('#certify .swiper-container', {
+					observer:true,
+			    	observeParents:true,
+					watchSlidesProgress: true,
+					slidesPerView: 'auto',
+					centeredSlides: true,
+					loop: true,
+					loopedSlides: 3,//slide个数
+					autoplay: true,
+					navigation: {
+						nextEl: '#certify .swiper-button-next',
+						prevEl: '#certify .swiper-button-prev',
+					},
+					pagination: {
+						el: '#certify .swiper-pagination',
+						clickable: true,
+					},
+					on: {
+						progress: function(progress) {
+							for (i = 0; i < this.slides.length; i++) {
+								var slide = this.slides.eq(i);
+								var slideProgress = this.slides[i].progress;
+								modify = 1;
+								if (Math.abs(slideProgress) > 1) {
+									modify = (Math.abs(slideProgress) - 1) * 0.3 + 1;
+								}
+								translate = slideProgress * modify * 260 + 'px';
+								scale = 1 - Math.abs(slideProgress) / 5;
+								zIndex = 999 - Math.abs(Math.round(10 * slideProgress));
+								slide.transform('translateX(' + translate + ') scale(' + scale + ')');
+								slide.css('zIndex', zIndex);
+								slide.css('opacity', 1);
+								if (Math.abs(slideProgress) > 3) {
+									slide.css('opacity', 0);
+								}
+							}
+						},
+						setTransition: function(transition) {
+							for (var i = 0; i < this.slides.length; i++) {
+								var slide = this.slides.eq(i)
+								slide.transition(transition);
+							}
+						}
+					}
+				});
+//				薇拉内景图片切换
+				$(".vrerInterior-right>ul>li").mouseenter(function(){
+					var index=$(this).index();
+					var imgsrc=$(this).children("a").children("img").attr("src");
+					$(this).children("a").children(".vrerInteriorCent").show();
+					$(".vrerInterior-left").children("img").attr("src",imgsrc);
+				});
+				$(".vrerInterior-right>ul>li").mouseleave(function(){
+					var index=$(this).index();
+					$(this).children("a").children(".vrerInteriorCent").hide();
+				});
+//				动态新闻轮播图
+				var swiper2 = new Swiper('.newsImages .swiper-container', {
+			        spaceBetween: 30,
+			        effect: 'fade',
+			        observer:true,
+			    	observeParents:true,
+			        spaceBetween: 30,
+			        centeredSlides: true,
+			        autoplay: {
+			        	delay: 2500,
+			        	disableOnInteraction: false,
+			        },
+			    });
+//			          滚动到数字部分
+				var active=1;
+				var active2=1;
+				var myVideo=document.getElementById("video1"); 
+			    $(window).on('scroll',function(){     
+			    	var b=$(window).scrollTop();
+			    	//获取滚动的高度    
+			    	var a=$(".CountDown").offset().top;
+			    	//获取元素距离顶部的距离    
+			    	var c=a-400;      
+			    	if(c<b && active==1){      
+						addNumber();
+						active++;
+			    	}
+//				           滚动到视频播放部分
+					var d=$("#video").offset().top;
+			    	//获取元素距离顶部的距离    
+			    	var e=d-400;   
+			    	if(e<b && active2==1){      
+						myVideo.play(); 
+						active2++;
+			    	}
+			    });
+//				判断是否播放结束,循环播放
+			    myVideo.addEventListener('ended', function(){
+					play();
+				});  
+	//			数字增加
+				function addNumber(){
+					$("#count").numberRock({
+						lastNumber:178236,
+						duration:3000,
+						easing:'swing',  //慢快慢
+					});
+				}
+	//			播放视频
+				function play() {
+	                myVideo.load();   
+	                myVideo.play();  
+	            }  
+			});
+		</script>
+	</body>
+</html>
