@@ -35,6 +35,7 @@ function del(){
             <tr>
             <th>编号</th>
             <th>图片</th>
+            <th>隐藏图片</th>
             <th>标题</th>
             <th>所属二级分类</th>
             <th>发表时间</th>
@@ -48,6 +49,7 @@ function del(){
                 <?php if(is_array($classify_article_res)): $k = 0; $__LIST__ = $classify_article_res;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><tr>
                         <td><?php echo ($k); ?></td>
                         <td><img src="<?php echo ($vo["ca_image"]); ?>" height="40px;"></td>
+                        <td><img src="<?php echo ($vo["ca_hideimage"]); ?>" height="40px;"></td>
                         <td><?php echo ($vo["ca_title"]); ?></td>
                         <td><?php echo ($lcarray[$k-1]["lc_name"]); ?></td>
                         <td><?php echo (date("Y-m-d",$vo["ca_time"])); ?></td>
@@ -67,7 +69,7 @@ function del(){
                 <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Classify/classify_article/lc_id/<?php echo ($lc_id); ?>/p/<?php echo ($p-1); ?>" style="margin-left: 20px;"><<</a></li><?php endif; ?>
             
             <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Classify/classify_article/lc_id/<?php echo ($lc_id); ?>/p/1" style="margin-left: 20px;">首页</a></li>
-            <?php $__FOR_START_14960__=1;$__FOR_END_14960__=$page+1;for($i=$__FOR_START_14960__;$i < $__FOR_END_14960__;$i+=1){ ?><li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Classify/classify_article/lc_id/<?php echo ($lc_id); ?>/p/<?php echo ($i); ?>" style="margin-left: 20px;"><?php echo ($i); ?></a></li><?php } ?>
+            <?php $__FOR_START_21992__=1;$__FOR_END_21992__=$page+1;for($i=$__FOR_START_21992__;$i < $__FOR_END_21992__;$i+=1){ ?><li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Classify/classify_article/lc_id/<?php echo ($lc_id); ?>/p/<?php echo ($i); ?>" style="margin-left: 20px;"><?php echo ($i); ?></a></li><?php } ?>
             
             <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Classify/classify_article/lc_id/<?php echo ($lc_id); ?>/p/<?php echo ($page); ?>" style="margin-left: 20px;">尾页</a></li>
             <?php if($p == $page): ?><li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Classify/classify_article/lc_id/<?php echo ($lc_id); ?>/p/<?php echo ($page); ?>" style="margin-left: 20px;">>></a></li>

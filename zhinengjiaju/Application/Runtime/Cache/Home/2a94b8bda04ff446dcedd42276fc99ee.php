@@ -6,7 +6,7 @@
 		<meta name="author" content="Bright2017" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title><?php echo ($navben["nav_name"]); ?></title>
+		<title>博越智能家居</title>
 		<link rel="icon" href="/Public/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="/Public/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" type="text/css" href="/Public/Home/css/reset.css" />
@@ -253,17 +253,17 @@
 		</div>
 		<div class="news">
 			<div class="news-left">
-				<img src="<?php echo ($classify_article_res[1][0][0]["ca_image"]); ?>" alt="img" />
+				<img src="<?php echo ($classify_article_res[0][0][0]["ca_image"]); ?>" alt="img" />
 			</div>
 			<div class="news-right">
-				<?php if(is_array($little_classify_res[1])): $k = 0; $__LIST__ = $little_classify_res[1];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$little_classify): $mod = ($k % 2 );++$k; if($k < 5): if($k == 1): ?><div class="newsCent">
+				<?php if(is_array($little_classify_res[0])): $k = 0; $__LIST__ = $little_classify_res[0];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$little_classify): $mod = ($k % 2 );++$k; if($k < 5): if($k == 1): ?><div class="newsCent">
 						<div class="news-top">
 							<div>
 								<?php echo ($little_classify["lc_name"]); ?>
 							</div>
 						</div>
 						<div class="news-bot">
-							<?php if(is_array($classify_article_res[1][$k-1])): $i = 0; $__LIST__ = $classify_article_res[1][$k-1];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$classify_article): $mod = ($i % 2 );++$i;?><a href="/index.php/Home/Index/xinwenxiangqing/ca_id/<?php echo ($classify_article["ca_id"]); ?>/nav_id/<?php echo ($nav_id); ?>">
+							<?php if(is_array($classify_article_res[0][$k-1])): $i = 0; $__LIST__ = $classify_article_res[0][$k-1];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$classify_article): $mod = ($i % 2 );++$i;?><a href="/index.php/Home/Index/xinwenxiangqing/ca_id/<?php echo ($classify_article["ca_id"]); ?>/nav_id/<?php echo ($nav_id); ?>">
 									<div class="newsCent-left">
 										<?php echo ($classify_article["ca_title"]); ?>
 									</div>
@@ -281,7 +281,7 @@
 							</div>
 						</div>
 						<div class="news-bot">
-							<?php if(is_array($classify_article_res[1][$k-1])): $i = 0; $__LIST__ = $classify_article_res[1][$k-1];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$classify_article): $mod = ($i % 2 );++$i;?><a href="/index.php/Home/Index/xinwenxiangqing/ca_id/<?php echo ($classify_article["ca_id"]); ?>/nav_id/<?php echo ($nav_id); ?>">
+							<?php if(is_array($classify_article_res[0][$k-1])): $i = 0; $__LIST__ = $classify_article_res[0][$k-1];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$classify_article): $mod = ($i % 2 );++$i;?><a href="/index.php/Home/Index/xinwenxiangqing/ca_id/<?php echo ($classify_article["ca_id"]); ?>/nav_id/<?php echo ($nav_id); ?>">
 									<div class="newsCent-left">
 										<?php echo ($classify_article["ca_title"]); ?>
 									</div>

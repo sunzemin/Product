@@ -6,7 +6,7 @@
 		<meta name="author" content="Bright2017" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title><?php echo ($navben["nav_name"]); ?></title>
+		<title>博越智能家居</title>
 		<link rel="icon" href="/Public/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="/Public/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" type="text/css" href="/Public/Home/css/reset.css" />
@@ -126,7 +126,7 @@
 					dataType: 'json',
 					type: 'get',
 					success: function(data) {
-						console.log('数据', data['caseData']);
+						console.log('数据', data);
 						//分页方法
 						layui.use(['laypage', 'layer'], function() {
 							var laypage = layui.laypage,
@@ -138,7 +138,6 @@
 								theme: '#024b97',
 								limit: 1,
 								jump: function(obj, first) {
-									console.log(obj);
 									var ind = $('#demo1>div>a').length;
 									var len = $('#demo1>div>span').length;
 									for(var k = 0; k < ind; k++) {
@@ -159,13 +158,12 @@
 										dataType: 'json',
 										type: 'get',
 										success: function(data) {
+											console.log('kkkkkkkkk',data.caseData);
 										$(".case").children().remove();
-											console.log('jjjjj', data);
 											for(var i = 0; i < data.caseData.length; i++) {
-												var con = '<a href="javascript:;"><div><div><img src=' +data.caseData[i].image +' alt="..."/></div><div>' +data.caseData[i].title +'</div></div></a>';
-												$('.case').append(con);
-												console.log('减肥的减肥减肥就', con);
+												var con = '<a href="javascript:;"><div><div><img src=' +data.caseData[i].productimage +' alt="..."/></div><div>' +data.caseData[i].title +'</div></div></a>';
 											}
+											$('.case').append(con);
 										},
 										error: function() {
 											alert('hghfhhhffh');

@@ -43,7 +43,20 @@
 </div>
 <form method="post" name="form" action="">
 <ul class="forminfo">
+	
     <input name="pc_id" type="hidden" class="dfinput" value="{$product_classify.pc_id}" />
+    <li><label><b>*</b>选择导航</label>
+		<select name="nav_id" class="dfinput" >
+			<option value="{$navs.nav_id}">{$navs.nav_name}</option>
+			<volist name="navres" id="navs" key="k">
+				<option value="{$navs.nav_id}">{$navs.nav_name}</option>
+				
+				<volist name="navarr[$k-1]" id="navsec">
+					<option value="{$navsec.nav_id}" style="color: red;">{$navsec.nav_name}</option>
+				</volist>
+			</volist>
+		</select>
+	</li>
     <li><label><b>*</b>分类名称</label><input name="pc_name" type="text" class="dfinput" value="{$product_classify.pc_name}" /></li>
     <li><label><b>*</b>排序</label><input name="pc_sort" type="text" class="dfinput" value="{$product_classify.pc_sort}" /></li>
     <li><label>&nbsp;</label><input name="submit" type="submit" class="btn" value="确认保存"/></li>

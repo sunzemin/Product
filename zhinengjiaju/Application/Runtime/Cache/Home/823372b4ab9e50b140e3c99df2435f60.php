@@ -6,7 +6,7 @@
 		<meta name="author" content="Bright2017" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title><?php echo ($navben["nav_name"]); ?></title>
+		<title>博越智能家居-加盟中心</title>
 		<link rel="icon" href="/Public/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="/Public/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" type="text/css" href="/Public/Home/css/reset.css" />
@@ -94,10 +94,10 @@
 							<?php echo ($classify_article["ca_content"]); ?>
 						</div>
 					</div>
-					<div class="animated fadeInDown" style="animation-delay: <?php echo ($classify_article["ca_min"]); ?>;">
+					<!--<div class="animated fadeInDown" style="animation-delay: <?php echo ($classify_article["ca_min"]); ?>;">
 						<span><img src="<?php echo ($classify_article["ca_image"]); ?>" alt="..."/></span>
 						<p><?php echo ($classify_article["ca_title"]); ?></p>
-					</div><?php endforeach; endif; else: echo "" ;endif; ?>
+					</div>--><?php endforeach; endif; else: echo "" ;endif; ?>
 			</div>
 			<div class="JoinIn_line3">
 				<div class="circular2"></div>

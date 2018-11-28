@@ -25,7 +25,7 @@ function del(){
     <div class="formbody">
         <div class="tools">
             <ul class="toolbar">
-                <a href="/index.php/Admin/Index/user1add">
+                <a href="/index.php/Admin/Index/user1add/p/<?php echo ($p); ?>">
                 <li class="click"><span><img src="/Public/admin/images/pic/t01.png" /></span>添加用户</li>
                 </a>
             </ul>
@@ -47,7 +47,7 @@ function del(){
             <td><?php echo ($vo["telephone"]); ?></td>
             <td><?php echo ($vo["sort"]); ?></td>
             <td>
-            <a href="/index.php/Admin/Index/user1del/id/<?php echo ($vo["id"]); ?>" onclick="return del()">删除</a>
+            <a href="/index.php/Admin/Index/user1del/id/<?php echo ($vo["id"]); ?>/p/<?php echo ($p); ?>" onclick="return del()">删除</a>
             </td>
             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
             </tbody> 
@@ -59,7 +59,7 @@ function del(){
                 <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Index/user1/p/<?php echo ($p-1); ?>" style="margin-left: 20px;"><<</a></li><?php endif; ?>
             
             <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Index/user1/p/1" style="margin-left: 20px;">首页</a></li>
-            <?php $__FOR_START_9803__=1;$__FOR_END_9803__=$page+1;for($i=$__FOR_START_9803__;$i < $__FOR_END_9803__;$i+=1){ ?><li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Index/user1/p/<?php echo ($i); ?>" style="margin-left: 20px;"><?php echo ($i); ?></a></li><?php } ?>
+            <?php $__FOR_START_13288__=1;$__FOR_END_13288__=$page+1;for($i=$__FOR_START_13288__;$i < $__FOR_END_13288__;$i+=1){ ?><li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Index/user1/p/<?php echo ($i); ?>" style="margin-left: 20px;"><?php echo ($i); ?></a></li><?php } ?>
             
             <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Index/user1/p/<?php echo ($page); ?>" style="margin-left: 20px;">尾页</a></li>
             

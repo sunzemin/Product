@@ -43,6 +43,12 @@
 </div>
 <form method="post" name="form" action="">
 <ul class="forminfo">
+    <li><label><b>*</b>选择导航</label>
+            <select name="nav_id" class="dfinput">
+                <?php if(is_array($navres)): $k = 0; $__LIST__ = $navres;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navs): $mod = ($k % 2 );++$k;?><option value="<?php echo ($navs["nav_id"]); ?>"><?php echo ($navs["nav_name"]); ?></option>
+                    <?php if(is_array($navarr[$k-1])): $i = 0; $__LIST__ = $navarr[$k-1];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$nav1): $mod = ($i % 2 );++$i;?><option value="<?php echo ($nav1["nav_id"]); ?>" style="color: red;"><?php echo ($nav1["nav_name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; endforeach; endif; else: echo "" ;endif; ?>
+            </select>
+        </li>
     <li><label><b>*</b>选择总分类</label>
         <select name="ac_id" class="dfinput">
             <?php if(is_array($all_classify_res)): $k = 0; $__LIST__ = $all_classify_res;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$all_classify): $mod = ($k % 2 );++$k;?><option value="<?php echo ($all_classify["ac_id"]); ?>"><?php echo ($all_classify["ac_name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>

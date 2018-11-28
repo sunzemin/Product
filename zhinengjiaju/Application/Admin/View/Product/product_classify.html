@@ -35,7 +35,7 @@ function del(){
             <tr>
             <th>编号</th>
             <th>分类名称</th>
-           
+            <th>所属导航</th>
             <th>排序</th>
             <th>操作</th>
             </tr>
@@ -46,7 +46,7 @@ function del(){
                     <tr>
                         <td>{$k}</td>
                         <td>{$vo.pc_name}</td>
-                     
+                        <td>{$navarr[$k-1].nav_name}</td>
                         <td>{$vo.pc_sort}</td>
                         <td>
                              <a href="/index.php/Admin/Product/product/pc_id/{$vo.pc_id}/p/1">文章管理</a> 

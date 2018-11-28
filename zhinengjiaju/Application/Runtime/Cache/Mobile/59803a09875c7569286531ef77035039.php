@@ -15,9 +15,10 @@
 
 	<body>
 		<!--头部-->
-		<div class="top">
+		<div class="top_big">
+			<div class="top">
 			<div class="Catalog">
-				<a href="/index.php/Mobile/Index/nav"><img src="/Public/mobile/img/xian.png" alt="..." /></a>
+				<a href="javascript:;"><img src="/Public/mobile/img/xian.png" alt="..." /></a>
 			</div>
 			<div class="logo">
 				<div><img src="<?php echo ($company_introduce["ci_logo"]); ?>" alt="..." /></div>
@@ -28,29 +29,70 @@
 				<a href="tel:0147-88469258"><img src="/Public/mobile/img/phone.png" alt="..." /></a>
 			</div>
 		</div>
+		</div>
+		
+		<div class="nav hide">
+			<div class="guanbi"><img src="/Public/mobile/img/close.png" alt="..." /></div>
+			<div class="Navigationbar">
+				<ul>
+					<?php if(is_array($navres)): $k = 0; $__LIST__ = $navres;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navs): $mod = ($k % 2 );++$k; if($navs["nav_url"] == ''): ?><li>
+								<a href="javascript:;"><?php echo ($navs["nav_name"]); ?></a>
+								<?php if($navarr[$k-1] == null): else: ?>
+									 <ul class="Arrow hide">
+									<?php if(is_array($navarr[$k-1])): $i = 0; $__LIST__ = $navarr[$k-1];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$nav11): $mod = ($i % 2 );++$i; if($nav11["nav_url"] == ''): ?><li>
+												<a href="javascript:;"><?php echo ($nav11["nav_name"]); ?></a>
+											</li>
+											<?php else: ?>
+											<li>
+												<a href="<?php echo ($nav11["nav_url"]); ?>/nav_id/<?php echo ($nav11["nav_id"]); ?>"><?php echo ($nav11["nav_name"]); ?></a>
+											</li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+							    	</ul>
+							    	<span class="down">
+										<img src="/Public/mobile/img/down.png" alt="..."/>
+										<img src="/Public/mobile/img/up.png" alt="..." class="hide"/>
+									</span><?php endif; ?>
+							</li>
+							<?php else: ?>
+							<li>
+								<a href="<?php echo ($navs["nav_url"]); ?>/nav_id/<?php echo ($navs["nav_id"]); ?>"><?php echo ($navs["nav_name"]); ?></a>
+								<?php if($navarr[$k-1] == null): else: ?>
+								 <ul class="Arrow hide">
+								<?php if(is_array($navarr[$k-1])): $i = 0; $__LIST__ = $navarr[$k-1];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$nav11): $mod = ($i % 2 );++$i; if($nav11["nav_url"] == ''): ?><li>
+											<a href="javascript:;"><?php echo ($nav11["nav_name"]); ?></a>
+										</li>
+										<?php else: ?>
+										<li>
+											<a href="<?php echo ($nav11["nav_url"]); ?>/nav_id/<?php echo ($nav11["nav_id"]); ?>"><?php echo ($nav11["nav_name"]); ?></a>
+										</li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+						    	</ul>
+						    	<span class="down">
+									<img src="/Public/mobile/img/img/down.png" alt="..."/>
+									<img src="/Public/mobile/img/img/up.png" alt="..." class="hide"/>
+								</span><?php endif; ?>
+							</li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+				</ul>
+			</div>
+		</div>
 		<!--轮播-->
-		<div class="swiper-container">
+		<div class="swiper-container" style="margin-top: 54px;">
 			<div class="swiper-wrapper">
-				<?php if(is_array($lunboData)): $i = 0; $__LIST__ = $lunboData;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$lunbo): $mod = ($i % 2 );++$i;?><div class="swiper-slide">
-						<?php if($k == 1): if($lunbo["nav_url"] == ''): ?><div class="swiper-slide">
-										<a href="javascript:;"><img src="<?php echo ($lunbo["lb_image"]); ?>" alt="..." /></a>
-									</div>
-									
-									<?php else: ?>
-									<div class="swiper-slide">
-										<a href="<?php echo ($lunbo["lb_url"]); ?>"><img src="<?php echo ($lunbo["lb_image"]); ?>" alt="..." /></a>
-									</div><?php endif; ?>
-								<?php else: ?>
-								<?php if($lunbo["nav_url"] == ''): ?><div class="swiper-slide hide">
-										<a href="javascript:;"><img src="<?php echo ($lunbo["lb_image"]); ?>" alt="..." /></a>
-									</div>
-									
-									<?php else: ?>
-									<div class="swiper-slide hide">
-										<a href="<?php echo ($lunbo["lb_url"]); ?>"><img src="<?php echo ($lunbo["lb_image"]); ?>" alt="..." /></a>
-									</div><?php endif; endif; ?>
-						
-					</div><?php endforeach; endif; else: echo "" ;endif; ?>
+				<?php if(is_array($lunboData)): $i = 0; $__LIST__ = $lunboData;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$lunbo): $mod = ($i % 2 );++$i; if($k == 1): if($lunbo["nav_url"] == ''): ?><div class="swiper-slide">
+								<a href="javascript:;"><img src="<?php echo ($lunbo["lb_image"]); ?>" alt="..." /></a>
+							</div>
+
+							<?php else: ?>
+							<div class="swiper-slide">
+								<a href="<?php echo ($lunbo["lb_url"]); ?>"><img src="<?php echo ($lunbo["lb_image"]); ?>" alt="..." /></a>
+							</div><?php endif; ?>
+						<?php else: ?>
+						<?php if($lunbo["nav_url"] == ''): ?><div class="swiper-slide hide">
+								<a href="javascript:;"><img src="<?php echo ($lunbo["lb_image"]); ?>" alt="..." /></a>
+							</div>
+
+							<?php else: ?>
+							<div class="swiper-slide hide">
+								<a href="<?php echo ($lunbo["lb_url"]); ?>"><img src="<?php echo ($lunbo["lb_image"]); ?>" alt="..." /></a>
+							</div><?php endif; endif; endforeach; endif; else: echo "" ;endif; ?>
 			</div>
 			<div class="swiper-pagination"></div>
 		</div>
@@ -81,7 +123,7 @@
 			</div>
 
 			<div class="CentMenu">
-				<?php if(is_array($product_classify_res)): $i = 0; $__LIST__ = $product_classify_res;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$product_classify): $mod = ($i % 2 );++$i;?><a href="javascript:;"><?php echo ($product_classify["pc_name"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
+				<?php if(is_array($product_classify_res)): $i = 0; $__LIST__ = $product_classify_res;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$product_classify): $mod = ($i % 2 );++$i;?><a href="javascript:;"><?php echo ($product_classify["pc_name"]); ?><input type="hidden" value="<?php echo ($product_classify["pc_id"]); ?>" class="pc_id" /></a><?php endforeach; endif; else: echo "" ;endif; ?>
 				<!--<a href="javascript:;">智能锁</a>
 				<a href="javascript:;">智能灯泡</a>
 				<a href="javascript:;">云门铃</a>
@@ -181,7 +223,7 @@
 							</a>
 							<div class="Exhibition_wapper_bot"><?php echo ($case["title"]); ?></div>
 						</div>
-						
+
 						<?php else: ?>
 						<div class="Exhibition_wapper">
 							<a href="<?php echo ($case["url"]); ?>">
@@ -208,24 +250,24 @@
 				<div class="news_big">
 					<?php if(is_array($little_classify_res[1])): $k = 0; $__LIST__ = $little_classify_res[1];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$little_classify): $mod = ($k % 2 );++$k; if($k == 1): ?><div class="details">
 								<?php if(is_array($classify_article_res[1][$k-1])): $i = 0; $__LIST__ = $classify_article_res[1][$k-1];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$classify_article): $mod = ($i % 2 );++$i;?><a href="/index.php/Home/Index/xinwenxiangqing/ca_id/<?php echo ($classify_article["ca_id"]); ?>/nav_id/<?php echo ($nav_id); ?>" class="details_news">
-									<div class="details_yuan">
-										<img src="/Public/mobile/img/yuan.png" alt="..." />
-										<img src="/Public/mobile/img/img2.jpg" alt="..." class="hide" />
-									</div>
-									<div class="details_center"><?php echo ($classify_article["ca_title"]); ?></div>
-									<div class="details_time"><?php echo (date("Y-m-d",$classify_article["ca_time"])); ?></div>
-								</a><?php endforeach; endif; else: echo "" ;endif; ?>
+										<div class="details_yuan">
+											<img src="/Public/mobile/img/yuan.png" alt="..." />
+											<img src="/Public/mobile/img/img2.jpg" alt="..." class="hide" />
+										</div>
+										<div class="details_center"><?php echo ($classify_article["ca_title"]); ?></div>
+										<div class="details_time"><?php echo (date("Y-m-d",$classify_article["ca_time"])); ?></div>
+									</a><?php endforeach; endif; else: echo "" ;endif; ?>
 							</div>
 							<?php else: ?>
 							<div class="details hide">
 								<?php if(is_array($classify_article_res[1][$k-1])): $i = 0; $__LIST__ = $classify_article_res[1][$k-1];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$classify_article): $mod = ($i % 2 );++$i;?><a href="/index.php/Home/Index/xinwenxiangqing/ca_id/<?php echo ($classify_article["ca_id"]); ?>/nav_id/<?php echo ($nav_id); ?>" class="details_news">
-									<div class="details_yuan">
-										<img src="/Public/mobile/img/yuan.png" alt="..." />
-										<img src="/Public/mobile/img/img2.jpg" alt="..." class="hide" />
-									</div>
-									<div class="details_center"><?php echo ($classify_article["ca_title"]); ?></div>
-									<div class="details_time"><?php echo (date("Y-m-d",$classify_article["ca_time"])); ?></div>
-								</a><?php endforeach; endif; else: echo "" ;endif; ?>
+										<div class="details_yuan">
+											<img src="/Public/mobile/img/yuan.png" alt="..." />
+											<img src="/Public/mobile/img/img2.jpg" alt="..." class="hide" />
+										</div>
+										<div class="details_center"><?php echo ($classify_article["ca_title"]); ?></div>
+										<div class="details_time"><?php echo (date("Y-m-d",$classify_article["ca_time"])); ?></div>
+									</a><?php endforeach; endif; else: echo "" ;endif; ?>
 							</div><?php endif; endforeach; endif; else: echo "" ;endif; ?>
 				</div>
 				<a href="javascript:;" class="MenuMore more">More</a>
@@ -253,6 +295,7 @@
 				</form>
 			</div>
 		</div>
+		<input type="text" value="<?php echo ($lc_id); ?>" class="lc_id" />
 		<!--底部-->
 		<div class="footer">
 	<div class="gray">全国统一联系热线</div>
@@ -279,8 +322,6 @@
 		<script type="text/javascript">
 			$(function() {
 				//			banner图轮播
-//				var pppp=$(window).width();
-//			alert($(window).width());
 				var swiper = new Swiper('.swiper-container', {
 					pagination: {
 						el: '.swiper-pagination',
@@ -392,41 +433,54 @@
 						'border': '1px solid #999999'
 					});
 				});
-				var len = $('.CentMenu>a').length;
-				console.log('llllllllllll', len);
-				if(len == 5) {
-					$('.CentMenu>a:first-child').css({
-						'margin-left': '1.483rem',
-						'margin-right': '1.3rem',
-						'margig-bottom': '10px'
+				$('.CentMenu>a').click(function() {
+					var pc_id = $('.pc_id').val();
+					$.ajax({
+						type: 'post',
+						data: {
+							'pc_id': pc_id
+						},
+						dataType: 'json',
+						url: '/index.php/Home/Public/selproduct',
+						success: function(data) {
+							console.log('kkk', data.product_res);
+							$('.MenuDataCent').children().remove();
+							var string = '';
+							for(var i = 0; i < data.product_res.length; i++) {
+								var con='<a href="javascript:;"><div class="MenuDataCent-top"><img src="'+
+								data.product_res[i].pimage+
+								'" /></div><div class="MenuDataCent-bot">'+data.product_res[i].pname+'</div></a>';
+								$('.MenuDataCent').append(con);
+							}
+							
+						},
+						error: function() {
+							alert('hhhhh');
+						}
 					})
-					$('.CentMenu>a:nth-child(2)').css({
-						'margin-right': '1.377 rem',
-						'margin-bottom': '10px'
-					})
-				}
-				if(len !== 5) {
-					$('.CentMenu>a').css({
-						'margin-right': '10px',
-						'margig-bottom': '10px'
-					});
-					$('.CentMenu>a:first-child').css({
-						'margin-left': '0',
-						'margig-bottom': '10px'
-					});
-					$('.CentMenu>a:nth-child(3n)').css({
-						'margin-right': '0'
-						//						'margig-bottom':'10px'
-					});
-					var wid = $('.CentMenu>a').outerWidth(true);
-					console.log('oooooo', wid);
-					var widts = wid * len;
-					var widt = $('.CentMenu').outerWidth(widts);
-					$('.CentMenu').css({
-						'margin': '0 auto'
-					})
-				}
 
+				});
+				$('.Catalog').click(function(){
+					$('.nav').show();
+				});
+				$('.guanbi').click(function(){
+					$('.nav').hide();
+				});
+				var toggle = true;
+				$(".down").click(function() {
+					if(toggle) {
+						$(this).children("img").attr("src", "/Public/mobile/img/up.png");
+						toggle = false;
+						$(this).siblings('ul').show();
+					} else {
+						$(this).children("img").attr("src", "/Public/mobile/img/down.png");
+						toggle = true;
+						$(this).siblings('ul').hide();
+					}
+				});
+				var hei=$(window).height();
+				console.log('gaodu',hei);
+				var nav_hei=$('.nav').height(hei);
 			});
 		</script>
 	</body>

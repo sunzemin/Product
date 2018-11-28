@@ -72,7 +72,6 @@ class IndexController extends Controller {
         $home_decorate_titleData=$home_decorate_titleM->order('hdt_sort desc')->page(1,6)->select();
         $this->assign('home_decorate_titleData',$home_decorate_titleData);
         //一级分类信息
-        //$all_classifyM=D('all_classify');
         $wherenavid['nav_id']=$nav_id;
         $all_classify11=$all_classifyM->where($wherenavid)->find();
         $this->assign('all_classify11',$all_classify11);
@@ -183,7 +182,6 @@ class IndexController extends Controller {
         $this->assign('little_classify_res',$little_classify_res);
         //该二级分类名称
         $this->assign('little_classify12',$little_classify_res[0]);
-        //dump($little_classify_res);
         //查询文章信息
         $classify_articleM=D('classify_article');
         $wherelcid['lc_id']=$little_classify_res[1]['lc_id'];
@@ -191,7 +189,11 @@ class IndexController extends Controller {
         $this->assign('classify_article_res',$classify_article_res);
         $flag=$this->isMobile();
         if($flag){
-            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/pinpaijianjie/nav_id/$parnavid'</script>";
+            if($navpar==null){
+                echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/pinpaijianjie/nav_id/$nav_id'</script>";
+            }else{
+                echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/pinpaijianjie/nav_id/$parnavid'</script>";
+            }  
         }
         $this->display();
     }
@@ -225,7 +227,7 @@ class IndexController extends Controller {
         
         $flag=$this->isMobile();
         if($flag){
-            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/keyangxinshang/nav_id/$nav_id'</script>";
+            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/quanwujichengzhengzhuang/nav_id/$nav_id'</script>";
         }
 
         $this->display();
@@ -256,9 +258,19 @@ class IndexController extends Controller {
         //背景图片
         $background_image_data=$public->background_image($nav_id);
         $this->assign('background_image_data',$background_image_data);
+        //一级分类信息
+        $all_classifyM=D('all_classify');
+        $wherealid['nav_id']=$nav_id;
+        $all_classify=$all_classifyM->where($wherealid)->find();
+        $this->assign('all_classify',$all_classify);
+        //二级分类信息
+        $little_classifyM=D('little_classify');
+        $whereacid['ac_id']=$all_classify['ac_id'];
+        $little_classify_res=$little_classifyM->where($whereacid)->order('lc_sort desc')->select();
+        $this->assign('little_classify_res',$little_classify_res);
         $flag=$this->isMobile();
         if($flag){
-            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/zuixintehui/nav_id/$nav_id'</script>";
+            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/zuixinzixun/nav_id/$nav_id'</script>";
         }
         $this->display();
     }
@@ -458,7 +470,7 @@ class IndexController extends Controller {
         $this->assign('background_image_data',$background_image_data);
         $flag=$this->isMobile();
         if($flag){
-            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/erjifenlei/nav_id/$nav_id'</script>";
+            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/lianxiwomen/nav_id/$nav_id'</script>";
         }
         $this->display();
     }
@@ -533,7 +545,7 @@ class IndexController extends Controller {
         //dump($little_classify_res);
         $flag=$this->isMobile();
         if($flag){
-            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/erjifenlei/nav_id/$nav_id'</script>";
+            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/chanpinzhongxin/nav_id/$nav_id'</script>";
         }
         $this->display();
     }
@@ -581,7 +593,7 @@ class IndexController extends Controller {
         $this->assign('classify_article_res',$caarr);
         $flag=$this->isMobile();
         if($flag){
-            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/erjifenlei/nav_id/$nav_id'</script>";
+            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/jiamengzhongxin/nav_id/$nav_id'</script>";
         }
         $this->display();
     }
@@ -658,7 +670,7 @@ class IndexController extends Controller {
         }
         $flag=$this->isMobile();
         if($flag){
-            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/erjifenlei/nav_id/$nav_id'</script>";
+            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/quanwujichengxiangqing/nav_id/$nav_id'</script>";
         }
         $this->display();
     }
@@ -760,7 +772,7 @@ class IndexController extends Controller {
          $this->assign('product_res',$product_res);
         $flag=$this->isMobile();
         if($flag){
-            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/erjifenlei/nav_id/$nav_id'</script>";
+            echo "<script type='text/javascript'>location.href='/index.php/Mobile/Index/chanpinxiangqing/nav_id/$nav_id'</script>";
         }
         $this->display();
     }

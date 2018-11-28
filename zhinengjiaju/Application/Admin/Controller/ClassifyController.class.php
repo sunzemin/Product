@@ -246,6 +246,7 @@ class ClassifyController extends CommonController{
         if($_POST){
             $classify_articleM=D('classify_article');
             $data['ca_image']=I('post.ca_image');
+            $data['ca_hideimage']=I('post.ca_hideimage');
             $data['ca_title']=I('post.ca_title');
             $data['ca_min']=I('post.ca_min');
             $data['ca_sort']=I('post.ca_sort');
@@ -275,6 +276,7 @@ class ClassifyController extends CommonController{
             $classify_articleM=D('classify_article');
             $whereBB['ca_id']=I('post.ca_id');
             $data['ca_image']=I('post.ca_image');
+            $data['ca_hideimage']=I('post.ca_hideimage');
             $data['ca_title']=I('post.ca_title');
             $data['ca_min']=I('post.ca_min');
             $data['ca_time']=time();

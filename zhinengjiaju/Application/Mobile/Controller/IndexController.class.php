@@ -7,19 +7,16 @@ class IndexController extends Controller{
         //查询导航信息
         $navres=$public->nav();
         $this->assign('navres',$navres);
-
         //该导航ID
         $nav_id=I('get.nav_id');
         if(isset($nav_id)){
             $nav_id=I('get.nav_id');
         }
         $nav_id=$navres[0]['nav_id'];
-        //dump($nav_id);
         $this->assign('nav_id',$nav_id);
         //查询轮播信息
         $lunboData=$public->lunbo($nav_id);
         $this->assign('lunboData',$lunboData);
-        //dump($lunboData);
         //底部信息
         $footer=$public->footer();
         $this->assign('footer',$footer);
@@ -64,13 +61,11 @@ class IndexController extends Controller{
         $caseM=D('case');
         $caseData=$caseM->order('sort desc')->page(1,5)->select();
         $this->assign('caseData',$caseData);
-        //dump($caseData);
         //图标信息
         $home_decorate_titleM=D('home_decorate_title');
         $home_decorate_titleData=$home_decorate_titleM->order('hdt_sort desc')->page(1,6)->select();
         $this->assign('home_decorate_titleData',$home_decorate_titleData);
         //一级分类信息
-        //$all_classifyM=D('all_classify');
         $wherenavid['nav_id']=$nav_id;
         $all_classify11=$all_classifyM->where($wherenavid)->find();
         $this->assign('all_classify11',$all_classify11);
@@ -95,8 +90,15 @@ class IndexController extends Controller{
         $product_classifyM=D('product_classify');
 		$product_classify_res=$product_classifyM->order('pc_sort desc')->select();
 		$this->assign('product_classify_res',$product_classify_res);
-		//dump($product_classify_res);
+		//查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        $navarr=$this->selnav();
+        $this->assign('navres',$navarr[0]);
+        $this->assign('navarr',$navarr[1]);
 		$this->display();
+		
+
 	}
     public function nav(){
         $public=A('Public');
@@ -106,7 +108,6 @@ class IndexController extends Controller{
         $navarr=$this->selnav();
         $this->assign('navres',$navarr[0]);
         $this->assign('navarr',$navarr[1]);
-        //dump($navarr[1]);
         $this->display();
     }
     public function pinpaijianjie(){
@@ -118,7 +119,6 @@ class IndexController extends Controller{
         $wherenavid11['nav_id']=$nav_id;
         $navben=$navM->where($wherenavid11)->find();
         $this->assign('navben',$navben);
- 
         $public=A('Public');
         //查询导航信息
         $navres=$public->nav();
@@ -148,12 +148,17 @@ class IndexController extends Controller{
         $this->assign('little_classify_res',$little_classify_res);
         //该二级分类名称
         $this->assign('little_classify12',$little_classify_res[0]);
-        //dump($little_classify_res);
         //查询文章信息
         $classify_articleM=D('classify_article');
         $wherelcid['lc_id']=$little_classify_res[1]['lc_id'];
         $classify_article_res=$classify_articleM->where($wherelcid)->select();
         $this->assign('classify_article_res',$classify_article_res);
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        $navarr=$this->selnav();
+        $this->assign('navres',$navarr[0]);
+        $this->assign('navarr',$navarr[1]);
         $this->display();
     }
     public function pinpairongyu(){
@@ -191,25 +196,32 @@ class IndexController extends Controller{
         $little_classify_res=$little_classifyM->where($whereacid)->order('lc_sort desc')->select();
         $this->assign('little_classify_res',$little_classify_res);
         //dump($little_classify_res);
+        //返回品牌荣誉的分类ID
+        $this->assign('lc_id',$little_classify_res[1]['lc_id']);
         //文章信息
-        $lc_id=I('get.lc_id');
+        /*$lc_id=I('get.lc_id');
         $this->assign('lc_id',$lc_id);
         $wherelcid['lc_id']=$lc_id;
         $little_classify12=$little_classifyM->where($wherelcid)->find();
-//      dump($little_classify12);
-        $this->assign('little_classify12',$little_classify12);
+        $this->assign('little_classify12',$little_classify12);*/
+       //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        $navarr=$this->selnav();
+        $this->assign('navres',$navarr[0]);
+        $this->assign('navarr',$navarr[1]);
         $this->display();
     }
     public function anlizhanshi(){
         //获取导航ID
         $nav_id=I('get.nav_id');
         $this->assign('nav_id',$nav_id);
+        //dump($nav_id);
         //查询本导航
         $navM=D('nav');
         $wherenavid11['nav_id']=$nav_id;
         $navben=$navM->where($wherenavid11)->find();
         $this->assign('navben',$navben);
-
         $public=A('Public');
         //查询导航信息
         $navres=$public->nav();
@@ -227,6 +239,7 @@ class IndexController extends Controller{
         //背景图片
         $background_image_data=$public->background_image($nav_id);
         $this->assign('background_image_data',$background_image_data);
+        //dump($background_image_data);
         //精彩花絮
         $p=I('get.p');
         if($p!=null){
@@ -234,13 +247,18 @@ class IndexController extends Controller{
         }else{
             $p=1;
         }
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        $navarr=$this->selnav();
+        $this->assign('navres',$navarr[0]);
+        $this->assign('navarr',$navarr[1]);
         $this->display();
     }
     public function changjingtiyanzhongxin(){
         $nav_id=I('get.nav_id');
         //dump($nav_id);
         $this->assign('nav_id',$nav_id);
-        
         $navM=D('nav');
         $wherenavid['nav_id']=$nav_id;
         $navben=$navM->where($wherenavid)->find();
@@ -270,10 +288,104 @@ class IndexController extends Controller{
         //头部信息
         $all_head=$public->allhead($nav_id);
         $this->assign('all_head',$all_head);
-        //dump($all_head);
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        $navarr=$this->selnav();
+        $this->assign('navres',$navarr[0]);
+        $this->assign('navarr',$navarr[1]);
         $this->display();
     }
     public function quanwuzhineng(){
+        $nav_id=I('get.nav_id');
+        $this->assign('nav_id',$nav_id);
+        //查询本导航
+        $navM=D('nav');
+        $wherenavid11['nav_id']=$nav_id;
+        $navben=$navM->where($wherenavid11)->find();
+        $this->assign('navben',$navben);
+        $public=A('Public');
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        //查询轮播信息
+        $lunboData=$public->lunbo($nav_id);
+        $this->assign('lunboData',$lunboData);
+        //底部信息
+        $footer=$public->footer();
+        $this->assign('footer',$footer);
+        //公司简介信息
+        $company_introduceM=D('company_introduce');
+        $company_introduce=$company_introduceM->find();
+        $this->assign('company_introduce',$company_introduce);
+        //背景图片
+        $background_image_data=$public->background_image($nav_id);
+        $this->assign('background_image_data',$background_image_data);
+        //品牌介绍
+        $all_classifyM=D('all_classify');
+        $wherealid['nav_id']=$nav_id;
+        $all_classify=$all_classifyM->where($wherealid)->find();
+        $this->assign('all_classify',$all_classify);
+        //二级分类信息
+        $little_classifyM=D('little_classify');
+        $whereacid['ac_id']=$all_classify['ac_id'];
+        $little_classify_res=$little_classifyM->where($whereacid)->select();
+        $this->assign('little_classify_res',$little_classify_res);
+        //二级分类个数
+        $little_classify_count=count($little_classify_res);
+        $this->assign('allcount',$little_classify_count);
+        $caarr=array();
+        $classify_articleM=D('classify_article');
+        for($i=0;$i<count($little_classify_res);$i++){
+            $wherelcid['lc_id']=$little_classify_res[$i]['lc_id'];
+            $classify_article=$classify_articleM->where($wherelcid)->find();
+            $caarr[]=$classify_article;
+        }
+        $this->assign('classify_article_res',$caarr);
+        //头部信息
+        $all_head=$public->allhead($nav_id);
+        $this->assign('all_head',$all_head);
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        $navarr=$this->selnav();
+        $this->assign('navres',$navarr[0]);
+        $this->assign('navarr',$navarr[1]);
+        $this->display();
+    }
+    public function lianxiwomen(){
+        $nav_id=I('get.nav_id');
+        $this->assign('nav_id',$nav_id);
+        $navM=D('nav');
+        $wherenavid['nav_id']=$nav_id;
+        $navben=$navM->where($wherenavid)->find();
+        $this->assign('navben',$navben);
+        $public=A('Public');
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        //查询轮播信息
+        $lunboData=$public->lunbo($nav_id);
+        $this->assign('lunboData',$lunboData);
+        //底部信息
+        $footer=$public->footer();
+        $this->assign('footer',$footer);
+        //公司简介信息
+        $company_introduceM=D('company_introduce');
+        $company_introduce=$company_introduceM->find();
+        $this->assign('company_introduce',$company_introduce);
+        //背景图片
+        $background_image_data=$public->background_image($nav_id);
+        $this->assign('background_image_data',$background_image_data);
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        $navarr=$this->selnav();
+        $this->assign('navres',$navarr[0]);
+        $this->assign('navarr',$navarr[1]);
+        $this->display();
+    }
+    public function zuixinzixun(){
         $nav_id=I('get.nav_id');
         $this->assign('nav_id',$nav_id);
         //查询本导航
@@ -299,8 +411,13 @@ class IndexController extends Controller{
         //背景图片
         $background_image_data=$public->background_image($nav_id);
         $this->assign('background_image_data',$background_image_data);
-        //全屋智能数据
-        //品牌介绍
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        $navarr=$this->selnav();
+        $this->assign('navres',$navarr[0]);
+        $this->assign('navarr',$navarr[1]);
+        //一级分类
         $all_classifyM=D('all_classify');
         $wherealid['nav_id']=$nav_id;
         $all_classify=$all_classifyM->where($wherealid)->find();
@@ -310,20 +427,253 @@ class IndexController extends Controller{
         $whereacid['ac_id']=$all_classify['ac_id'];
         $little_classify_res=$little_classifyM->where($whereacid)->select();
         $this->assign('little_classify_res',$little_classify_res);
-        //二级分类个数
-        $little_classify_count=count($little_classify_res);
-        $this->assign('allcount',$little_classify_count);
-        $caarr=array();
+        $this->display();
+    }
+    public function chanpinzhongxin(){
+        $nav_id=I('get.nav_id');
+        $this->assign('nav_id',$nav_id);
+        $navM=D('nav');
+        $wherenavid['nav_id']=$nav_id;
+        $navben=$navM->where($wherenavid)->find();
+        $this->assign('navben',$navben);
+        $public=A('Public');
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        //查询轮播信息
+        $lunboData=$public->lunbo($nav_id);
+        $this->assign('lunboData',$lunboData);
+        //底部信息
+        $footer=$public->footer();
+        $this->assign('footer',$footer);
+        //公司简介信息
+        $company_introduceM=D('company_introduce');
+        $company_introduce=$company_introduceM->find();
+        $this->assign('company_introduce',$company_introduce);
+        //背景图片
+        $background_image_data=$public->background_image($nav_id);
+        $this->assign('background_image_data',$background_image_data);
+        //产品分类信息
+        $product_classifyM=D('product_classify');
+         $product_classify_res=$product_classifyM->order('pc_sort desc')->select();
+         //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        $navarr=$this->selnav();
+        $this->assign('navres',$navarr[0]);
+        $this->assign('navarr',$navarr[1]);
+         $this->assign('product_classify_res',$product_classify_res);
+        $this->display();
+    }
+    public function jiamengzhongxin(){
+        $nav_id=I('get.nav_id');
+        $this->assign('nav_id',$nav_id);
+        $navM=D('nav');
+        $wherenavid['nav_id']=$nav_id;
+        $navben=$navM->where($wherenavid)->find();
+        $this->assign('navben',$navben);
+        $public=A('Public');
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        //查询轮播信息
+        $lunboData=$public->lunbo($nav_id);
+        $this->assign('lunboData',$lunboData);
+        //底部信息
+        $footer=$public->footer();
+        $this->assign('footer',$footer);
+        //公司简介信息
+        $company_introduceM=D('company_introduce');
+        $company_introduce=$company_introduceM->find();
+        $this->assign('company_introduce',$company_introduce);
+        //背景图片
+        $background_image_data=$public->background_image($nav_id);
+        $this->assign('background_image_data',$background_image_data);
+        //一级分类信息
+        $all_classifyM=D('all_classify');
+        $whereacnav['nav_id']=$nav_id;
+        $all_classify=$all_classifyM->where($whereacnav)->find();
+        $this->assign('all_classify',$all_classify);
+        //二级分类信息
+        $little_classifyM=D('little_classify');
+        $whereacid['ac_id']=$all_classify['ac_id'];
+        $little_classify_res=$little_classifyM->where($whereacid)->select();
+        //二级分类下的文章信息
         $classify_articleM=D('classify_article');
+        $caarr=array();
         for($i=0;$i<count($little_classify_res);$i++){
             $wherelcid['lc_id']=$little_classify_res[$i]['lc_id'];
-            $classify_article=$classify_articleM->where($wherelcid)->find();
-            $caarr[]=$classify_article;
+            $classify_article_res=$classify_articleM->where($wherelcid)->select();
+            $caarr[]=$classify_article_res;
         }
         $this->assign('classify_article_res',$caarr);
-        //头部信息
-        $all_head=$public->allhead($nav_id);
-        $this->assign('all_head',$all_head);
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        $navarr=$this->selnav();
+        $this->assign('navres',$navarr[0]);
+        $this->assign('navarr',$navarr[1]);
+        $this->display();
+    }
+    public function quanwujichengxiangqing(){
+        $nav_id=I('get.nav_id');
+        $this->assign('nav_id',$nav_id);
+        $navM=D('nav');
+        $wherenavid['nav_id']=$nav_id;
+        $navben=$navM->where($wherenavid)->find();
+        $this->assign('navben',$navben);
+        $public=A('Public');
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        //查询轮播信息
+        $lunboData=$public->lunbo($nav_id);
+        $this->assign('lunboData',$lunboData);
+        //底部信息
+        $footer=$public->footer();
+        $this->assign('footer',$footer);
+        //公司简介信息
+        $company_introduceM=D('company_introduce');
+        $company_introduce=$company_introduceM->find();
+        $this->assign('company_introduce',$company_introduce);
+        //背景图片
+        $background_image_data=$public->background_image($nav_id);
+        $this->assign('background_image_data',$background_image_data);
+        //一级分类信息
+        $all_classifyM=D('all_classify');
+        $whereacnav['nav_id']=$nav_id;
+        $all_classify=$all_classifyM->where($whereacnav)->find();
+        $this->assign('all_classify',$all_classify);
+        //二级分类信息
+        $little_classifyM=D('little_classify');
+        $whereacid['lc_id']=I('get.lc_id');
+        $little_classify=$little_classifyM->where($whereacid)->find();
+        $this->assign('little_classify',$little_classify);
+        //二级分类下的文章信息
+        $classify_articleM=D('classify_article');
+        $wherelcid['lc_id']=$little_classify['lc_id'];
+        $classify_article_res=$classify_articleM->where($wherelcid)->select();
+        $this->assign('classify_article_res',$classify_article_res);
+        //最后一个分类的信息
+        $wherelcnav['ac_id']=$all_classify['ac_id'];
+        $little_classify_allres=$little_classifyM->where($wherelcnav)->select();
+        $lcallcount=count($little_classify_allres);
+        //最后二级分类的id
+        $endlcid=$little_classify_allres[$lcallcount-1]['lc_id'];
+        $afterid=I('get.lc_id')+1;
+        while($afterid<=$endlcid){
+            $whereafter['lc_id']=$afterid;
+            $whereafter['ac_id']=$all_classify['ac_id'];
+            $little_classify11=$little_classifyM->where($whereafter)->find();
+            if($little_classify11!=null){
+                $this->assign('little_classify11',$little_classify11);  
+                break;
+            }
+            $afterid++;
+        }
+        //前一个元素
+        $preid=I('get.lc_id')-1;
+        while($preid>0){
+            $wherepre['lc_id']=$preid;
+            $wherepre['ac_id']=$all_classify['ac_id'];
+            $little_classify12=$little_classifyM->where($wherepre)->find();
+            if($little_classify12!=null){
+                $this->assign('little_classify12',$little_classify12);
+                break;
+            }
+            $preid--;
+        }
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        $navarr=$this->selnav();
+        $this->assign('navres',$navarr[0]);
+        $this->assign('navarr',$navarr[1]);
+        $this->display();
+    }
+    public function chanpinxiangqing(){
+        $nav_id=I('get.nav_id');
+        $this->assign('nav_id',$nav_id);
+        $navM=D('nav');
+        $wherenavid['nav_id']=$nav_id;
+        $navben=$navM->where($wherenavid)->find();
+        $this->assign('navben',$navben);
+        $public=A('Public');
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        //查询轮播信息
+        $lunboData=$public->lunbo($nav_id);
+        $this->assign('lunboData',$lunboData);
+        //底部信息
+        $footer=$public->footer();
+        $this->assign('footer',$footer);
+        //公司简介信息
+        $company_introduceM=D('company_introduce');
+        $company_introduce=$company_introduceM->find();
+        $this->assign('company_introduce',$company_introduce);
+        //背景图片
+        $background_image_data=$public->background_image($nav_id);
+        $this->assign('background_image_data',$background_image_data);
+        //产品分类
+        $product_classifyM=D('product_classify');
+         $product_classify_res=$product_classifyM->order('pc_sort desc')->select();
+         $this->assign('product_classify_res',$product_classify_res);
+         //该分类信息
+         $pc_id=I('get.pc_id');
+         $wherepc11['pc_id']=$pc_id;
+         $product_classify11=$product_classifyM->where($wherepc11)->find();
+         $this->assign('product_classify11',$product_classify11);
+         //产品详情
+         $productM=D('product');
+         $whereAC['pid']=I('get.pid');
+         $product11=$productM->where($whereAC)->find();
+         $this->assign('product11',$product11);
+         //该分类下的所有数据信息
+         $wherepcidq['pc_id']=$product_classify11['pc_id'];
+         $product_res=$productM->where($whereAC)->select();
+         $this->assign('product_res',$product_res); 
+         //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        $navarr=$this->selnav();
+        $this->assign('navres',$navarr[0]);
+        $this->assign('navarr',$navarr[1]);
+        $this->display();
+    }
+    public function quanwujichengzhengzhuang(){
+        //获取导航ID
+        $nav_id=I('get.nav_id');
+        $this->assign('nav_id',$nav_id);
+        //查询本导航
+        $navM=D('nav');
+        $wherenavid11['nav_id']=$nav_id;
+        $navben=$navM->where($wherenavid11)->find();
+        $this->assign('navben',$navben);
+
+        $public=A('Public');
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        //查询轮播信息
+        $lunboData=$public->lunbo($nav_id);
+        $this->assign('lunboData',$lunboData);
+        //底部信息
+        $footer=$public->footer();
+        $this->assign('footer',$footer);
+        //公司简介信息
+        $company_introduceM=D('company_introduce');
+        $company_introduce=$company_introduceM->find();
+        $this->assign('company_introduce',$company_introduce);
+        //背景图片
+        $background_image_data=$public->background_image($nav_id);
+        $this->assign('background_image_data',$background_image_data);
+        //查询导航信息
+        $navres=$public->nav();
+        $this->assign('navres',$navres);
+        $navarr=$this->selnav();
+        $this->assign('navres',$navarr[0]);
+        $this->assign('navarr',$navarr[1]);
         $this->display();
     }
     //查询导航

@@ -5,31 +5,91 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<meta name="flexible" content="initial-dpr=2" />
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/reset.css" />
-		<link rel="stylesheet" type="text/css" href="css/index.css" />
-		<link rel="stylesheet" type="text/css" href="css/swiper.css" />
-		<link rel="stylesheet" type="text/css" href="layui-v2.4.5/layui/css/layui.css" />
+		<title>{$navben.nav_name}</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/index.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/swiper.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/layui-v2.4.5/layui/css/layui.css" />
 		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
 	</head>
 
 	<body>
 		<!--头部-->
-		<div class="top">
-			<div class="Catalog">
-				<img src="img/xian.png" alt="..." />
+		<div class="top_big">
+			<div class="top">
+				<div class="Catalog">
+					<a href="javascript:;"><img src="__PUBLIC__/mobile/img/xian.png" alt="..." /></a>
+				</div>
+				<div class="logo">
+					<div><img src="{$company_introduce.ci_logo}" alt="..." /></div>
+					<div>博越智能家居</div>
+				</div>
+				<div class="phone">
+					<a href="tel:0147-88469258"><img src="__PUBLIC__/mobile/img/phone.png" alt="..." /></a>
+				</div>
 			</div>
-			<div class="logo">
-				<div><img src="img/img83.png" alt="..." /></div>
-				<div>博越智能家居</div>
-			</div>
-			<div class="phone">
-				<a href="tel:0147-88469258"><img src="img/phone.png" alt="..." /></a>
+		</div>
+		<div class="nav hide">
+			<div class="guanbi"><img src="__PUBLIC__/mobile/img/close.png" alt="..." /></div>
+			<div class="Navigationbar">
+				<ul>
+					<volist name="navres" id="navs" key="k">
+						<if condition="$navs.nav_url eq ''">
+							<li>
+								<a href="javascript:;">{$navs.nav_name}</a>
+								<if condition="$navarr[$k-1] eq null">
+									<else/>
+									<ul class="Arrow hide">
+										<volist name="navarr[$k-1]" id="nav11">
+											<if condition="$nav11.nav_url eq ''">
+												<li>
+													<a href="javascript:;">{$nav11.nav_name}</a>
+												</li>
+												<else/>
+												<li>
+													<a href="{$nav11.nav_url}/nav_id/{$nav11.nav_id}">{$nav11.nav_name}</a>
+												</li>
+											</if>
+										</volist>
+									</ul>
+									<span class="down">
+										<img src="__PUBLIC__/mobile/img/down.png" alt="..."/>
+										<img src="__PUBLIC__/mobile/img/up.png" alt="..." class="hide"/>
+									</span>
+								</if>
+							</li>
+							<else/>
+							<li>
+								<a href="{$navs.nav_url}/nav_id/{$navs.nav_id}">{$navs.nav_name}</a>
+								<if condition="$navarr[$k-1] eq null">
+									<else/>
+									<ul class="Arrow hide">
+										<volist name="navarr[$k-1]" id="nav11">
+											<if condition="$nav11.nav_url eq ''">
+												<li>
+													<a href="javascript:;">{$nav11.nav_name}</a>
+												</li>
+												<else/>
+												<li>
+													<a href="{$nav11.nav_url}/nav_id/{$nav11.nav_id}">{$nav11.nav_name}</a>
+												</li>
+											</if>
+										</volist>
+									</ul>
+									<span class="down">
+									<img src="__PUBLIC__/mobile/img/img/down.png" alt="..."/>
+									<img src="__PUBLIC__/mobile/img/img/up.png" alt="..." class="hide"/>
+								</span>
+								</if>
+							</li>
+						</if>
+					</volist>
+				</ul>
 			</div>
 		</div>
 		<!--banner图-->
 		<div class="banner">
-			<img src="img/banner1.png" />
+			<img src="__PUBLIC__/mobile/img/banner1.png" />
 		</div>
 		<!--博越资讯-->
 		<div class="About_title">
@@ -39,12 +99,11 @@
 		</div>
 		<div class="dynamic">
 			<div class="dynamic_title">
-				<div>
-					<a href="javascript:;">企业动态</a>
-				</div>
-				<div>
-					<a href="javascript:;">行业新闻</a>
-				</div>
+				<volist name="little_classify_res" id="little_classify">
+					<div>
+						<a href="javascript:;">{$little_classify.lc_name}<input type="hidden" value="{$little_classify.lc_id}" class="lc_id" /></a>
+					</div>
+				</volist>
 			</div>
 			<div class="dynamic_content">
 				<div class="dynamicCon">
@@ -100,29 +159,14 @@
 					</a>
 				</div>
 			</div>
+			<div id="demo1"></div>
 		</div>
 		<!--底部-->
-		<div class="footer">
-			<div class="gray">全国统一联系热线</div>
-			<div>029-81707767</div>
-			<div class="gray">我们的地址</div>
-			<div>陕西省西安市浐灞生态区欧亚大道西段欧亚国际A座1227</div>
-			<div class="Scavenging">
-				<div class="Scavenging_left">
-					<div><img src="img/5.png" alt="..." /></div>
-					<div>官方微信</div>
-				</div>
-				<div class="Scavenging_left">
-					<div><img src="img/5.png" alt="..." /></div>
-					<div>官方微信</div>
-				</div>
-			</div>
-			<div class="gray last">版权所有 2018 陕西博越智能科技有限公司</div>
-			<div class="gray last">陕ICP备12007852号-2&nbsp;&nbsp;&nbsp;技术支持：泰雁科技</div>
-		</div>
+		<include file="Public/footer" />
 		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="__PUBLIC__/Mobile/layui-v2.4.5/layui/layui.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
-			$(function(){
+			$(function() {
 				$('.dynamic_title>div').mouseenter(function() {
 					$(this).children('a').css({
 						'background': '#014a96',
@@ -130,7 +174,8 @@
 					})
 					var ind = $(this).index();
 					console.log('下标为', ind);
-					$('.dynamic_content').children('div').eq(ind).show().siblings().hide();
+//					$('.dynamic_content').children('div').eq(ind).show().siblings().hide();
+
 				})
 				$('.dynamic_title>div').mouseleave(function() {
 					$(this).children('a').css({
@@ -138,6 +183,166 @@
 						'color': '#000'
 					})
 				});
+				$('.Catalog').click(function() {
+					$('.nav').show();
+				});
+				$('.guanbi').click(function() {
+					$('.nav').hide();
+				});
+				var toggle = true;
+				$(".down").click(function() {
+					if(toggle) {
+						$(this).children("img").attr("src", "__PUBLIC__/mobile/img/up.png");
+						toggle = false;
+						$(this).siblings('ul').show();
+					} else {
+						$(this).children("img").attr("src", "__PUBLIC__/mobile/img/down.png");
+						toggle = true;
+						$(this).siblings('ul').hide();
+					}
+				});
+				var hei = $(window).height();
+				var nav_hei = $('.nav').height(hei);
+				
+				
+				var lc_id=$('.lc_id').val();
+				$.ajax({
+					type: "post",
+					url: "/index.php/Mobile/Public/newsdata",
+					async: true,
+					data: {
+						'lc_id': lc_id,
+						'p': 1
+					},
+					success: function(data) {
+						console.log('uuu', data);
+						layui.use(['laypage', 'layer'], function() {
+							var laypage = layui.laypage,
+								layer = layui.layer;
+							//完整功能
+							laypage.render({
+								elem: 'demo1',
+								count: data.allpage,
+								theme: '#024b97',
+								limit: 1,
+								jump: function(obj, first) {
+									console.log('回复哈哈哈', obj);
+									var ind = $('#demo1>div>a').length;
+									var len = $('#demo1>div>span').length;
+									for(var k = 0; k < ind; k++) {
+										var hhh = $('#demo1>div').children('a').eq(k - 1).outerWidth(true);
+									}
+									for(var i = 0; i < len; i++) {
+										var sss = $('#demo1>div').children('span').eq(i - 1).outerWidth(true);
+									}
+									var kkk = hhh * ind;
+									var ooo = sss * len;
+									var wid = kkk + ooo;
+									var widt = $("#demo1").width(wid + 2);
+									$('#demo1').css({
+										'margin': '0 auto'
+									});
+									$.ajax({
+										url: '/index.php/Mobile/Public/newsdata',
+										type: 'post',
+										data: {
+											'lc_id': lc_id,
+											'p': obj.curr
+										},
+										dataType: 'json',
+										success: function(data) {
+											$(".dynamicCon").children().remove();
+											for(var i = 0; i < data.classify_article_res.length; i++) {
+												var con = '<a href="javascript:;"><div class="trend-right"><div>' +
+													data.classify_article_res[i].ca_title +
+													'</div><div>' + data.classify_article_res[i].ca_content +
+													'</div><div>查看详情<span>>></span></div></div></a>';
+												$('.dynamicCon').append(con);
+											}
+										},
+										error: function() {
+											alert('请求异常！');
+										}
+									})
+								}
+							});
+						});
+					},
+					error: function() {
+						alert('pppppp');
+					}
+				});
+				$('.dynamic_title>div>a').click(function() {
+					var lc_id = $(this).children('input').val();
+					console.log('oooo', lc_id);
+					$.ajax({
+						type: "post",
+						url: "/index.php/Mobile/Public/newsdata",
+						async: true,
+						data: {
+							'lc_id': lc_id,
+							'p': 1
+						},
+						success: function(data) {
+							console.log('uuu', data);
+							layui.use(['laypage', 'layer'], function() {
+								var laypage = layui.laypage,
+									layer = layui.layer;
+								//完整功能
+								laypage.render({
+									elem: 'demo1',
+									count: data.allpage,
+									theme: '#024b97',
+									limit: 1,
+									jump: function(obj, first) {
+										console.log('回复哈哈哈', obj);
+										var ind = $('#demo1>div>a').length;
+										var len = $('#demo1>div>span').length;
+										for(var k = 0; k < ind; k++) {
+											var hhh = $('#demo1>div').children('a').eq(k - 1).outerWidth(true);
+										}
+										for(var i = 0; i < len; i++) {
+											var sss = $('#demo1>div').children('span').eq(i - 1).outerWidth(true);
+										}
+										var kkk = hhh * ind;
+										var ooo = sss * len;
+										var wid = kkk + ooo;
+										var widt = $("#demo1").width(wid + 2);
+										$('#demo1').css({
+											'margin': '0 auto'
+										});
+										$.ajax({
+											url: '/index.php/Mobile/Public/newsdata',
+											type: 'post',
+											data: {
+												'lc_id': lc_id,
+												'p': obj.curr
+											},
+											dataType: 'json',
+											success: function(data) {
+												$(".dynamicCon").children().remove();
+												for(var i = 0; i < data.classify_article_res.length; i++) {
+													var con = '<a href="javascript:;"><div class="trend-right"><div>' +
+														data.classify_article_res[i].ca_title +
+														'</div><div>' + data.classify_article_res[i].ca_content +
+														'</div><div>查看详情<span>>></span></div></div></a>';
+													$('.dynamicCon').append(con);
+												}
+											},
+											error: function() {
+												alert('请求异常！');
+											}
+										})
+									}
+								});
+							});
+						},
+						error: function() {
+							alert('pppppp');
+						}
+					});
+				})
+
 			})
 		</script>
 	</body>

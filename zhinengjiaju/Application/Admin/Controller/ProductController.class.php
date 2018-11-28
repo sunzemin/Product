@@ -16,6 +16,15 @@ class ProductController extends CommonController{
          $allcount=count($product_classify_count);
          $page=ceil($allcount/10);
          $this->assign('page',$page);
+         $navM=D('nav');
+         $navarr=array();
+         for($i=0;$i<count($product_classify_res);$i++){
+        	$whereBB['nav_id']=$product_classify_res[$i]['nav_id'];
+        	$navs1=$navM->where($whereBB)->find();
+        	$navarr[]=$navs1;
+        }
+        
+        $this->assign('navarr',$navarr);
          $this->display();
     }
     //=============================================
@@ -26,6 +35,7 @@ class ProductController extends CommonController{
             $product_classifyM=D('product_classify');
             $data['pc_name']=I('post.pc_name');
             $data['pc_sort']=I('post.pc_sort');
+            $data['nav_id']=I('post.nav_id');
             $addres=$product_classifyM->add($data);
             if($addres){
                 $this->success('保存成功',U('Product/product_classify',array('p'=>$p)));
@@ -34,6 +44,18 @@ class ProductController extends CommonController{
             }
             exit;
         }
+        $navM=D('nav');
+        $whereAA['nav_fid']=0;
+        $navres=$navM->where($whereAA)->select();
+        $this->assign('navres',$navres);
+        $navarr=array();
+        for($i=0;$i<count($navres);$i++){
+        	$whereBB['nav_fid']=$navres[$i]['nav_id'];
+        	$navsec=$navM->where($whereBB)->select();
+        	$navarr[]=$navsec;
+        }
+        $this->assign('navarr',$navarr);
+        //dump($navarr);
         $this->display();
     }
     //=============================================
@@ -45,6 +67,7 @@ class ProductController extends CommonController{
             $whereBB['pc_id']=I('post.pc_id');
             $data['pc_name']=I('post.pc_name');
             $data['pc_sort']=I('post.pc_sort');
+            $data['nav_id']=I('post.nav_id');
             $saveres=$product_classifyM->where($whereBB)->save($data);
             if($saveres){
                 $this->success('保存成功',U('Product/product_classify',array('p'=>$p)));
@@ -57,6 +80,21 @@ class ProductController extends CommonController{
         $whereAA['pc_id']=I('get.pc_id');
         $product_classify=$product_classifyM->where($whereAA)->find();
         $this->assign('product_classify',$product_classify);
+        $navM=D('nav');
+        $whereAA['nav_fid']=0;
+        $navres=$navM->where($whereAA)->select();
+        $this->assign('navres',$navres);
+        $navarr=array();
+        for($i=0;$i<count($navres);$i++){
+        	$whereBB['nav_fid']=$navres[$i]['nav_id'];
+        	$navsec=$navM->where($whereBB)->select();
+        	$navarr[]=$navsec;
+        }
+        $this->assign('navarr',$navarr);
+        //查询宝航的导航信息
+        $whereCC['nav_id']=$product_classify['nav_id'];
+        $navs=$navM->where($whereCC)->find();
+        $this->assign('navs',$navs);
         $this->display();
     }
     //================================================

@@ -6,16 +6,7 @@
 		<meta name="author" content="Bright2017" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>
-			<if condition="$case neq null">
-				{$case.title}
-				<else/>
-			</if>
-			<if condition="$classify_article neq null">
-				{$classify_article.ca_title}
-				<else/>
-			</if>
-		</title>
+		<title>博越智能家居-新闻详情</title>
 		<link rel="icon" href="__PUBLIC__/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="__PUBLIC__/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/reset.css" />
@@ -66,7 +57,7 @@
 				<else/>
 				</if>
 				<if condition="$case neq null">
-					{$case.content}
+					{$precase.content}
 					<else/>
 				</if>
 			</div>
@@ -80,7 +71,7 @@
 				<if condition="$classify_article11 eq null">
 					<div><a>下一篇：无</a></div>
 					<else/>
-					<div><a href="/index.php/Home/Index/xinwenxiangqing/ca_id/{$classify_article11.ca_id}/nav_id/{$nav_id}">下一篇：{$classify_article11.ca_title}</a></div>
+					<div><a href="/index.php/Home/Index/xinwenxiangqing/ca_id/{$classify_article11.ca_id}/nav_id/{$nav_id}">上一篇：{$classify_article11.ca_title}</a></div>
 				</if>
 				<else/>
 				</if>
@@ -93,7 +84,7 @@
 				<if condition="$nextid eq 0">
 					<div><a>下一篇：无</a></div>
 					<else/>
-					<div><a href="/index.php/Home/Index/xinwenxiangqing/id/{$nextcase.id}/nav_id/{$nav_id}">下一篇：{$nextcase.title}</a></div>
+					<div><a href="/index.php/Home/Index/xinwenxiangqing/id/{$nextcase.id}/nav_id/{$nav_id}">上一篇：{$nextcase.title}</a></div>
 				</if>
 				<else/>
 				</if>

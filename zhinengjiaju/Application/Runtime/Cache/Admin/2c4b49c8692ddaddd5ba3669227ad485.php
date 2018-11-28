@@ -50,8 +50,8 @@
 					<?php if(is_array($navarr[$k-1])): $i = 0; $__LIST__ = $navarr[$k-1];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vos): $mod = ($i % 2 );++$i;?><option style="color: red;" value="<?php echo ($vos["nav_id"]); ?>"><?php echo ($vos["nav_name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; endforeach; endif; else: echo "" ;endif; ?>
 			</select>
 		</li>
-					
-	    <!-- <li><label><b>*</b>链接</label><input name="lb_url" type="text" class="dfinput" value="" /></li> -->
+		<li><label><b>*</b>链接</label><input name="lb_url" type="text" class="dfinput" value="" /></li>			
+	    <!--  -->
 	    <!-- <li><label><b>*</b>pc/Mobile</label>
 	    	<select class="dfinput" name="lb_flag">
 	    		<option value="0">PC</option>

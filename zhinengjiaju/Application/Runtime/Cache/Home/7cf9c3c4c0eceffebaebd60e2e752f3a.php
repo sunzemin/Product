@@ -6,7 +6,7 @@
 		<meta name="author" content="Bright2017" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title><?php echo ($navben["nav_name"]); ?></title>
+		<title>博越智能家居-品牌荣誉</title>
 		<link rel="icon" href="/Public/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="/Public/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" type="text/css" href="/Public/Home/css/reset.css" />
@@ -24,7 +24,7 @@
 		<header>
 			<div class="hraderCent">
 				<div class="hraderCent-left">
-					<img src="<?php echo ($company_introduce["ci_logo"]); ?>" alt="img" />
+					<img src="/Public/Home/img/logo.png" alt="img" />
 				</div>
 				<div class="hraderCent-right">
 					<div class="hraderCent-top">
@@ -70,7 +70,7 @@
 						</li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
 			</ul>
 		</div>
-		<div class="banner"><img src="<?php echo ($background_image_data[0]["bi_image"]); ?>" alt="..." /></div>
+		<div class="banner"><img src="/Public/Home/img/banner.png" alt="..." /></div>
 		<!--内容-->
 		<input type="text" class="lc_id" value="<?php echo ($lc_id); ?>" />
 		<section>

@@ -4,7 +4,8 @@ use Think\Controller;
 class PublicController extends Controller{
 	public function nav(){
 		$navM=D('nav');
-		$navres=$navM->order('nav_sort desc')->select();
+        $wherefid['nav_fid']=0;
+		$navres=$navM->where($wherefid)->order('nav_sort desc')->select();
 		return $navres;
 	}
 	public function lunbo($k=0){
@@ -109,12 +110,12 @@ class PublicController extends Controller{
         //品牌介绍
         $classify_articleM=D('classify_article');
         $wherecaid['lc_id']=$lc_id;
-        $classify_article_res=$classify_articleM->where($wherecaid)->order('ca_sort desc')->page($p,1)->select();
+        $classify_article_res=$classify_articleM->where($wherecaid)->order('ca_sort desc')->page($p,10)->select();
         //数据的总条数
         $classify_article_count=$classify_articleM->where($wherecaid)->order('ca_sort desc')->select();
         $allcount=count($classify_article_count);
         //总页数
-        $allpage=ceil($allcount/1);
+        $allpage=ceil($allcount/10);
         
         
         //查询分类名称

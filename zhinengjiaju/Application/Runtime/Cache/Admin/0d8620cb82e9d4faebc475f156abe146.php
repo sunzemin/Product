@@ -35,7 +35,7 @@ function del(){
             <tr>
             <th>编号</th>
             <th>分类名称</th>
-           
+            <th>所属导航</th>
             <th>排序</th>
             <th>操作</th>
             </tr>
@@ -45,7 +45,7 @@ function del(){
                 <?php if(is_array($product_classify_res)): $k = 0; $__LIST__ = $product_classify_res;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><tr>
                         <td><?php echo ($k); ?></td>
                         <td><?php echo ($vo["pc_name"]); ?></td>
-                     
+                        <td><?php echo ($navarr[$k-1]["nav_name"]); ?></td>
                         <td><?php echo ($vo["pc_sort"]); ?></td>
                         <td>
                              <a href="/index.php/Admin/Product/product/pc_id/<?php echo ($vo["pc_id"]); ?>/p/1">文章管理</a> 
@@ -62,7 +62,7 @@ function del(){
                 <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Product/product_classify/p/<?php echo ($p-1); ?>" style="margin-left: 20px;"><<</a></li><?php endif; ?>
             
             <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Product/product_classify/p/1" style="margin-left: 20px;">首页</a></li>
-            <?php $__FOR_START_30840__=1;$__FOR_END_30840__=$page+1;for($i=$__FOR_START_30840__;$i < $__FOR_END_30840__;$i+=1){ ?><li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Product/product_classify/p/<?php echo ($i); ?>" style="margin-left: 20px;"><?php echo ($i); ?></a></li><?php } ?>
+            <?php $__FOR_START_23607__=1;$__FOR_END_23607__=$page+1;for($i=$__FOR_START_23607__;$i < $__FOR_END_23607__;$i+=1){ ?><li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Product/product_classify/p/<?php echo ($i); ?>" style="margin-left: 20px;"><?php echo ($i); ?></a></li><?php } ?>
             
             <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Product/product_classify/p/<?php echo ($page); ?>" style="margin-left: 20px;">尾页</a></li>
             <?php if($p == $page): ?><li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/Product/product_classify/p/<?php echo ($page); ?>" style="margin-left: 20px;">>></a></li>

@@ -13,7 +13,7 @@
 <script type="text/javascript">
     var editor;
     KindEditor.ready(function(k){
-        editor=k.create('textarea[name="sa_advantage_content"]',{
+        editor=k.create('textarea[name="ac_content"]',{
             filterMode:false
         })
         var editor = k.editor({
@@ -55,6 +55,9 @@
             <option value="0">不推荐到首页</option>
             <option value="1">推荐到首页</option>
         </select>
+    </li>
+    <li><label><b>*</b>头部信息</label>
+        <textarea name="ac_content" class="dfinput" style="width: 500px;height: 400px;"></textarea>
     </li>
     <li><label><b>*</b>排序</label><input name="ac_sort" type="text" class="dfinput" value="" /></li>
     <li><label>&nbsp;</label><input name="submit" type="submit" class="btn" value="确认保存"/></li>

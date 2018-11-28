@@ -6,7 +6,7 @@
 		<meta name="author" content="Bright2017" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title><?php echo ($navben["nav_name"]); ?></title>
+		<title>博越智能家居</title>
 		<link rel="icon" href="/Public/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="/Public/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" type="text/css" href="/Public/Home/css/reset.css" />
@@ -56,15 +56,14 @@
 </script>
 				</div>
 			</div>
-			
+
 		</header>
 		<!--内容-->
 		<section>
 			<div class="combination">
 				<div class="combination-center">
-					<div><?php echo ($all_head["ah_title1"]); ?></div>
-					<div><?php echo ($all_head["ah_title2"]); ?></div>
-					<div><?php echo ($all_head["ah_title3"]); ?></div>
+					<div>“随心所欲&nbsp;&nbsp;&nbsp;自由组合&nbsp;&nbsp;&nbsp;一键调控”</div>
+					<div>提供多种场景选择，用户可以根据自身需要和生活习惯，配置相应的场景，满足高端定制需求</div>
 					<div class="experience"></div>
 				</div>
 				<div id="demo2"></div>
@@ -122,7 +121,6 @@
 				//点击上下页加载
 				var p = 1;
 				var btn = Number($('#btn').val());
-				console.log(p, btn);
 				$.ajax({
 					url: '/index.php/Home/Public/selAllData',
 					dataType: 'json',
@@ -132,7 +130,6 @@
 						'p': p
 					},
 					success: function(data) {
-						console.log('数据', data.classify_article_res);
 						//分页方法
 						layui.use(['laypage', 'layer'], function() {
 							var laypage = layui.laypage,
@@ -161,20 +158,25 @@
 										'margin': '0 auto'
 									});
 									$.ajax({
-										url: '/index.php/Home/Public/selAllData?p=' + obj.curr + '&nav_id=' + btn,
+										url: '/index.php/Home/Public/selAllData',
 										dataType: 'json',
-										type: 'get',
+										type: 'post',
+										data: {
+											'nav_id': btn,
+											'p': obj.curr
+										},
 										success: function(data) {
 											$(".experience").children().remove();
-											console.log('jjjjj', data);
 											for(var i = 0; i < data.little_classify_res.length; i++) {
-												var con = '<a href="javascript:;"><div class = "experience-center"><div><img src ="'+data.classify_article_res[i].ca_image+
-												'"alt = "..." / ></div><div></div><div></div><div class = "experience-pos"><div><img src = "/Public/Home/img/img57.png" alt = "" /></div><div>'
-												+data.classify_article_res[i].ca_title+'</div></div></div></a>';
-												$('.experience').append(con);
+												for(var f = 0; f < data.classify_article_res.length; f++) {
+													var con = '<a href="/Public/mobile/mv/mp.mp4"><div class = "experience-center"><div><img src ="' +
+															data.classify_article_res[f].ca_image +
+														'"alt = "..." / ></div><div></div><div></div><div class = "experience-pos"><div><img src = "/Public/Home/img/img57.png" alt = "" /></div><div>' +
+														data.little_classify_res[i].lc_name +'体验中心' 
+														'</div></div></div></a>';
+													$('.experience').append(con);
+												}
 											}
-											$('.experience').append(con);
-
 										},
 										error: function() {
 											alert('hghfhhhffh');
@@ -188,7 +190,6 @@
 						alert('desrtg');
 					}
 				});
-
 			});
 		</script>
 	</body>

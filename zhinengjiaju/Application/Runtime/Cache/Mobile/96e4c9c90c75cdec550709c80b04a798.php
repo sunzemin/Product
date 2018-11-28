@@ -56,23 +56,23 @@
 		</div>
 		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 		<script type="text/javascript">
-			$(function() {
-				var toggle = true;
-				$(".down").click(function() {
-					if(toggle) {
-						$(this).children("img").attr("src", "/Public/mobile/img/up.png");
-						toggle = false;
-						$(this).siblings('ul').show();
-					} else {
-						$(this).children("img").attr("src", "/Public/mobile/img/down.png");
-						toggle = true;
-						$(this).siblings('ul').hide();
-					}
-				});
-				$('.guanbi').click(function(){
-//					$('.nav').hide();
-				})
-			});
+//			$(function() {
+//				var toggle = true;
+//				$(".down").click(function() {
+//					if(toggle) {
+//						$(this).children("img").attr("src", "/Public/mobile/img/up.png");
+//						toggle = false;
+//						$(this).siblings('ul').show();
+//					} else {
+//						$(this).children("img").attr("src", "/Public/mobile/img/down.png");
+//						toggle = true;
+//						$(this).siblings('ul').hide();
+//					}
+//				});
+////				$('.guanbi').click(function(){
+////					$('.nav').hide();
+////				})
+//			});
 		</script>
 	</body>
 

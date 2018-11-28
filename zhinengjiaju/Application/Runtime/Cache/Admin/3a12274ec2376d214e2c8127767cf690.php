@@ -25,7 +25,7 @@ function del(){
         <div class="tools">
             <ul class="toolbar">
                 <a href="/index.php/Admin/HomeManage/home_decorate_title_add/p/<?php echo ($p); ?>">
-                <li class="click"><span><img src="/Public/admin/images/pic/t01.png" /></span>添加案例信息</li>
+                <li class="click"><span><img src="/Public/admin/images/pic/t01.png" /></span>添加图标信息</li>
                 </a>
             </ul>
         </div>
@@ -55,17 +55,17 @@ function del(){
         </table>
         <?php if($page == ''): else: ?>
             <ul class="pageul" style="border:1px solid pink;float: left;margin-top: 20px;">
-            <?php if($p == 1): ?><li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/home_decorate/p/1" style="margin-left: 20px;"><<</a></li>
+            <?php if($p == 1): ?><li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/home_decorate_title/p/1" style="margin-left: 20px;"><<</a></li>
                 <?php else: ?>
-                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/home_decorate/p/<?php echo ($p-1); ?>" style="margin-left: 20px;"><<</a></li><?php endif; ?>
+                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/home_decorate_title/p/<?php echo ($p-1); ?>" style="margin-left: 20px;"><<</a></li><?php endif; ?>
             
-            <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/home_decorate/p/1" style="margin-left: 20px;">首页</a></li>
-            <?php $__FOR_START_1661__=1;$__FOR_END_1661__=$page+1;for($i=$__FOR_START_1661__;$i < $__FOR_END_1661__;$i+=1){ ?><li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/home_decorate/p/<?php echo ($i); ?>" style="margin-left: 20px;"><?php echo ($i); ?></a></li><?php } ?>
+            <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/home_decorate_title/p/1" style="margin-left: 20px;">首页</a></li>
+            <?php $__FOR_START_26593__=1;$__FOR_END_26593__=$page+1;for($i=$__FOR_START_26593__;$i < $__FOR_END_26593__;$i+=1){ ?><li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/home_decorate_title/p/<?php echo ($i); ?>" style="margin-left: 20px;"><?php echo ($i); ?></a></li><?php } ?>
             
-            <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/home_decorate/p/<?php echo ($page); ?>" style="margin-left: 20px;">尾页</a></li>
-            <?php if($p == $page): ?><li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/home_decorate/p/<?php echo ($page); ?>" style="margin-left: 20px;">>></a></li>
+            <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/home_decorate_title/p/<?php echo ($page); ?>" style="margin-left: 20px;">尾页</a></li>
+            <?php if($p == $page): ?><li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/home_decorate_title/p/<?php echo ($page); ?>" style="margin-left: 20px;">>></a></li>
                 <?php else: ?>
-                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/home_decorate/p/<?php echo ($p+1); ?>" style="margin-left: 20px;">>></a></li><?php endif; ?>
+                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/home_decorate_title/p/<?php echo ($p+1); ?>" style="margin-left: 20px;">>></a></li><?php endif; ?>
             
         </ul><?php endif; ?>
         

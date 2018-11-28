@@ -15,9 +15,10 @@
 
 	<body>
 		<!--头部-->
-		<div class="top">
+		<div class="top_big">
+			<div class="top">
 			<div class="Catalog">
-				<a href="/index.php/Mobile/Index/nav"><img src="__PUBLIC__/mobile/img/xian.png" alt="..." /></a>
+				<a href="javascript:;"><img src="__PUBLIC__/mobile/img/xian.png" alt="..." /></a>
 			</div>
 			<div class="logo">
 				<div><img src="{$company_introduce.ci_logo}" alt="..." /></div>
@@ -28,36 +29,93 @@
 				<a href="tel:0147-88469258"><img src="__PUBLIC__/mobile/img/phone.png" alt="..." /></a>
 			</div>
 		</div>
+		</div>
+		
+		<div class="nav hide">
+			<div class="guanbi"><img src="__PUBLIC__/mobile/img/close.png" alt="..." /></div>
+			<div class="Navigationbar">
+				<ul>
+					<volist name="navres" id="navs" key="k">
+						<if condition="$navs.nav_url eq ''">
+							<li>
+								<a href="javascript:;">{$navs.nav_name}</a>
+								<if condition="$navarr[$k-1] eq null">
+									<else/>
+									 <ul class="Arrow hide">
+									<volist name="navarr[$k-1]" id="nav11">
+										<if condition="$nav11.nav_url eq ''">
+											<li>
+												<a href="javascript:;">{$nav11.nav_name}</a>
+											</li>
+											<else/>
+											<li>
+												<a href="{$nav11.nav_url}/nav_id/{$nav11.nav_id}">{$nav11.nav_name}</a>
+											</li>
+										</if>
+									</volist>
+							    	</ul>
+							    	<span class="down">
+										<img src="__PUBLIC__/mobile/img/down.png" alt="..."/>
+										<img src="__PUBLIC__/mobile/img/up.png" alt="..." class="hide"/>
+									</span> 
+								</if>
+							</li>
+							<else/>
+							<li>
+								<a href="{$navs.nav_url}/nav_id/{$navs.nav_id}">{$navs.nav_name}</a>
+								<if condition="$navarr[$k-1] eq null">
+									<else/>
+								 <ul class="Arrow hide">
+								<volist name="navarr[$k-1]" id="nav11">
+									<if condition="$nav11.nav_url eq ''">
+										<li>
+											<a href="javascript:;">{$nav11.nav_name}</a>
+										</li>
+										<else/>
+										<li>
+											<a href="{$nav11.nav_url}/nav_id/{$nav11.nav_id}">{$nav11.nav_name}</a>
+										</li>
+									</if>
+								</volist>
+						    	</ul>
+						    	<span class="down">
+									<img src="__PUBLIC__/mobile/img/img/down.png" alt="..."/>
+									<img src="__PUBLIC__/mobile/img/img/up.png" alt="..." class="hide"/>
+								</span> 
+							     </if>
+							</li>
+						</if>
+					</volist>
+				</ul>
+			</div>
+		</div>
 		<!--轮播-->
-		<div class="swiper-container">
+		<div class="swiper-container" style="margin-top: 54px;">
 			<div class="swiper-wrapper">
 				<volist name="lunboData" id="lunbo">
-					<div class="swiper-slide">
-						<if condition="$k eq 1">
-							   <if condition="$lunbo.nav_url eq ''">
-									<div class="swiper-slide">
-										<a href="javascript:;"><img src="{$lunbo.lb_image}" alt="..." /></a>
-									</div>
-									
-									<else/>
-									<div class="swiper-slide">
-										<a href="{$lunbo.lb_url}"><img src="{$lunbo.lb_image}" alt="..." /></a>
-									</div>
-								</if>
-								<else/>
-								<if condition="$lunbo.nav_url eq ''">
-									<div class="swiper-slide hide">
-										<a href="javascript:;"><img src="{$lunbo.lb_image}" alt="..." /></a>
-									</div>
-									
-									<else/>
-									<div class="swiper-slide hide">
-										<a href="{$lunbo.lb_url}"><img src="{$lunbo.lb_image}" alt="..." /></a>
-									</div>
-								</if>
+					<if condition="$k eq 1">
+						<if condition="$lunbo.nav_url eq ''">
+							<div class="swiper-slide">
+								<a href="javascript:;"><img src="{$lunbo.lb_image}" alt="..." /></a>
+							</div>
+
+							<else/>
+							<div class="swiper-slide">
+								<a href="{$lunbo.lb_url}"><img src="{$lunbo.lb_image}" alt="..." /></a>
+							</div>
 						</if>
-						
-					</div>
+						<else/>
+						<if condition="$lunbo.nav_url eq ''">
+							<div class="swiper-slide hide">
+								<a href="javascript:;"><img src="{$lunbo.lb_image}" alt="..." /></a>
+							</div>
+
+							<else/>
+							<div class="swiper-slide hide">
+								<a href="{$lunbo.lb_url}"><img src="{$lunbo.lb_image}" alt="..." /></a>
+							</div>
+						</if>
+					</if>
 				</volist>
 			</div>
 			<div class="swiper-pagination"></div>
@@ -90,8 +148,8 @@
 
 			<div class="CentMenu">
 				<volist name="product_classify_res" id="product_classify">
-					
-					<a href="javascript:;">{$product_classify.pc_name}</a>
+
+					<a href="javascript:;">{$product_classify.pc_name}<input type="hidden" value="{$product_classify.pc_id}" class="pc_id" /></a>
 				</volist>
 				<!--<a href="javascript:;">智能锁</a>
 				<a href="javascript:;">智能灯泡</a>
@@ -155,7 +213,7 @@
 											<div class="swiper-slide" style="height: 225px;">
 												<img src="{$classify_article11.ca_image}" alt="..." />
 											</div>
-						                </volist>
+										</volist>
 									</div>
 									<div class="swiper-button-next Img1-3"></div>
 									<div class="swiper-button-prev Img1-4"></div>
@@ -169,14 +227,14 @@
 											<div class="swiper-slide" style="height: 225px;">
 												<img src="{$classify_article11.ca_image}" alt="..." />
 											</div>
-						                </volist>
+										</volist>
 									</div>
 									<div class="swiper-button-next Img2-3"></div>
 									<div class="swiper-button-prev Img2-4"></div>
 								</div>
 							</div>
 						</if>
-				    </volist>
+					</volist>
 				</div>
 				<div class="Intelligence-img">
 					<volist name="home_decorate_titleData" id="home_decorate_title">
@@ -208,7 +266,7 @@
 							</a>
 							<div class="Exhibition_wapper_bot">{$case.title}</div>
 						</div>
-						
+
 						<else/>
 						<div class="Exhibition_wapper">
 							<a href="{$case.url}">
@@ -241,28 +299,28 @@
 						<if condition="$k eq 1">
 							<div class="details">
 								<volist name="classify_article_res[1][$k-1]" id="classify_article">
-								<a href="/index.php/Home/Index/xinwenxiangqing/ca_id/{$classify_article.ca_id}/nav_id/{$nav_id}" class="details_news">
-									<div class="details_yuan">
-										<img src="__PUBLIC__/mobile/img/yuan.png" alt="..." />
-										<img src="__PUBLIC__/mobile/img/img2.jpg" alt="..." class="hide" />
-									</div>
-									<div class="details_center">{$classify_article.ca_title}</div>
-									<div class="details_time">{$classify_article.ca_time|date="Y-m-d",###}</div>
-								</a>
-							    </volist>
+									<a href="/index.php/Home/Index/xinwenxiangqing/ca_id/{$classify_article.ca_id}/nav_id/{$nav_id}" class="details_news">
+										<div class="details_yuan">
+											<img src="__PUBLIC__/mobile/img/yuan.png" alt="..." />
+											<img src="__PUBLIC__/mobile/img/img2.jpg" alt="..." class="hide" />
+										</div>
+										<div class="details_center">{$classify_article.ca_title}</div>
+										<div class="details_time">{$classify_article.ca_time|date="Y-m-d",###}</div>
+									</a>
+								</volist>
 							</div>
 							<else/>
 							<div class="details hide">
 								<volist name="classify_article_res[1][$k-1]" id="classify_article">
-								<a href="/index.php/Home/Index/xinwenxiangqing/ca_id/{$classify_article.ca_id}/nav_id/{$nav_id}" class="details_news">
-									<div class="details_yuan">
-										<img src="__PUBLIC__/mobile/img/yuan.png" alt="..." />
-										<img src="__PUBLIC__/mobile/img/img2.jpg" alt="..." class="hide" />
-									</div>
-									<div class="details_center">{$classify_article.ca_title}</div>
-									<div class="details_time">{$classify_article.ca_time|date="Y-m-d",###}</div>
-								</a>
-							    </volist>
+									<a href="/index.php/Home/Index/xinwenxiangqing/ca_id/{$classify_article.ca_id}/nav_id/{$nav_id}" class="details_news">
+										<div class="details_yuan">
+											<img src="__PUBLIC__/mobile/img/yuan.png" alt="..." />
+											<img src="__PUBLIC__/mobile/img/img2.jpg" alt="..." class="hide" />
+										</div>
+										<div class="details_center">{$classify_article.ca_title}</div>
+										<div class="details_time">{$classify_article.ca_time|date="Y-m-d",###}</div>
+									</a>
+								</volist>
 							</div>
 						</if>
 					</volist>
@@ -292,16 +350,15 @@
 				</form>
 			</div>
 		</div>
+		<input type="text" value="{$lc_id}" class="lc_id" />
 		<!--底部-->
-		<include file="Public/footer"/>
+		<include file="Public/footer" />
 		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 		<script src="__PUBLIC__/mobile/js/swiper.js" type="text/javascript" charset="utf-8"></script>
 		<script src="__PUBLIC__/mobile/layui-v2.4.5/layui/layui.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			$(function() {
 				//			banner图轮播
-//				var pppp=$(window).width();
-//			alert($(window).width());
 				var swiper = new Swiper('.swiper-container', {
 					pagination: {
 						el: '.swiper-pagination',
@@ -413,41 +470,54 @@
 						'border': '1px solid #999999'
 					});
 				});
-				var len = $('.CentMenu>a').length;
-				console.log('llllllllllll', len);
-				if(len == 5) {
-					$('.CentMenu>a:first-child').css({
-						'margin-left': '1.483rem',
-						'margin-right': '1.3rem',
-						'margig-bottom': '10px'
+				$('.CentMenu>a').click(function() {
+					var pc_id = $('.pc_id').val();
+					$.ajax({
+						type: 'post',
+						data: {
+							'pc_id': pc_id
+						},
+						dataType: 'json',
+						url: '/index.php/Home/Public/selproduct',
+						success: function(data) {
+							console.log('kkk', data.product_res);
+							$('.MenuDataCent').children().remove();
+							var string = '';
+							for(var i = 0; i < data.product_res.length; i++) {
+								var con='<a href="javascript:;"><div class="MenuDataCent-top"><img src="'+
+								data.product_res[i].pimage+
+								'" /></div><div class="MenuDataCent-bot">'+data.product_res[i].pname+'</div></a>';
+								$('.MenuDataCent').append(con);
+							}
+							
+						},
+						error: function() {
+							alert('hhhhh');
+						}
 					})
-					$('.CentMenu>a:nth-child(2)').css({
-						'margin-right': '1.377 rem',
-						'margin-bottom': '10px'
-					})
-				}
-				if(len !== 5) {
-					$('.CentMenu>a').css({
-						'margin-right': '10px',
-						'margig-bottom': '10px'
-					});
-					$('.CentMenu>a:first-child').css({
-						'margin-left': '0',
-						'margig-bottom': '10px'
-					});
-					$('.CentMenu>a:nth-child(3n)').css({
-						'margin-right': '0'
-						//						'margig-bottom':'10px'
-					});
-					var wid = $('.CentMenu>a').outerWidth(true);
-					console.log('oooooo', wid);
-					var widts = wid * len;
-					var widt = $('.CentMenu').outerWidth(widts);
-					$('.CentMenu').css({
-						'margin': '0 auto'
-					})
-				}
 
+				});
+				$('.Catalog').click(function(){
+					$('.nav').show();
+				});
+				$('.guanbi').click(function(){
+					$('.nav').hide();
+				});
+				var toggle = true;
+				$(".down").click(function() {
+					if(toggle) {
+						$(this).children("img").attr("src", "__PUBLIC__/mobile/img/up.png");
+						toggle = false;
+						$(this).siblings('ul').show();
+					} else {
+						$(this).children("img").attr("src", "__PUBLIC__/mobile/img/down.png");
+						toggle = true;
+						$(this).siblings('ul').hide();
+					}
+				});
+				var hei=$(window).height();
+				console.log('gaodu',hei);
+				var nav_hei=$('.nav').height(hei);
 			});
 		</script>
 	</body>

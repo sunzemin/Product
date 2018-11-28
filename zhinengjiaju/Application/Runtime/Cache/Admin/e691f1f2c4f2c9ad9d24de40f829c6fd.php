@@ -30,6 +30,17 @@
                 });
             });
         });
+        k('#image2').click(function() {
+            editor.loadPlugin('image', function() {
+                editor.plugin.imageDialog({
+                    imageUrl : k('#url2').val(),
+                    clickFn : function(url, title, width, height, border, align) {
+                        k('#url2').val(url);
+                        editor.hideDialog();
+                    }
+                });
+            });
+        });
     })
 </script>
 <body>
@@ -46,6 +57,7 @@
     <input name="ca_id" type="hidden" class="dfinput" value="<?php echo ($classify_article["ca_id"]); ?>" />
     <li><label><b>*</b>标题</label><input name="ca_title" type="text" class="dfinput" value="<?php echo ($classify_article["ca_title"]); ?>" /></li>
     <li><label><b>*</b>图片</label><input name="ca_image" type="text" class="dfinput" value="<?php echo ($classify_article["ca_image"]); ?>" id="url1"/><input type="button" id="image1" class="scbtn1" value="选择图片"></li>
+    <li><label><b>*</b>隐藏图片</label><input name="ca_hideimage" type="text" class="dfinput" value="<?php echo ($classify_article["ca_hideimage"]); ?>" id="url2"/><input type="button" id="image2" class="scbtn1" value="选择图片"></li>
     <li><label><b>*</b>简介</label><textarea name="ca_content" type="text" class="dfinput" value="" style="width:500px;height: 400px;"><?php echo ($classify_article["ca_content"]); ?></textarea></li>
     <li><label><b>*</b>动画时间</label><input name="ca_min" type="text" class="dfinput" value="<?php echo ($classify_article["ca_min"]); ?>" placeholder="例如：2s" /></li>
     <li><label><b>*</b>排序</label><input name="ca_sort" type="text" class="dfinput" value="<?php echo ($classify_article["ca_sort"]); ?>" /></li>

@@ -6,7 +6,7 @@
 		<meta name="author" content="Bright2017" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title><?php echo ($navben["nav_name"]); ?></title>
+		<title>博越智能家居-产品中心</title>
 		<link rel="icon" href="/Public/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="/Public/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" type="text/css" href="/Public/Home/css/reset.css" />
@@ -134,9 +134,7 @@
 				//				二级导航改变样式
 				$('.NavigationBack>ul>li').click(function() {
 					var ind = $(this).index();
-					console.log('结构规划', ind);
 					$('.NavigationBack>ul').children('li').eq(ind).addClass('headCorol').siblings().removeClass('headCorol');
-
 				});
 				//				鼠标滑过事件
 				$(document).on('mouseenter', '.lockDisplay', function() {
@@ -155,17 +153,13 @@
 				//页面初始化加载默认分类内容
 				//获取默认第一个分类ID
 				var nav_id=$('.nav_id').val();
-				console.log('lllllllllllll',nav_id);
 				var pc_id = $('.pc_id').val();
 				var pc_name = $('.pc_name').val();
-				console.log('ggggggggggggg', pc_name)
 				//获取页面默认数据总数	
 				$.ajax({
 					url: '/index.php/Home/Public/selproductclassify',
 					type: 'get',
 					success: function(data) {
-
-						console.log('快快快', data);
 						allcontent = data.allcount;
 						layui.use(['laypage', 'layer'], function() {
 							var laypage = layui.laypage,
@@ -202,7 +196,6 @@
 										},
 										async: true,
 										success: function(data) {
-											console.log('大点的', data.product_res);
 											$(".lock").children().remove();
 											for(var n = 0; n < data.product_res.length; n++) {
 												var con = '<a href="/index.php/Home/Index/chanpinxiangqing/nav_id/'+nav_id+'/pc_id/'+pc_id+'/pid/'+data.product_res[n].pid+'"><div class = "lockDisplay"><div><div><img src = "' +
@@ -238,7 +231,6 @@
 							'pc_id': pc_id
 						},
 						success: function(data) {
-							console.log('kkkkkkkkkkk', data.product_classify123.pc_name);
 							if(pc_id == data.product_classify123.pc_id) {
 								$(".ProductCenter-top").children("div").eq(1).text(data.product_classify123.pc_name);
 							}
@@ -258,7 +250,6 @@
 						async: true,
 						success: function(data) {
 							allcontent = data.allcount;
-							console.log('灌灌灌灌', data);
 							layui.use(['laypage', 'layer'], function() {
 								var laypage = layui.laypage,
 									layer = layui.layer;

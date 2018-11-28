@@ -43,7 +43,16 @@
 </div>
 <form method="post" name="form" action="">
 <ul class="forminfo">
+	
     <input name="pc_id" type="hidden" class="dfinput" value="<?php echo ($product_classify["pc_id"]); ?>" />
+    <li><label><b>*</b>选择导航</label>
+		<select name="nav_id" class="dfinput" >
+			<option value="<?php echo ($navs["nav_id"]); ?>"><?php echo ($navs["nav_name"]); ?></option>
+			<?php if(is_array($navres)): $k = 0; $__LIST__ = $navres;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navs): $mod = ($k % 2 );++$k;?><option value="<?php echo ($navs["nav_id"]); ?>"><?php echo ($navs["nav_name"]); ?></option>
+				
+				<?php if(is_array($navarr[$k-1])): $i = 0; $__LIST__ = $navarr[$k-1];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$navsec): $mod = ($i % 2 );++$i;?><option value="<?php echo ($navsec["nav_id"]); ?>" style="color: red;"><?php echo ($navsec["nav_name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; endforeach; endif; else: echo "" ;endif; ?>
+		</select>
+	</li>
     <li><label><b>*</b>分类名称</label><input name="pc_name" type="text" class="dfinput" value="<?php echo ($product_classify["pc_name"]); ?>" /></li>
     <li><label><b>*</b>排序</label><input name="pc_sort" type="text" class="dfinput" value="<?php echo ($product_classify["pc_sort"]); ?>" /></li>
     <li><label>&nbsp;</label><input name="submit" type="submit" class="btn" value="确认保存"/></li>

@@ -6,7 +6,7 @@
 		<meta name="author" content="Bright2017" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title><?php echo ($navben["nav_name"]); ?></title>
+		<title>博越智能家居-新闻资讯</title>
 		<link rel="icon" href="/Public/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="/Public/Home/img/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" type="text/css" href="/Public/Home/css/reset.css" />
@@ -68,19 +68,21 @@
 				</div>
 				<div class="dynamic">
 					<div class="dynamic_title">
-						<div>
+						<!--<div>
 							<a href="javascript:;">企业动态</a>
 						</div>
 						<div>
 							<a href="javascript:;">行业新闻</a>
-						</div>
+						</div>-->
+						<?php if(is_array($little_classify_res)): $i = 0; $__LIST__ = $little_classify_res;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$little_classify): $mod = ($i % 2 );++$i;?><div>
+								<a href="javascript:;"><?php echo ($little_classify["lc_name"]); ?><input type="hidden" value="<?php echo ($little_classify["lc_id"]); ?>" class="lc_id" /></a>
+							</div><?php endforeach; endif; else: echo "" ;endif; ?>
 					</div>
 					<div class="dynamic_content">
 						<div class="dynamicCon hide"></div>
 						<div class="dynamicCon"></div>
 					</div>
 				</div>
-
 				<div id="demo1"></div>
 			</div>
 		</section>
@@ -139,7 +141,7 @@
 					});
 					var ind = $(this).index();
 					console.log('下标为', ind);
-					$('.dynamic_content').children('div').eq(ind).show().siblings().hide();
+					//					$('.dynamic_content').children('div').eq(ind).show().siblings().hide();
 				});
 				$('.dynamic_title>div').mouseleave(function() {
 					$(this).css({
@@ -149,26 +151,24 @@
 				});
 
 				//				分页ajax
-				var lc = $('#btn').val();
-				console.log('id', lc);
+				var lc_id = $('.lc_id').val();
 				$.ajax({
 					type: "post",
 					url: "/index.php/Home/Public/newsdata",
 					async: true,
-					dataType: 'json',
 					data: {
-						'lc_id': lc,
+						'lc_id': lc_id,
 						'p': 1
 					},
 					success: function(data) {
-						console.log('数据为', data);
+						console.log('uuu', data);
 						layui.use(['laypage', 'layer'], function() {
 							var laypage = layui.laypage,
 								layer = layui.layer;
 							//完整功能
 							laypage.render({
 								elem: 'demo1',
-								count: data.allcount,
+								count: data.allpage,
 								theme: '#024b97',
 								limit: 1,
 								jump: function(obj, first) {
@@ -184,7 +184,7 @@
 									var kkk = hhh * ind;
 									var ooo = sss * len;
 									var wid = kkk + ooo;
-									var widt = $("#demo1").width(wid + 80);
+									var widt = $("#demo1").width(wid + 2);
 									$('#demo1').css({
 										'margin': '0 auto'
 									});
@@ -192,21 +192,20 @@
 										url: '/index.php/Home/Public/newsdata',
 										type: 'post',
 										data: {
-											'lc_id': lc,
-											'p': 1
+											'lc_id': lc_id,
+											'p': obj.curr
 										},
 										dataType: 'json',
 										success: function(data) {
-											console.log('还是得好好说说', data.classify_article_res);
 											$(".dynamicCon").children().remove();
 											for(var i = 0; i < data.classify_article_res.length; i++) {
-												var con = '<a href="/index.php/Home/Index/xinwenxiangqing/ca_id/7/nav_id/<?php echo ($nav_id); ?>" class=" animated fadeInUp"><div class="trend_left"><img src="'+
-												data.classify_article_res[i].ca_image+
-												'" alt="..." /></div><div class="trend-right"><div>'+
-												data.classify_article_res[i].ca_title+
-												'</div><div>'+
-												data.classify_article_res[i].ca_content+
-												'</div><div>查看详情<span>>></span></div></div></a>';
+												var con = '<a href="/index.php/Home/Index/xinwenxiangqing/ca_id/7/nav_id/<?php echo ($nav_id); ?>" class=" animated fadeInUp"><div class="trend_left"><img src="' +
+													data.classify_article_res[i].ca_image +
+													'" alt="..." /></div><div class="trend-right"><div>' +
+													data.classify_article_res[i].ca_title +
+													'</div><div>' +
+													data.classify_article_res[i].ca_content +
+													'</div><div>查看详情<span>>></span></div></div></a>';
 												$('.dynamicCon').append(con);
 											}
 										},
@@ -219,9 +218,83 @@
 						});
 					},
 					error: function() {
-						alert('请求异常');
+						alert('pppppp');
 					}
 				});
+
+				$('.dynamic_title>div>a').click(function() {
+					var lc_id = $(this).children('input').val();
+					//					console.log('oooo', lc_id);
+					$.ajax({
+						type: "post",
+						url: "/index.php/Mobile/Public/newsdata",
+						async: true,
+						data: {
+							'lc_id': lc_id,
+							'p': 1
+						},
+						success: function(data) {
+							console.log('uuu', data);
+							layui.use(['laypage', 'layer'], function() {
+								var laypage = layui.laypage,
+									layer = layui.layer;
+								//完整功能
+								laypage.render({
+									elem: 'demo1',
+									count: data.allpage,
+									theme: '#024b97',
+									limit: 1,
+									jump: function(obj, first) {
+										console.log('回复哈哈哈', obj);
+										var ind = $('#demo1>div>a').length;
+										var len = $('#demo1>div>span').length;
+										for(var k = 0; k < ind; k++) {
+											var hhh = $('#demo1>div').children('a').eq(k - 1).outerWidth(true);
+										}
+										for(var i = 0; i < len; i++) {
+											var sss = $('#demo1>div').children('span').eq(i - 1).outerWidth(true);
+										}
+										var kkk = hhh * ind;
+										var ooo = sss * len;
+										var wid = kkk + ooo;
+										var widt = $("#demo1").width(wid + 2);
+										$('#demo1').css({
+											'margin': '0 auto'
+										});
+										$.ajax({
+											url: '/index.php/Mobile/Public/newsdata',
+											type: 'post',
+											data: {
+												'lc_id': lc_id,
+												'p': obj.curr
+											},
+											dataType: 'json',
+											success: function(data) {
+												$(".dynamicCon").children().remove();
+												for(var i = 0; i < data.classify_article_res.length; i++) {
+													var con = '<a href="/index.php/Home/Index/xinwenxiangqing/ca_id/7/nav_id/<?php echo ($nav_id); ?>" class=" animated fadeInUp"><div class="trend_left"><img src="' +
+														data.classify_article_res[i].ca_image +
+														'" alt="..." /></div><div class="trend-right"><div>' +
+														data.classify_article_res[i].ca_title +
+														'</div><div>' +
+														data.classify_article_res[i].ca_content +
+														'</div><div>查看详情<span>>></span></div></div></a>';
+													$('.dynamicCon').append(con);
+												}
+											},
+											error: function() {
+												alert('请求异常！');
+											}
+										})
+									}
+								});
+							});
+						},
+						error: function() {
+							alert('pppppp');
+						}
+					});
+				})
 			});
 		</script>
 	</body>

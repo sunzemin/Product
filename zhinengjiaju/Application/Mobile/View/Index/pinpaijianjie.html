@@ -15,16 +15,76 @@
 
 	<body>
 		<!--头部-->
-		<div class="top">
-			<div class="Catalog">
-				<a href="/index.php/Mobile/Index/nav"><img src="__PUBLIC__/mobile/img/xian.png" alt="..." /></a>
+		<div class="top_big">
+			<div class="top">
+				<div class="Catalog">
+					<a href="javascript:;"><img src="__PUBLIC__/mobile/img/xian.png" alt="..." /></a>
+				</div>
+				<div class="logo">
+					<div><img src="{$company_introduce.ci_logo}" alt="..." /></div>
+					<div>博越智能家居</div>
+				</div>
+				<div class="phone">
+					<a href="tel:0147-88469258"><img src="__PUBLIC__/mobile/img/phone.png" alt="..." /></a>
+				</div>
 			</div>
-			<div class="logo">
-				<div><img src="{$company_introduce.ci_logo}" alt="..." /></div>
-				<div>博越智能家居</div>
-			</div>
-			<div class="phone">
-				<a href="tel:0147-88469258"><img src="__PUBLIC__/mobile/img/phone.png" alt="..." /></a>
+		</div>
+		<div class="nav hide">
+			<div class="guanbi"><img src="__PUBLIC__/mobile/img/close.png" alt="..." /></div>
+			<div class="Navigationbar">
+				<ul>
+					<volist name="navres" id="navs" key="k">
+						<if condition="$navs.nav_url eq ''">
+							<li>
+								<a href="javascript:;">{$navs.nav_name}</a>
+								<if condition="$navarr[$k-1] eq null">
+									<else/>
+									<ul class="Arrow hide">
+										<volist name="navarr[$k-1]" id="nav11">
+											<if condition="$nav11.nav_url eq ''">
+												<li>
+													<a href="javascript:;">{$nav11.nav_name}</a>
+												</li>
+												<else/>
+												<li>
+													<a href="{$nav11.nav_url}/nav_id/{$nav11.nav_id}">{$nav11.nav_name}</a>
+												</li>
+											</if>
+										</volist>
+									</ul>
+									<span class="down">
+										<img src="__PUBLIC__/mobile/img/down.png" alt="..."/>
+										<img src="__PUBLIC__/mobile/img/up.png" alt="..." class="hide"/>
+									</span>
+								</if>
+							</li>
+							<else/>
+							<li>
+								<a href="{$navs.nav_url}/nav_id/{$navs.nav_id}">{$navs.nav_name}</a>
+								<if condition="$navarr[$k-1] eq null">
+									<else/>
+									<ul class="Arrow hide">
+										<volist name="navarr[$k-1]" id="nav11">
+											<if condition="$nav11.nav_url eq ''">
+												<li>
+													<a href="javascript:;">{$nav11.nav_name}</a>
+												</li>
+												<else/>
+												<li>
+													<a href="{$nav11.nav_url}/nav_id/{$nav11.nav_id}">{$nav11.nav_name}</a>
+												</li>
+											</if>
+										</volist>
+									</ul>
+									<span class="down">
+									<img src="__PUBLIC__/mobile/img/img/down.png" alt="..."/>
+									<img src="__PUBLIC__/mobile/img/img/up.png" alt="..." class="hide"/>
+								</span>
+								</if>
+							</li>
+						</if>
+					</volist>
+				</ul>
 			</div>
 		</div>
 		<!--banner图-->
@@ -39,7 +99,7 @@
 		</div>
 		<div class="About_text">
 			<div class="backimg"><img src="__PUBLIC__/mobile/img/img2.png" alt="..." /></div>
-			<div class="introduce introduce1">
+			<div class="introduce1">
 				<div class="introduce_title">
 					<div><img src="__PUBLIC__/mobile/img/g2.png" alt="..." /></div>
 					<div>{$company_introduce.ci_name}</div>
@@ -84,7 +144,7 @@
 			<div id="bth2"><img src="__PUBLIC__/mobile/img/img/img23.png" alt="..." /></div>
 		</div>
 		<!--底部-->
-		<include file="Public/footer"/>
+		<include file="Public/footer" />
 		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 		<script type="text/javascript">
 			//					轮播1 
@@ -137,6 +197,27 @@
 					});
 
 				});
+				$('.Catalog').click(function() {
+					$('.nav').show();
+				});
+				$('.guanbi').click(function() {
+					$('.nav').hide();
+				});
+				var toggle = true;
+				$(".down").click(function() {
+					if(toggle) {
+						$(this).children("img").attr("src", "__PUBLIC__/mobile/img/up.png");
+						toggle = false;
+						$(this).siblings('ul').show();
+					} else {
+						$(this).children("img").attr("src", "__PUBLIC__/mobile/img/down.png");
+						toggle = true;
+						$(this).siblings('ul').hide();
+					}
+				});
+				var hei = $(window).height();
+				console.log('gaodu', hei);
+				var nav_hei = $('.nav').height(hei);
 			})
 		</script>
 	</body>
