@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="flexible" content="initial-dpr=2" />
+		<title><if condition="$case neq null">
+				{$case.title}
+				<else/>
+			</if>
+			<if condition="$little_classify neq null">
+				{$little_classify.lc_name}
+				<else/>
+			</if></title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/index.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/swiper.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/layui-v2.4.5/layui/layui.css" />
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="top_big">
+			<div class="top">
+				<div class="Catalog">
+					<a href="javascript:;"><img src="__PUBLIC__/mobile/img/xian.png" alt="..." /></a>
+				</div>
+				<div class="logo">
+					<div><img src="{$company_introduce.ci_logo}" alt="..." /></div>
+					
+					<div>博越智能家居</div>
+				</div>
+				<div class="phone">
+					<a href="tel:0147-88469258"><img src="__PUBLIC__/mobile/img/phone.png" alt="..." /></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="nav hide">
+			<div class="guanbi"><img src="__PUBLIC__/mobile/img/close.png" alt="..." /></div>
+			<div class="Navigationbar">
+				<ul>
+					<volist name="navres" id="navs" key="k">
+						<if condition="$navs.nav_url eq ''">
+							<li>
+								<a href="javascript:;">{$navs.nav_name}</a>
+								<if condition="$navarr[$k-1] eq null">
+									<else/>
+									<ul class="Arrow hide">
+										<volist name="navarr[$k-1]" id="nav11">
+											<if condition="$nav11.nav_url eq ''">
+												<li>
+													<a href="javascript:;">{$nav11.nav_name}</a>
+												</li>
+												<else/>
+												<li>
+													<a href="{$nav11.nav_url}/nav_id/{$nav11.nav_id}">{$nav11.nav_name}</a>
+												</li>
+											</if>
+										</volist>
+									</ul>
+									<span class="down">
+										<img src="__PUBLIC__/mobile/img/down.png" alt="..."/>
+										<img src="__PUBLIC__/mobile/img/up.png" alt="..." class="hide"/>
+									</span>
+								</if>
+							</li>
+							<else/>
+							<li>
+								<a href="{$navs.nav_url}/nav_id/{$navs.nav_id}">{$navs.nav_name}</a>
+								<if condition="$navarr[$k-1] eq null">
+									<else/>
+									<ul class="Arrow hide">
+										<volist name="navarr[$k-1]" id="nav11">
+											<if condition="$nav11.nav_url eq ''">
+												<li>
+													<a href="javascript:;">{$nav11.nav_name}</a>
+												</li>
+												<else/>
+												<li>
+													<a href="{$nav11.nav_url}/nav_id/{$nav11.nav_id}">{$nav11.nav_name}</a>
+												</li>
+											</if>
+										</volist>
+									</ul>
+									<span class="down">
+									<img src="__PUBLIC__/mobile/img/img/down.png" alt="..."/>
+									<img src="__PUBLIC__/mobile/img/img/up.png" alt="..." class="hide"/>
+								</span>
+								</if>
+							</li>
+						</if>
+					</volist>
+				</ul>
+			</div>
+		</div>
+		<!--banner图-->
+		<div class="banner">
+			<img src="{$background_image_data[0].bi_image}" />
+		</div>
+		<!--新闻详情-->
+		<div class="NewsDetail">
+			<if condition="$classify_article neq null">
+				<div class="IntelligentLock_top">
+					<span>当前位置&nbsp;:</span>
+					<span><a href="/index.php/Home/Index/index">首页</a></span>
+					<span>></span>
+					<span><a href="javascript:;">{$all_classify.ac_name}</a></span>
+					<span>></span>
+					<span>{$little_classify.lc_name}</span>
+				</div>
+				<div class="NewsDetail_title">
+					<div>{$classify_article.ca_title}</div>
+					<div>日期:{$classify_article.ca_time|date="Y-m-d H:i:s",###}</div>
+					<div>
+						{$classify_article.ca_content}
+					</div>
+					<!--<div><img src="__PUBLIC__/mobile/img/img56.png" alt="..." /></div>
+				<div>据悉,社交网络巨头Facebook将推出一款名为“Portal”的AI视频聊天设备,这款设备亮点之处在于在普通智能音箱的基础上增加了屏幕和摄像头,不但可以实现智能音箱查看新闻、天气.问 答和播放音乐以及控制智能家居产品等常规功能外,还能提供视频内容和视频通话功能。据悉,社交网络巨头Facebook将推出一款名为“Portal”的AI视频聊天设备,这款设备亮点之处在于在普通 智能音箱的基础上增加了屏幕和摄像头,不但可以实现智能音箱查看新闻、天气、问答和播放音乐以及控制智能家居产品等常规功能外,还能提供视频内容和视频通话功能。
+				</div>-->
+				</div>
+			</if>
+			<if condition="$case neq null">
+				{$case.content}
+				<else/>
+			</if>
+		</div>
+		<div class="lastOne">
+			<if condition="$classify_article neq null">
+				<if condition="$classify_article12 eq null">
+					<div>
+						<a>上一篇：无</a>
+					</div>
+					<else/>
+					<div>
+						<a href="/index.php/Mobile/Index/xinwenxiangqing/ca_id/{$classify_article12.ca_id}/nav_id/{$nav_id}">上一篇：{$classify_article12.ca_title}</a>
+					</div>
+				</if>
+				<if condition="$classify_article11 eq null">
+					<div>
+						<a>下一篇：无</a>
+					</div>
+					<else/>
+					<div>
+						<!--/index.php/Home/Index/xinwenxiangqing/ca_id/{$classify_article11.ca_id}/nav_id/{$nav_id}-->
+						
+						<a href="/index.php/Mobile/Index/xinwenxiangqing/ca_id/{$classify_article11.ca_id}/nav_id/{$nav_id}">下一篇：{$classify_article11.ca_title}</a>
+					</div>
+				</if>
+				<else/>
+			</if>
+			<if condition="$case neq null">
+				<if condition="$preid eq 0">
+					<div>
+						<a>上一篇：无</a>
+					</div>
+					<else/>
+					<div>
+						<a href="/index.php/Mobile/Index/xinwenxiangqing/id/{$precase.id}/nav_id/{$nav_id}">上一篇：{$precase.title}</a>
+					</div>
+				</if>
+				<if condition="$nextid eq 0">
+					<div>
+						<a>下一篇：无</a>
+					</div>
+					<else/>
+					<div>
+						<a href="/index.php/Mobile/Index/xinwenxiangqing/id/{$nextcase.id}/nav_id/{$nav_id}">下一篇：{$nextcase.title}</a>
+					</div>
+				</if>
+				<else/>
+			</if>
+		</div>
+		<!--底部-->
+		<include file="Public/footer"/>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="__PUBLIC__/Mobile/layui-v2.4.5/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.Catalog').click(function() {
+					$('.nav').show();
+				});
+				$('.guanbi').click(function() {
+					$('.nav').hide();
+				});
+				var toggle = true;
+				$(".down").click(function() {
+					if(toggle) {
+						$(this).children("img").attr("src", "__PUBLIC__/mobile/img/up.png");
+						toggle = false;
+						$(this).siblings('ul').show();
+					} else {
+						$(this).children("img").attr("src", "__PUBLIC__/mobile/img/down.png");
+						toggle = true;
+						$(this).siblings('ul').hide();
+					}
+				});
+				var hei = $(window).height();
+				console.log('gaodu', hei);
+				var nav_hei = $('.nav').height(hei);
+			})
+		</script>
+	</body>
+
+</html>
