@@ -1,0 +1,33 @@
+<div class="HideDiv"></div>
+<div class="HideDiv2">
+	<div>
+		<img src="__PUBLIC__/mobile/img/img2.png" alt="img"/>
+	</div>
+	<ul>
+		<li>
+			<a href="/index.php/Mobile/Index/index" target="_blank">
+				<span>返回首页</span>HOME
+			</a>
+		</li>
+		<volist name="navres" id="navs">
+			<li>
+				<a href="{$navs.nav_url}/nav_id/{$navs.nav_id}" target="_blank">
+					<span>{$navs.nav_name}</span>{$navs.nav_english_name}
+				</a>
+			</li>
+		</volist>
+		
+	</ul>
+</div>
+<!--菜单-->
+<div class="MenuCent">
+	<a href="/index.php/Mobile/Index/index">首页</a>
+	<volist name="navres" id="navs">
+		<a href="{$navs.nav_url}/nav_id/{$navs.nav_id}">{$navs.nav_name}</a>
+	</volist>
+</div>
+<if condition="$navben eq null">
+	<input type="hidden" class="navcss" value="首页">
+	<else/>
+	<input type="hidden" class="navcss" value="{$navben.nav_name}">
+</if>

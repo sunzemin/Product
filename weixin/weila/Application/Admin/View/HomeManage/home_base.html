@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>轮播管理</title>
+<link href="__PUBLIC__/admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/admin/css/css.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="__PUBLIC__/admin/js/jquery.js"></script>
+<script type="text/javascript"> 
+function del(){ 
+    if(!confirm("确认要删除？")){ 
+        window.event.returnValue = false; 
+    } 
+} 
+</script>
+<body>
+<div class="place">
+<span>位置：</span>
+<ul class="placeul">
+<li><a href="#">首页管理</a></li>
+<li><a href="#">新闻管理</a></li>
+</ul>
+</div>
+<div class="index-right">
+    <div class="formbody">
+        <div class="tools">
+            <ul class="toolbar">
+                <a href="/index.php/Admin/HomeManage/home_base_add/p/{$p}">
+                <li class="click"><span><img src="__PUBLIC__/admin/images/pic/t01.png" /></span>添加新闻</li>
+                </a>
+            </ul>
+        </div>
+        <table class="tablelist">
+            <thead>
+            <tr>
+            <th>编号</th>
+            <th>小标题1</th>
+            <th>小标题2</th>
+            <th>小标题3</th>
+            <th>排序</th>
+            <th>操作</th>
+            </tr>
+            </thead>
+
+            <tbody>
+                <volist name="home_base_res" id="vo" key="k">
+                    <tr>
+                        <td>{$k}</td>
+                        <td>{$vo.title1}</td>
+                        <td>{$vo.title2}</td>
+                        <td>{$vo.title3}</td>
+                        <td>{$vo.sort}</td>
+                        <td>
+                            <a href="/index.php/Admin/HomeManage/home_base_update/id/{$vo.id}/p/{$p}">修改</a>
+                            <a href="/index.php/Admin/HomeManage/home_base_del/id/{$vo.id}/p/{$p}" onclick="return del()">删除</a>
+                        </td>
+                    </tr>
+                </volist>
+            </tbody> 
+        </table>
+        <if condition="$page eq ''">
+            <else/>
+            <ul class="pageul" style="border:1px solid pink;float: left;margin-top: 20px;">
+            <if condition="$p eq 1">
+                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/service_advantage/p/1" style="margin-left: 20px;"><<</a></li>
+                <else/>
+                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/service_advantage/p/{$p-1}" style="margin-left: 20px;"><<</a></li>
+            </if>
+            
+            <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/service_advantage/p/1" style="margin-left: 20px;">首页</a></li>
+            <for start="1" end="$page+1">
+            <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/service_advantage/p/{$i}" style="margin-left: 20px;">{$i}</a></li>
+            </for>
+            
+            <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/service_advantage/p/{$page}" style="margin-left: 20px;">尾页</a></li>
+            <if condition="$p eq $page">
+                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/service_advantage/p/{$page}" style="margin-left: 20px;">>></a></li>
+                <else/>
+                <li style="float: left;list-style: none;width:50px;height: 30px;border: 1px solid black;text-decoration: center;line-height: 30px;"><a href="/index.php/Admin/HomeManage/service_advantage/p/{$p+1}" style="margin-left: 20px;">>></a></li>
+            </if>
+            
+        </ul>
+        </if>
+        
+    </div><!-- formbody结束 -->
+</div>
+<script type="text/javascript">
+    $('.tablelist tbody tr:odd').addClass('odd');
+</script>
+</body>
+
+</html>
