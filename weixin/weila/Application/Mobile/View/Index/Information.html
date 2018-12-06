@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="bright"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="flexible" content="initial-dpr=2" />
+		<title>薇拉摄影</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/index.css"/>
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="headerCent">
+				<div>{$company_introduce.ci_logotitle}</div>
+				<div>{$company_introduce.ci_logotitle_english} </div>
+			</div>
+			<img src="__PUBLIC__/mobile/img/img1.png" alt="img" class="headerCent-right"/>
+		</header>
+		<!--菜单下拉框-->
+		<include file="Public/nav"/>
+		<!--详情内容-->
+		<div class="Indormationcentdata">
+			<!--这里后台放编辑器，行内的div都可以删掉-->
+			<if condition="$case eq ''">
+				<else/>
+				<div style="font-size: 16px;color: #666666;text-align: left;line-height: 2;text-indent: 2em;">
+					{$case.c_content}
+				</div>	
+			</if>
+			<if condition="$room_scenery11 eq ''">
+				 <else/>
+				 <div style="font-size: 16px;color: #666666;text-align: left;line-height: 2;text-indent: 2em;">
+					{$room_scenery11.rs_introduce}
+				</div>	
+			</if>
+		</div>
+		<!--公司地址-->			
+		<include file="Public/content"/>
+		<!--公共底部-->
+		<include file="Public/footer"/>
+		<!--固定浮窗-->
+		<include file="Public/float"/>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="__PUBLIC__/mobile/js/swiper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/mobile/js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
