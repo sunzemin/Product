@@ -1,0 +1,55 @@
+<div class="top_big">
+	<div class="top">
+		<div class="top_left"><img src="__PUBLIC__/mobile/img/xian.png" alt="..." /></div>
+		<div class="logo">
+			<img src="{$company_introduce.ci_logo}" alt="..." />
+		</div>
+		<div class="phone">
+			<a href="tel:029-82095999"><img src="__PUBLIC__/mobile/img/phone.png" alt="..." /></a>
+		</div>
+	</div>
+</div>
+<div class="nav hide">
+	<div class="guanbi"><img src="__PUBLIC__/mobile/img/close.png" alt="..." /></div>
+	<div class="Navigationbar">
+		<ul>
+			<volist name="navres" id="navfirst" key="k">
+				<if condition="$navsec[$k-1] eq ''">
+					<li>
+						<if condition="$navfirst.nav_url eq ''">
+							<a href="javascript:;">{$navfirst.nav_name}</a>
+							<else/>
+							<a href="{$navfirst.nav_url}/nav_id/{$navfirst.nav_id}">{$navfirst.nav_name}</a>
+						</if>
+					</li>
+					<else/>
+					<li class="activity">
+						<if condition="$navfirst.nav_url eq ''">
+							<a href="javascript:;">{$navfirst.nav_name}</a>
+							<else/>
+							<a href="{$navfirst.nav_url}/nav_id/{$navfirst.nav_id}">{$navfirst.nav_name}</a>
+						</if>
+						<ul class="Arrow hide">
+						<volist name="navsec[$k-1]" id="navsecond">
+							<li>
+								<if condition="$navsecond.nav_url eq ''">
+								    <a href="javascript:;">{$navsecond.nav_name}</a>
+								    <else/>
+								    <a href="{$navsecond.nav_url}/nav_id/{$navsecond.nav_id}">{$navsecond.nav_name}</a>
+							    </if>
+							</li>
+						</volist>
+						</ul>
+						<if condition="$navsec[$k-1] eq null">
+							<else/>
+							<span class="down">
+								<img src="__PUBLIC__/mobile/img/down.png" alt="..."/>
+								<img src="__PUBLIC__/mobile/img/up.png" alt="..." class="hide"/>
+							</span>
+						</if>
+					</li>
+				</if>
+			</volist>
+		</ul>
+	</div>
+</div>

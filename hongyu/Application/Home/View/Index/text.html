@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>{$articleData.title}</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/reset.css"/>
+		<link rel="shortcut icon" href="__PUBLIC__/Home/img/ic.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<!--头部-->
+		<include file="Public/nav"/>
+		<div class="content">
+			<div class="content_title">{$articleData.title}</div>
+			<div class="content_text">{$articleData.content}</div>
+		</div>
+		<!--底部-->
+		<include file="Public/footer"/>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="__PUBLIC__/Home/js/swiper.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				//				导航二级菜单
+				$('.activity').mouseenter(function() {
+					$('.nav_ul').show();
+				});
+				$('.activity').mouseleave(function() {
+					$('.nav_ul').hide();
+				});
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="flexible" content="initial-dpr=2" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.css" />
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="top_big">
+			<div class="top">
+				<div class="top_left"><img src="img/xian.png" alt="..." /></div>
+				<div class="logo">
+					<img src="img/img1.png" alt="..." />
+				</div>
+				<div class="phone">
+					<a href="tel:029-82095999"><img src="img/phone.png" alt="..." /></a>
+				</div>
+			</div>
+		</div>
+			<div class="nav hide">
+			<div class="guanbi"><img src="img/close.png" alt="..." /></div>
+			<div class="Navigationbar">
+				<ul>
+					<li>
+						<a href="javascript:;">首页 </a>
+					</li>
+					<li>
+						<a href="javascript:;">庆典活动</a>
+						<ul class="Arrow hide">
+							<li>
+								<a href="javascript:;">开业庆典</a>
+							</li>
+							<li>
+								<a href="javascript:;">周年庆</a>
+							</li>
+							<li>
+								<a href="javascript:;">开工奠基</a>
+							</li>
+							<li>
+								<a href="javascript:;">乔迁庆典</a>
+							</li>
+						</ul>
+						<span class="down">
+							<img src="img/down.png" alt="..."/>
+							<img src="img/up.png" alt="..." class="hide"/>
+						</span>
+					</li>
+					<li>
+						<a href="javascript:;">文艺演出</a>
+					</li>
+					<li>
+						<a href="javascript:;">大型活动策划</a>
+					</li>
+					<li>
+						<a href="javascript:;">新闻中心</a>
+					</li>
+					<li>
+						<a href="javascript:;">联系我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--banner-->
+		<div class="banner"><img src="img/img2.png" alt="..." /></div>
+		<!--新闻详情-->
+		<div class="NewsDetail">
+			<div class="NewsDetail_title">
+				<div>新闻详情</div>
+				<div>日期:2018-11-07</div>
+				<div>新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情
+				</div>
+				<div><img src="img/img14.png" alt="..." /></div>
+				<div>新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情新闻详情
+				</div>
+			</div>
+		</div>
+		<div class="lastOne">
+			<div>
+				<a href="javascript:;">上一篇：客厅</a>
+			</div>
+			<div>
+				<a href="javascript:;">下一篇：无</a>
+			</div>
+		</div>
+	
+		<div class="footer" style="background: url(img/img43.png)no-repeat center center;background-size: cover;">
+			<div>联系电话：029-82095999</div>
+			<div>我们的地址：西安市西高新开发区博文路9号</div>
+			<div>Copyright © 2018 <span>陕西红雨文化传播有限公司</span> 版权所有 陕ICP备16015959号-1 技术支持：泰雁科技</div>
+		</div>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.top_left').click(function(){
+					$('.nav').show();
+				})
+				var toggle = true;
+				$(".down").click(function() {
+					if(toggle) {
+						$(this).children("img").attr("src", "img/up.png");
+						toggle = false;
+						$(this).siblings('ul').show();
+					} else {
+						$(this).children("img").attr("src", "img/down.png");
+						toggle = true;
+						$(this).siblings('ul').hide();
+					}
+				});
+				$('.guanbi').click(function() {
+										$('.nav').hide();
+				});
+				var hei = $(window).height();
+				console.log('gaodu', hei);
+				var nav_hei = $('.nav').height(hei);
+			})
+		</script>
+	</body>
+
+</html>
