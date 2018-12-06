@@ -1,0 +1,25 @@
+<div class="hraderCent-bot">
+	<ul>
+		<volist name="navres" id="navs">
+			<li>
+				<a href="{$navs.nav_url}/nav_id/{$navs.nav_id}" target="_blank">{$navs.nav_name}</a>
+			</li>
+		</volist>
+	</ul>
+</div>
+<input type="hidden" id="btn" value="{$nav_id}" />
+<input type="hidden" class="nav_name" value="{$navben.nav_name}" />
+
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var len=$('.hraderCent-bot>ul>li').length;
+		var data=$('.nav_name').val();
+		for(var i=0;i<len;i++){
+			var cont=$('.hraderCent-bot>ul').children('li').eq(i).children('a').text();
+			if(data==cont){
+				$('.hraderCent-bot>ul').children('li').eq(i).children('a').addClass('headCorol');
+			}
+		}
+	})
+</script>

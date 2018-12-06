@@ -1,0 +1,2766 @@
+[ 2018-11-19T09:10:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T09:10:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T09:10:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-11-19T09:10:53+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `zn_admin` WHERE `aname` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zn_admin` SET `aip`='127.0.0.1' WHERE `aname` = 'admin' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0260s ]
+SQL: INSERT INTO `zn_admin_config` (`ac_name`,`ac_ip`,`ac_time`) VALUES ('admin','127.0.0.1','1542589853') [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:10:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:42:18+08:00 ] 127.0.0.1 /index.php/Admin/Classify/all_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T09:42:21+08:00 ] 127.0.0.1 /index.php/Admin/Classify/little_classify/ac_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 4 ORDER BY lc_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 4 ORDER BY lc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:42:23+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/6/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 6 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 6 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:43:02+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/6/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 6 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 6 ORDER BY ca_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-19T09:43:05+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/11/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 11 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 11 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:51:42+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/6/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 6 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 6 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:52:44+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/5/lc_id/6/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `ca_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 10  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-19T09:52:49+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/5/lc_id/6/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: UPDATE `zn_classify_article` SET `ca_image`='/Public/editor/attached/image/20181112/20181112035559_74259.png',`ca_title`='lalal',`ca_min`='0.5s',`ca_time`='1542592369',`ca_sort`='0',`ca_content`='',`lc_id`='6' WHERE `ca_id` = 5 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:52:50+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/p/1/lc_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 6 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 6 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:52:54+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/p/1/lc_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 6 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 6 ORDER BY ca_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:52:57+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/p/1/lc_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 6 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 6 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-19T09:53:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-11-19T09:53:07+08:00 ] 127.0.0.1 /index.php/Admin/Classify/all_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:53:09+08:00 ] 127.0.0.1 /index.php/Admin/Classify/little_classify/ac_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 4 ORDER BY lc_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 4 ORDER BY lc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:53:11+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/11/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 11 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 11 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:53:12+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/13/lc_id/11/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `ca_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 10  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:53:27+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/13/lc_id/11/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0130s ]
+SQL: UPDATE `zn_classify_article` SET `ca_image`='/Public/editor/attached/image/20181112/20181112035635_65447.jpg',`ca_title`='',`ca_min`='1s',`ca_time`='1542592407',`ca_sort`='0',`ca_content`='',`lc_id`='11' WHERE `ca_id` = 13 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:53:28+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/p/1/lc_id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 11 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 11 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:53:32+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/p/1/lc_id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 11 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 11 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-11-19T09:53:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:53:37+08:00 ] 127.0.0.1 /index.php/Admin/Classify/all_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-11-19T09:53:39+08:00 ] 127.0.0.1 /index.php/Admin/Classify/little_classify/ac_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 4 ORDER BY lc_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 4 ORDER BY lc_sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:53:41+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/27/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 27 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 27 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 27 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:53:43+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/60/lc_id/27/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `ca_id` = 60 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 27 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 7  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 8  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 9  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 10  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:53:46+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/60/lc_id/27/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0100s ]
+SQL: UPDATE `zn_classify_article` SET `ca_image`='/Public/editor/attached/image/20181116/20181116103947_99986.jpg',`ca_title`='认为内容',`ca_min`='2s',`ca_time`='1542592426',`ca_sort`='0',`ca_content`='',`lc_id`='27' WHERE `ca_id` = 60 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:53:47+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/p/1/lc_id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 27 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 27 ORDER BY ca_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 27 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-19T09:53:50+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/60/lc_id/27/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `ca_id` = 60 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 27 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 10  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-19T09:53:54+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/28/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 28 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 28 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 28 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:53:56+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/61/lc_id/28/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `ca_id` = 61 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 28 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 7  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 8  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 10  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-19T09:53:59+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/61/lc_id/28/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: UPDATE `zn_classify_article` SET `ca_image`='/Public/editor/attached/image/20181116/20181116104122_19335.jpg',`ca_title`='认为他',`ca_min`='2.5s',`ca_time`='1542592439',`ca_sort`='0',`ca_content`='',`lc_id`='28' WHERE `ca_id` = 61 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T09:54:01+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/p/1/lc_id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 28 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 28 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 28 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T11:49:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_admin` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-19T11:49:49+08:00 ] 127.0.0.1 /index.php/Admin/Classify/all_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T11:49:55+08:00 ] 127.0.0.1 /index.php/Admin/Classify/little_classify/ac_id/5/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5 ORDER BY lc_sort desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5 ORDER BY lc_sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T11:49:57+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/8/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T12:47:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_admin` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `zn_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-11-19T12:47:27+08:00 ] 127.0.0.1 /index.php/Admin/Classify/all_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T12:47:39+08:00 ] 127.0.0.1 /index.php/Admin/Classify/little_classify/ac_id/5/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5 ORDER BY lc_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5 ORDER BY lc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T12:47:46+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/8/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T12:49:28+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/7/lc_id/8/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `ca_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 10  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T12:49:32+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/7/lc_id/8/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0130s ]
+SQL: UPDATE `zn_classify_article` SET `ca_image`='/Public/editor/attached/image/20181108/20181108091515_72729.png',`ca_title`='安徽数据库的能力方面',`ca_min`='0.5',`ca_time`='1542602972',`ca_sort`='0',`ca_content`='全方位各位RHAETRSYTDY，',`lc_id`='8' WHERE `ca_id` = 7 [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T12:49:33+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/p/1/lc_id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T12:49:35+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/19/lc_id/8/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `ca_id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 0  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 3  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 9  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 10  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T12:49:38+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/19/lc_id/8/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0200s ]
+SQL: UPDATE `zn_classify_article` SET `ca_image`='/Public/editor/attached/image/20181112/20181112083142_24122.jpg',`ca_title`='1234',`ca_min`='1s',`ca_time`='1542602978',`ca_sort`='0',`ca_content`='dfewgrhtrt',`lc_id`='8' WHERE `ca_id` = 19 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T12:49:39+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/p/1/lc_id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T12:49:41+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/7/lc_id/8/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `ca_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 9  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 10  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T12:49:44+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/7/lc_id/8/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0080s ]
+SQL: UPDATE `zn_classify_article` SET `ca_image`='/Public/editor/attached/image/20181108/20181108091515_72729.png',`ca_title`='安徽数据库的能力方面',`ca_min`='0.5s',`ca_time`='1542602984',`ca_sort`='0',`ca_content`='全方位各位RHAETRSYTDY，',`lc_id`='8' WHERE `ca_id` = 7 [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T12:49:45+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/p/1/lc_id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T12:49:50+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/29/lc_id/8/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `ca_id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 1  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 2  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 9  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 10  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T12:49:55+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/29/lc_id/8/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0200s ]
+SQL: UPDATE `zn_classify_article` SET `ca_image`='/Public/editor/attached/image/20181113/20181113031658_94885.png',`ca_title`='qrwteryt',`ca_min`='1.5s',`ca_time`='1542602995',`ca_sort`='0',`ca_content`='',`lc_id`='8' WHERE `ca_id` = 29 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T12:49:56+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/p/1/lc_id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T12:50:08+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/p/1/lc_id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T12:50:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2018-11-19T12:50:13+08:00 ] 127.0.0.1 /index.php/Admin/Classify/all_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T12:50:15+08:00 ] 127.0.0.1 /index.php/Admin/Classify/little_classify/ac_id/5/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5 ORDER BY lc_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5 ORDER BY lc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T12:50:17+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/9/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T12:50:22+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/8/lc_id/9/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `ca_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 9 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 0  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 9  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_nav` WHERE `nav_fid` = 10  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T12:50:25+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article_update/ca_id/8/lc_id/9/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0090s ]
+SQL: UPDATE `zn_classify_article` SET `ca_image`='/Public/editor/attached/image/20181108/20181108091651_46216.jpg',`ca_title`='3全家人我可以他',`ca_min`='1s',`ca_time`='1542603025',`ca_sort`='0',`ca_content`='企鹅服务隔热条让你',`lc_id`='9' WHERE `ca_id` = 8 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-19T12:50:26+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/p/1/lc_id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 9 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T12:54:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_admin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T13:05:34+08:00 ] 127.0.0.1 /index.php/Admin/Classify/all_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-11-19T13:05:37+08:00 ] 127.0.0.1 /index.php/Admin/Classify/little_classify/ac_id/5/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5 ORDER BY lc_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 5 ORDER BY lc_sort desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-11-19T13:05:44+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/8/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T13:17:08+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/8/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 8 ORDER BY ca_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T13:17:16+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/9/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 9 ORDER BY ca_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T15:39:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_admin` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `zn_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-11-19T15:39:47+08:00 ] 127.0.0.1 /index.php/Admin/Classify/all_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T15:39:51+08:00 ] 127.0.0.1 /index.php/Admin/Classify/little_classify/ac_id/3/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3 ORDER BY lc_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3 ORDER BY lc_sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-19T15:39:54+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4 ORDER BY ca_sort desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-11-19T15:39:59+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/5/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T15:41:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2018-11-19T15:47:32+08:00 ] 127.0.0.1 /index.php/Admin/Classify/all_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T15:47:35+08:00 ] 127.0.0.1 /index.php/Admin/Classify/little_classify/ac_id/3/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3 ORDER BY lc_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3 ORDER BY lc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-11-19T15:47:37+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T15:47:49+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/5/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5 ORDER BY ca_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-11-19T16:02:59+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4 ORDER BY ca_sort desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T16:13:57+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4 ORDER BY ca_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T16:14:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_admin` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `zn_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-11-19T16:14:11+08:00 ] 127.0.0.1 /index.php/Admin/Classify/all_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T16:14:15+08:00 ] 127.0.0.1 /index.php/Admin/Classify/little_classify/ac_id/1/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 1 ORDER BY lc_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 1 ORDER BY lc_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T16:14:18+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/2/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 2 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 2 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T16:55:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zn_admin` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zn_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T16:55:36+08:00 ] 127.0.0.1 /index.php/Admin/Classify/all_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_all_classify` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_all_classify` ORDER BY ac_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id C:\Users\Administrator\Desktop\text\zhinengjiaju11\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T16:55:38+08:00 ] 127.0.0.1 /index.php/Admin/Classify/little_classify/ac_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 4 ORDER BY lc_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 4 ORDER BY lc_sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T16:55:42+08:00 ] 127.0.0.1 /index.php/Admin/Classify/little_classify/ac_id/3/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3 ORDER BY lc_sort desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `ac_id` = 3 ORDER BY lc_sort desc  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T16:55:43+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 4 ORDER BY ca_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-19T16:55:46+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/5/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 5 ORDER BY ca_sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-11-19T16:55:52+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/7/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zn_admin_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zn_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_classify_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zn_classify_article` WHERE `lc_id` = 7 ORDER BY ca_sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zn_little_classify` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zn_little_classify` WHERE `lc_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-19T18:46:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-19T18:46:16+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-19T18:46:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

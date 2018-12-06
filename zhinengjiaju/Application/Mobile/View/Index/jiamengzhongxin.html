@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="flexible" content="initial-dpr=2" />
+		<title>{$navben.nav_name}</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/index.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/swiper.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/layui-v2.4.5/layui/css/layui.css" />
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="top_big">
+			<div class="top">
+				<div class="Catalog">
+					<a href="javascript:;"><img src="__PUBLIC__/mobile/img/xian.png" alt="..." /></a>
+				</div>
+				<div class="logo">
+					<div><img src="{$company_introduce.ci_logo}" alt="..." /></div>
+					<div>博越智能家居</div>
+				</div>
+				<div class="phone">
+					<a href="tel:0147-88469258"><img src="__PUBLIC__/mobile/img/phone.png" alt="..." /></a>
+				</div>
+			</div>
+		</div>
+		<div class="nav hide">
+			<div class="guanbi"><img src="__PUBLIC__/mobile/img/close.png" alt="..." /></div>
+			<div class="Navigationbar">
+				<ul>
+					<volist name="navres" id="navs" key="k">
+						<if condition="$navs.nav_url eq ''">
+							<li>
+								<a href="javascript:;">{$navs.nav_name}</a>
+								<if condition="$navarr[$k-1] eq null">
+									<else/>
+									<ul class="Arrow hide">
+										<volist name="navarr[$k-1]" id="nav11">
+											<if condition="$nav11.nav_url eq ''">
+												<li>
+													<a href="javascript:;">{$nav11.nav_name}</a>
+												</li>
+												<else/>
+												<li>
+													<a href="{$nav11.nav_url}/nav_id/{$nav11.nav_id}">{$nav11.nav_name}</a>
+												</li>
+											</if>
+										</volist>
+									</ul>
+									<span class="down">
+										<img src="__PUBLIC__/mobile/img/down.png" alt="..."/>
+										<img src="__PUBLIC__/mobile/img/up.png" alt="..." class="hide"/>
+									</span>
+								</if>
+							</li>
+							<else/>
+							<li>
+								<a href="{$navs.nav_url}/nav_id/{$navs.nav_id}">{$navs.nav_name}</a>
+								<if condition="$navarr[$k-1] eq null">
+									<else/>
+									<ul class="Arrow hide">
+										<volist name="navarr[$k-1]" id="nav11">
+											<if condition="$nav11.nav_url eq ''">
+												<li>
+													<a href="javascript:;">{$nav11.nav_name}</a>
+												</li>
+												<else/>
+												<li>
+													<a href="{$nav11.nav_url}/nav_id/{$nav11.nav_id}">{$nav11.nav_name}</a>
+												</li>
+											</if>
+										</volist>
+									</ul>
+									<span class="down">
+									<img src="__PUBLIC__/mobile/img/img/down.png" alt="..."/>
+									<img src="__PUBLIC__/mobile/img/img/up.png" alt="..." class="hide"/>
+								</span>
+								</if>
+							</li>
+						</if>
+					</volist>
+				</ul>
+			</div>
+		</div>
+		<!--banner图-->
+		<div class="banner">
+			<img src="{$background_image_data[0].bi_image}" />
+		</div>
+		<div class="JoinIn_title">为什么选择我们？</div>
+		<div class="JoinInNumber_right">
+			<volist name="classify_article_res[0]" id="classify_article">
+				<div>
+					<span><img src="{$classify_article.ca_image}" alt="..."/></span>
+					<p>{$classify_article.ca_title}</p>
+				</div>
+			</volist>
+		</div>
+		<div class="JoinIn_title">加盟政策</div>
+		<div class="good">
+			<volist name="classify_article_res[1]" id="classify_article" key="k">
+				<div class="good_Modular">
+					<div class="goodModular_title">
+						<p><span>{$k}</span>{$classify_article.ca_title}</p>
+					</div>
+					<div class="goodModular_text">
+						{$classify_article.ca_content}
+					</div>
+				</div>
+			</volist>
+		</div>
+		<div class="JoinIn_title">加盟流程</div>
+		<div class="JoinInProcess_right">
+			<volist name="classify_article_res[2]" id="classify_article" key="k">
+				<if condition="$k lt 6">
+					<if condition="$k eq 5">
+						<div class="Technological">
+							<div>
+								<img src="{$classify_article.ca_image}" alt="..." />
+								<img src="{$classify_article.ca_hideimage}" alt="..." class="hide" />
+							</div>
+							<div class="change">{$classify_article.ca_title}</div>
+						</div>
+						<else/>
+						<div class="Technological">
+							<div>
+								<img src="{$classify_article.ca_image}" alt="..." style="width: 0.81rem;height: 0.81rem;" />
+								<img src="{$classify_article.ca_hideimage}" alt="..." class="hide" style="width: 0.81rem;height: 0.81rem;" />
+							</div>
+							<div class="change">{$classify_article.ca_title}</div>
+						</div>
+					</if>
+					<else/>
+				</if>
+
+			</volist>
+		</div>
+		<div class="JoinIn_title">加盟流程</div>
+		<div class="JoinIn_bottom_back">
+			<div class="JoinInBottom">
+				<div><span>招商电话：</span>{$footer.telephone}</div>
+				<div>招商邮箱：{$footer.email}</div>
+			</div>
+			<a href="javascript:;">点击咨询</a>
+		</div>
+		<!--底部-->
+		<include file="Public/footer" />
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$(".Technological").mouseenter(function() {
+					$(this).children('div').children("img").eq(1).removeClass("hide").siblings().addClass("hide");
+					$(this).children('.change').css({
+						'background': '#014a96',
+						'color': '#fff'
+					})
+				});
+				$(".Technological").mouseleave(function() {
+					$(this).children('div').children("img").eq(0).removeClass("hide").siblings().addClass("hide");
+					$(this).children('.change').css({
+						'background': '#fff',
+						'color': '#000'
+					})
+				});
+				$('.Catalog').click(function() {
+					$('.nav').show();
+				});
+				$('.guanbi').click(function() {
+					$('.nav').hide();
+				});
+				var toggle = true;
+				$(".down").click(function() {
+					if(toggle) {
+						$(this).children("img").attr("src", "__PUBLIC__/mobile/img/up.png");
+						toggle = false;
+						$(this).siblings('ul').show();
+					} else {
+						$(this).children("img").attr("src", "__PUBLIC__/mobile/img/down.png");
+						toggle = true;
+						$(this).siblings('ul').hide();
+					}
+				});
+				var hei = $(window).height();
+				console.log('gaodu', hei);
+				var nav_hei = $('.nav').height(hei);
+			});
+		</script>
+	</body>
+
+</html>
