@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="flexible" content="initial-dpr=2" />
+		<title>{$navben.nav_name}</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/index.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/swiper.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/layui-v2.4.5/layui/css/layui.css" />
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<include file="Public/nav"/>
+		<!--banner-->
+		<div class="banner"><img src="{$background_image_data[0].bi_image}" alt="..." /></div>
+		<!--活动策划资讯-->
+		<div class="activity">
+			<div class="case_top top_padding">
+				<span>新闻中心  </span>
+				<span>news</span>
+			</div>
+			<div class="information">
+				<volist name="little_classify_res" id="little_classify">
+					<div>{$little_classify.lc_name}<input type="hidden" class="lc_id" value="{$little_classify.lc_id}"/></div>
+				</volist>
+			</div>
+			<div class="activityBot_lft">
+				<div class="swiper-container1 swiper-container">
+					<div class="swiper-wrapper1 swiper-wrapper">
+						<div class="swiper-slide1 swiper-slide"><img src="__PUBLIC__/mobile/img/img36.png" alt="..." />
+							<div class="slide_bot">高信隆西安分公司开业高信隆西安分公司开业...</div>
+						</div>
+						<div class="swiper-slide1 swiper-slide"><img src="__PUBLIC__/mobile/img/img36.png" alt="..." />
+							<div class="slide_bot">高信隆西安分公司开业高信隆西安分公司开业...</div>
+						</div>
+						<div class="swiper-slide1 swiper-slide"><img src="__PUBLIC__/mobile/img/img36.png" alt="..." />
+							<div class="slide_bot">高信隆西安分公司开业高信隆西安分公司开业...</div>
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination1 swiper-pagination"></div>
+					<!-- Add Arrows -->
+				</div>
+			</div>
+			<div class="activityBot_center">
+				<a href="javascript:;">高信隆西安分公司开业高信隆西安分公司开业西安分公司开业...</a>
+				<a href="javascript:;">高信隆西安分公司开业高信隆西安分公司开业西安分公司开业...</a>
+				<a href="javascript:;">高信隆西安分公司开业高信隆西安分公司开业西安分公司开业...</a>
+				<a href="javascript:;">高信隆西安分公司开业高信隆西安分公司开业西安分公司开业...</a>
+				<a href="javascript:;">高信隆西安分公司开业高信隆西安分公司开业西安分公司开业...</a>
+				<a href="javascript:;">高信隆西安分公司开业高信隆西安分公司开业西安分公司开业...</a>
+			</div>
+			<div class="activityBot_right">
+				<div class="Celebrate_top">
+					<img src="__PUBLIC__/mobile/img/img37.png" alt="..." />
+				</div>
+				<div class="Celebrate_bot">
+					<a href="javascript:;">大唐芙蓉园冰激凌节大唐芙蓉园冰...<span>[11-14]</span></a>
+					<a href="javascript:;">大唐芙蓉园冰激凌节大唐芙蓉园冰...<span>[11-14]</span></a>
+					<a href="javascript:;">大唐芙蓉园冰激凌节大唐芙蓉园冰...<span>[11-14]</span></a>
+					<a href="javascript:;">大唐芙蓉园冰激凌节大唐芙蓉园冰...<span>[11-14]</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="demo4"></div>
+		<include file="Public/footer"/>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="__PUBLIC__/mobile/js/swiper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/mobile/layui-v2.4.5/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.top_left').click(function(){
+					$('.nav').show();
+				})
+				var toggle = true;
+				$(".down").click(function() {
+					if(toggle) {
+						$(this).children("img").attr("src", "__PUBLIC__/mobile/img/up.png");
+						toggle = false;
+						$(this).siblings('ul').show();
+					} else {
+						$(this).children("img").attr("src", "__PUBLIC__/mobile/img/down.png");
+						toggle = true;
+						$(this).siblings('ul').hide();
+					}
+				});
+				$('.guanbi').click(function() {
+										$('.nav').hide();
+				});
+				var hei = $(window).height();
+				console.log('gaodu', hei);
+				var nav_hei = $('.nav').height(hei);
+					//				活动策划轮播
+				var swiper = new Swiper('.swiper-container1', {
+					spaceBetween: 30,
+					centeredSlides: true,
+					autoplay: {
+						delay: 2500,
+						disableOnInteraction: false,
+					},
+					pagination: {
+						el: '.swiper-pagination1',
+						clickable: true,
+					},
+				});
+				//				导航二级菜单
+				$('.activity').mouseenter(function() {
+					$('.nav_ul').show();
+				});
+				$('.activity').mouseleave(function() {
+					$('.nav_ul').hide();
+				});
+				
+				$('.information>div').click(function(){
+					$(this).addClass('info').siblings().removeClass();
+				});
+				
+				
+				//				活动策划资讯
+					var lc_id = $('.lc_id').val();
+				
+				$.ajax({
+					type: "post",
+					url: "/index.php/Home/Public/newsdata",
+					async: true,
+					data: {
+						'lc_id': lc_id,
+						'p': 1
+					},
+					success: function(data) {
+						console.log('uuuuu', data.classify_article_res[0]);
+						$('.activityBot_lft').children().remove();
+						$('.activityBot_center').children().remove();
+						$('.activityBot_right').children().remove();
+
+						for(var i = 0; i < data.classify_article_res.length; i++) {
+							var con = '<div class="swiper-container1 swiper-container"><div class="swiper-wrapper1 swiper-wrapper"><div class="swiper-slide1 swiper-slide"><img src="' +
+								data.classify_article_res[i].ca_image +
+								'" alt="..." /><div class="slide_bot">' +
+								data.classify_article_res[i].ca_title +
+								'</div></div><div class="swiper-slide1 swiper-slide"><img src="' +
+								data.classify_article_res[i].ca_image +
+								'" alt="..." /><div class="slide_bot">' +
+								data.classify_article_res[i].ca_title +
+								'</div></div><div class="swiper-slide1 swiper-slide"><img src="' +
+								data.classify_article_res[i].ca_image +
+								'" alt="..." /><div class="slide_bot">' +
+								data.classify_article_res[i].ca_title +
+								'</div></div></div><div class="swiper-pagination1 swiper-pagination"></div></div>';
+						}
+						$('.activityBot_lft').append(con);
+						for(var i = 0; i < data.classify_article_res.length; i++) {
+							var con = '<a href="javascript:;">' +
+								data.classify_article_res[i].ca_title +
+								'</a><a href="javascript:;">' +
+								data.classify_article_res[i].ca_title +
+								'</a><a href="javascript:;">' +
+								data.classify_article_res[i].ca_title +
+								'</a><a href="javascript:;">' +
+								data.classify_article_res[i].ca_title +
+								'</a><a href="javascript:;">' +
+								data.classify_article_res[i].ca_title +
+								'</a><a href="javascript:;">' +
+								data.classify_article_res[i].ca_title +
+								'</a>';
+						}
+						$('.activityBot_center').append(con);
+						for(var i = 0; i < data.classify_article_res.length; i++) {
+							var con = '<div class="Celebrate_top"><img src="' +
+								data.classify_article_res[i].ca_image +
+								'" alt="..." /></div><div class="Celebrate_bot"><a href="javascript:;">' +
+								data.classify_article_res[i].ca_title +
+								'<span>' +
+								data.classify_article_res[i].ca_time +
+								'</span></a><a href="javascript:;">' +
+								data.classify_article_res[i].ca_title +
+								'<span>' +
+								data.classify_article_res[i].ca_time +
+								'</span></a><a href="javascript:;">' +
+								data.classify_article_res[i].ca_title +
+								'<span>' +
+								data.classify_article_res[i].ca_time +
+								'</span></a><a href="javascript:;">' +
+								data.classify_article_res[i].ca_title +
+								'<span>' +
+								data.classify_article_res[i].ca_time +
+								'</span></a></div>';
+						}
+						$('.activityBot_right').append(con);
+
+						var swiper = new Swiper('.swiper-container1', {
+							spaceBetween: 30,
+							centeredSlides: true,
+							autoplay: {
+								delay: 2500,
+								disableOnInteraction: false,
+							},
+							pagination: {
+								el: '.swiper-pagination1',
+								clickable: true,
+							},
+						});
+
+					},
+					error: function() {
+						alert('yy');
+					}
+				});
+				//				点击ajax加载
+				$('.information>div').click(function() {
+					var lc_id = $(this).children('input').val();
+					$.ajax({
+						type: "post",
+						url: "/index.php/Home/Public/newsdata",
+						async: true,
+						data: {
+							'lc_id': lc_id,
+							'p': 1
+						},
+						success: function(data) {
+							console.log('uuuuu', data.classify_article_res[0]);
+							$('.activityBot_lft').children().remove();
+							$('.activityBot_center').children().remove();
+							$('.activityBot_right').children().remove();
+
+							for(var i = 0; i < data.classify_article_res.length; i++) {
+								var con = '<div class="swiper-container1 swiper-container"><div class="swiper-wrapper1 swiper-wrapper"><div class="swiper-slide1 swiper-slide"><img src="' +
+									data.classify_article_res[i].ca_image +
+									'" alt="..." /><div class="slide_bot">' +
+									data.classify_article_res[i].ca_title +
+									'</div></div><div class="swiper-slide1 swiper-slide"><img src="' +
+									data.classify_article_res[i].ca_image +
+									'" alt="..." /><div class="slide_bot">' +
+									data.classify_article_res[i].ca_title +
+									'</div></div><div class="swiper-slide1 swiper-slide"><img src="' +
+									data.classify_article_res[i].ca_image +
+									'" alt="..." /><div class="slide_bot">' +
+									data.classify_article_res[i].ca_title +
+									'</div></div></div><div class="swiper-pagination1 swiper-pagination"></div></div>';
+							}
+							$('.activityBot_lft').append(con);
+							for(var i = 0; i < data.classify_article_res.length; i++) {
+								var con = '<a href="javascript:;">' +
+									data.classify_article_res[i].ca_title +
+									'</a><a href="javascript:;">' +
+									data.classify_article_res[i].ca_title +
+									'</a><a href="javascript:;">' +
+									data.classify_article_res[i].ca_title +
+									'</a><a href="javascript:;">' +
+									data.classify_article_res[i].ca_title +
+									'</a><a href="javascript:;">' +
+									data.classify_article_res[i].ca_title +
+									'</a><a href="javascript:;">' +
+									data.classify_article_res[i].ca_title +
+									'</a>';
+							}
+							$('.activityBot_center').append(con);
+							for(var i = 0; i < data.classify_article_res.length; i++) {
+								var con = '<div class="Celebrate_top"><img src="' +
+									data.classify_article_res[i].ca_image +
+									'" alt="..." /></div><div class="Celebrate_bot"><a href="javascript:;">' +
+									data.classify_article_res[i].ca_title +
+									'<span>' +
+									data.classify_article_res[i].ca_time +
+									'</span></a><a href="javascript:;">' +
+									data.classify_article_res[i].ca_title +
+									'<span>' +
+									data.classify_article_res[i].ca_time +
+									'</span></a><a href="javascript:;">' +
+									data.classify_article_res[i].ca_title +
+									'<span>' +
+									data.classify_article_res[i].ca_time +
+									'</span></a><a href="javascript:;">' +
+									data.classify_article_res[i].ca_title +
+									'<span>' +
+									data.classify_article_res[i].ca_time +
+									'</span></a></div>';
+							}
+							$('.activityBot_right').append(con);
+
+							var swiper = new Swiper('.swiper-container1', {
+								spaceBetween: 30,
+								centeredSlides: true,
+								autoplay: {
+									delay: 2500,
+									disableOnInteraction: false,
+								},
+								pagination: {
+									el: '.swiper-pagination1',
+									clickable: true,
+								},
+							});
+
+						},
+						error: function() {
+							alert('yy');
+						}
+					});
+				});
+			})
+			
+		</script>
+	</body>
+</html>

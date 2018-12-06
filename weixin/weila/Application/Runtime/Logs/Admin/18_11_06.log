@@ -1,0 +1,1269 @@
+[ 2018-11-06T10:02:35+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T10:02:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-06T10:02:51+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wl_admin` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `wl_admin` WHERE `aname` = 'sun' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wl_admin` SET `aip`='127.0.0.1' WHERE `aname` = 'sun' [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0300s ]
+SQL: INSERT INTO `wl_admin_config` (`ac_name`,`ac_ip`,`ac_time`) VALUES ('sun','127.0.0.1','1541469771') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:02:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-06T10:02:52+08:00 ] 127.0.0.1 /index.php/Admin/index/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:02:53+08:00 ] 127.0.0.1 /index.php/Admin/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin` WHERE `aid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:02:54+08:00 ] 127.0.0.1 /index.php/Admin/index/right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T10:02:54+08:00 ] 127.0.0.1 /index.php/Admin/index/footer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:02:58+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:03:01+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word_classify` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_custom_word_classify` ORDER BY cwc_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wl_custom_word_classify`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:03:04+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word/cwc_id/2/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 2 ORDER BY cw_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 84 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 88 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 89 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 91 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:03:44+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/2/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:04:34+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/2/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0040s ]
+SQL: INSERT INTO `wl_custom_word` (`cw_name`,`cw_content`,`cw_time`,`cw_user_rank`,`cw_word_rank`,`cw_image`,`cw_flag`,`cw_kind`,`cw_sort`,`cwc_id`) VALUES ('beright','berightberightberightberightberight','1541469874','','2','/Public/editor/attached/image/20181106/20181106020403_73739.png','0','华为','0','2') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T10:04:35+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word/cwc_id/2/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 2 ORDER BY cw_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 84 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 88 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 89 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 91 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T10:04:37+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/2/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-06T10:04:54+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/2/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0060s ]
+SQL: INSERT INTO `wl_custom_word` (`cw_name`,`cw_content`,`cw_time`,`cw_user_rank`,`cw_word_rank`,`cw_image`,`cw_flag`,`cw_kind`,`cw_sort`,`cwc_id`) VALUES ('beright2017','berightberightberightberightberightberightberightberightberight','1541469894','','4','/Public/editor/attached/image/20181106/20181106020446_46864.png','0','华为','9','2') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:04:55+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word/cwc_id/2/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 2 ORDER BY cw_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 2  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 84 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 88 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 89 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 91 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:04:56+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/2/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:05:12+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/2/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0050s ]
+SQL: INSERT INTO `wl_custom_word` (`cw_name`,`cw_content`,`cw_time`,`cw_user_rank`,`cw_word_rank`,`cw_image`,`cw_flag`,`cw_kind`,`cw_sort`,`cwc_id`) VALUES ('beright2018','berightberightberight','1541469912','','1','/Public/editor/attached/image/20181106/20181106020505_88274.png','0','321','231','2') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-06T10:05:13+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word/cwc_id/2/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 2 ORDER BY cw_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 84 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 88 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 89 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 91 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:05:55+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word_classify` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_custom_word_classify` ORDER BY cwc_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wl_custom_word_classify`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:06:00+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word/cwc_id/3/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 3 ORDER BY cw_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 3  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 84 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 88 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 89 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 91 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:06:02+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/3/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:06:21+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/3/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0050s ]
+SQL: INSERT INTO `wl_custom_word` (`cw_name`,`cw_content`,`cw_time`,`cw_user_rank`,`cw_word_rank`,`cw_image`,`cw_flag`,`cw_kind`,`cw_sort`,`cwc_id`) VALUES ('beright111','berightberightberight','1541469981','','3','/Public/editor/attached/image/20181106/20181106020616_33274.png','0','','0','3') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T10:06:22+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word/cwc_id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 3 ORDER BY cw_sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 3  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 84 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 88 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 89 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 91 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:06:23+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/3/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:06:34+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/3/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0050s ]
+SQL: INSERT INTO `wl_custom_word` (`cw_name`,`cw_content`,`cw_time`,`cw_user_rank`,`cw_word_rank`,`cw_image`,`cw_flag`,`cw_kind`,`cw_sort`,`cwc_id`) VALUES ('beright222','berightberightberight','1541469994','','1','/Public/editor/attached/image/20181106/20181106020632_77623.png','0','','0','3') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T10:06:35+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word/cwc_id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 3 ORDER BY cw_sort desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 3  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 84 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 88 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 89 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 91 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:06:36+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/3/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:06:46+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/3/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0040s ]
+SQL: INSERT INTO `wl_custom_word` (`cw_name`,`cw_content`,`cw_time`,`cw_user_rank`,`cw_word_rank`,`cw_image`,`cw_flag`,`cw_kind`,`cw_sort`,`cwc_id`) VALUES ('beright333','berightberightberight','1541470006','','1','/Public/editor/attached/image/20181106/20181106020644_30871.png','0','','0','3') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T10:06:47+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word/cwc_id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 3 ORDER BY cw_sort desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 3  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 84 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 88 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 89 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 91 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:06:50+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word_classify` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_custom_word_classify` ORDER BY cwc_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wl_custom_word_classify`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:06:52+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word/cwc_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 4 ORDER BY cw_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 4  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 84 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 88 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 89 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 91 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T10:06:53+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:07:04+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0050s ]
+SQL: INSERT INTO `wl_custom_word` (`cw_name`,`cw_content`,`cw_time`,`cw_user_rank`,`cw_word_rank`,`cw_image`,`cw_flag`,`cw_kind`,`cw_sort`,`cwc_id`) VALUES ('beright555','berightberightberight','1541470024','','1','/Public/editor/attached/image/20181106/20181106020702_62533.png','0','','0','4') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:07:05+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word/cwc_id/4/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 4 ORDER BY cw_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 4  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 84 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 88 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 89 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 91 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:07:06+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:07:16+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0040s ]
+SQL: INSERT INTO `wl_custom_word` (`cw_name`,`cw_content`,`cw_time`,`cw_user_rank`,`cw_word_rank`,`cw_image`,`cw_flag`,`cw_kind`,`cw_sort`,`cwc_id`) VALUES ('beright666','berightberightberight','1541470036','','1','/Public/editor/attached/image/20181106/20181106020714_14614.png','0','','0','4') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T10:07:17+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word/cwc_id/4/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 4 ORDER BY cw_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 4  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 84 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 88 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 89 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 91 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:07:18+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T10:07:29+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word_add/cwc_id/4/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0050s ]
+SQL: INSERT INTO `wl_custom_word` (`cw_name`,`cw_content`,`cw_time`,`cw_user_rank`,`cw_word_rank`,`cw_image`,`cw_flag`,`cw_kind`,`cw_sort`,`cwc_id`) VALUES ('beright999','berightberightberight','1541470049','','1','/Public/editor/attached/image/20181106/20181106020727_31577.png','0','','0','4') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T10:07:30+08:00 ] 127.0.0.1 /index.php/Admin/CustomWord/custom_word/cwc_id/4/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wl_custom_word` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 4 ORDER BY cw_sort desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wl_custom_word` WHERE `cwc_id` = 4  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 84 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 88 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 89 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 91 行.
+NOTIC: [8] Undefined variable: nc_id E:\HbuliderProjects\weila\Application\Runtime\Cache\Admin\c1f2cf3ba2bcb30c0cdf257bbc5c39e0.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T16:04:58+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T16:04:58+08:00 ] 127.0.0.1 /index.php/Admin/index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wl_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin` WHERE `aid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T16:04:59+08:00 ] 127.0.0.1 /index.php/Admin/index/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T16:04:59+08:00 ] 127.0.0.1 /index.php/Admin/index/footer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T16:04:59+08:00 ] 127.0.0.1 /index.php/Admin/index/right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-11-06T16:05:03+08:00 ] 127.0.0.1 /index.php/Admin/index/user1/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_user` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wl_user` ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T16:10:27+08:00 ] 127.0.0.1 /index.php/Admin/HomeManage/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T16:10:30+08:00 ] 127.0.0.1 /index.php/Admin/HomeManage/home_base/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_home_base` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wl_home_base` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wl_home_base` ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T16:10:34+08:00 ] 127.0.0.1 /index.php/Admin/HomeManage/home_base_update/id/2/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wl_home_base` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_home_base` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-06T16:10:38+08:00 ] 127.0.0.1 /index.php/Admin/HomeManage/home_base_update/id/2/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_home_base` [ RunTime:0.0050s ]
+SQL: UPDATE `wl_home_base` SET `title1`='134256',`title2`='',`title3`='客户',`sort`='0' WHERE `id` = 2 [ RunTime:0.0390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-06T16:10:39+08:00 ] 127.0.0.1 /index.php/Admin/HomeManage/home_base/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wl_admin_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wl_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wl_home_base` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wl_home_base` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wl_home_base` ORDER BY sort desc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

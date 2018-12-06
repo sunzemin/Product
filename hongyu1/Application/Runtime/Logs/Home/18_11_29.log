@@ -1,0 +1,51 @@
+[ 2018-11-29T09:42:13+08:00 ] 127.0.0.1 /index.php?__hbt=1543455731946
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0978s ]
+SQL: SELECT * FROM `hy_nav` ORDER BY nav_sort desc  [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `hy_lunbo` [ RunTime:0.0513s ]
+SQL: SELECT * FROM `hy_lunbo` WHERE `nav_id` = 1 ORDER BY lb_sort desc  [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `hy_footer` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `hy_footer` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hy_company_introduce` [ RunTime:0.0365s ]
+SQL: SELECT * FROM `hy_company_introduce` LIMIT 1   [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `hy_all_classify` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `hy_all_classify` WHERE `ac_flag` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hy_little_classify` [ RunTime:0.0295s ]
+SQL: SHOW COLUMNS FROM `hy_classify_article` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `hy_little_classify` WHERE `ac_id` = 2  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hy_scene` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `hy_scene` ORDER BY sort desc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hy_case` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `hy_case` ORDER BY sort desc LIMIT 0,5   [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `hy_home_decorate_title` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `hy_home_decorate_title` ORDER BY hdt_sort desc LIMIT 0,6   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hy_all_classify` WHERE `nav_id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_little_classify` WHERE `ac_id` = 3 LIMIT 0,3   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hy_all_head` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `hy_all_head` LIMIT 1   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000962s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001004s ]
+NOTIC: [8] Undefined index: nav_url E:\sunzemin\hongyu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 48 行.
+NOTIC: [8] Undefined offset: 0 E:\sunzemin\hongyu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined index: ah_title4 E:\sunzemin\hongyu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 146 行.
+NOTIC: [8] Undefined index: ah_title2 E:\sunzemin\hongyu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined index: ah_title3 E:\sunzemin\hongyu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 153 行.
+NOTIC: [8] Undefined offset: 1 E:\sunzemin\hongyu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 240 行.
+NOTIC: [8] Undefined offset: 1 E:\sunzemin\hongyu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 243 行.
+NOTIC: [8] Undefined index: wb_erweima E:\sunzemin\hongyu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+

@@ -1,0 +1,2063 @@
+[ 2018-12-05T10:57:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+
+[ 2018-12-05T10:57:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2018-12-05T10:57:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2018-12-05T10:58:02+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `hy_admin` [ RunTime:0.0856s ]
+SQL: SELECT * FROM `hy_admin` WHERE `aname` = 'admin' LIMIT 1   [ RunTime:0.0149s ]
+SQL: UPDATE `hy_admin` SET `aip`='127.0.0.1' WHERE `aname` = 'admin' [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0263s ]
+SQL: INSERT INTO `hy_admin_config` (`ac_name`,`ac_ip`,`ac_time`) VALUES ('admin','127.0.0.1','1543978682') [ RunTime:0.0287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+
+[ 2018-12-05T10:58:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hy_admin` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `hy_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2018-12-05T10:58:22+08:00 ] 127.0.0.1 /index.php/Admin/Classify/all_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `hy_all_classify` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `hy_all_classify` ORDER BY ac_sort desc LIMIT 0,10   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hy_all_classify` ORDER BY ac_sort desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: ac
+                            _id E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2018-12-05T10:58:24+08:00 ] 127.0.0.1 /index.php/Admin/Classify/little_classify/ac_id/1/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hy_little_classify` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `hy_little_classify` WHERE `ac_id` = 1 ORDER BY lc_sort desc LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hy_little_classify` WHERE `ac_id` = 1 ORDER BY lc_sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-12-05T10:58:26+08:00 ] 127.0.0.1 /index.php/Admin/Classify/classify_article/lc_id/1/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hy_classify_article` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `hy_classify_article` WHERE `lc_id` = 1 ORDER BY ca_sort desc LIMIT 0,10   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hy_classify_article` WHERE `lc_id` = 1 ORDER BY ca_sort desc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hy_little_classify` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `hy_little_classify` WHERE `lc_id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_little_classify` WHERE `lc_id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_little_classify` WHERE `lc_id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-12-05T10:58:30+08:00 ] 127.0.0.1 /index.php/Admin/Classify/all_classify/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hy_all_classify` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `hy_all_classify` ORDER BY ac_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hy_all_classify` ORDER BY ac_sort desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: ac
+                            _id E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+NOTIC: [8] Undefined index: ac
+                            _id E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\588cdf3292db0ee12194ef2d22d7f80e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2018-12-05T11:14:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hy_admin` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `hy_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2018-12-05T11:15:01+08:00 ] 127.0.0.1 /index.php/Admin/Article/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: image E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 45 行.
+NOTIC: [8] Undefined index: url E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 47 行.
+NOTIC: [8] Undefined index: image E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 45 行.
+NOTIC: [8] Undefined index: url E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 47 行.
+NOTIC: [8] Undefined index: image E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 45 行.
+NOTIC: [8] Undefined index: url E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 47 行.
+NOTIC: [8] Undefined index: image E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 45 行.
+NOTIC: [8] Undefined index: url E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 47 行.
+NOTIC: [8] Undefined index: image E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 45 行.
+NOTIC: [8] Undefined index: url E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 47 行.
+NOTIC: [8] Undefined index: image E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 45 行.
+NOTIC: [8] Undefined index: url E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 47 行.
+NOTIC: [8] Undefined index: image E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 45 行.
+NOTIC: [8] Undefined index: url E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 47 行.
+NOTIC: [8] Undefined index: image E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 45 行.
+NOTIC: [8] Undefined index: url E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 47 行.
+NOTIC: [8] Undefined index: image E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 45 行.
+NOTIC: [8] Undefined index: url E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 47 行.
+NOTIC: [8] Undefined index: image E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 45 行.
+NOTIC: [8] Undefined index: url E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\196624a5e847e2937e1c838922a58765.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-12-05T11:15:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hy_admin` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `hy_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2018-12-05T11:15:32+08:00 ] 127.0.0.1 /index.php/Admin/Article/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-12-05T11:15:35+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_del/id/10/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0079s ]
+SQL: DELETE FROM `hy_article` WHERE `id` = 10 [ RunTime:0.0212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2018-12-05T11:15:36+08:00 ] 127.0.0.1 /index.php/Admin/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2018-12-05T11:15:38+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_del/id/11/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0078s ]
+SQL: DELETE FROM `hy_article` WHERE `id` = 11 [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2018-12-05T11:15:39+08:00 ] 127.0.0.1 /index.php/Admin/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-12-05T11:15:42+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_del/id/9/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0075s ]
+SQL: DELETE FROM `hy_article` WHERE `id` = 9 [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-12-05T11:15:43+08:00 ] 127.0.0.1 /index.php/Admin/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2018-12-05T11:15:45+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_del/id/8/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0059s ]
+SQL: DELETE FROM `hy_article` WHERE `id` = 8 [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2018-12-05T11:15:46+08:00 ] 127.0.0.1 /index.php/Admin/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2018-12-05T11:15:49+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_del/id/7/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0054s ]
+SQL: DELETE FROM `hy_article` WHERE `id` = 7 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2018-12-05T11:15:50+08:00 ] 127.0.0.1 /index.php/Admin/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-12-05T11:15:53+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_del/id/6/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0071s ]
+SQL: DELETE FROM `hy_article` WHERE `id` = 6 [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2018-12-05T11:15:54+08:00 ] 127.0.0.1 /index.php/Admin/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2018-12-05T11:15:56+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_del/id/5/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0074s ]
+SQL: DELETE FROM `hy_article` WHERE `id` = 5 [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-12-05T11:15:57+08:00 ] 127.0.0.1 /index.php/Admin/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2018-12-05T11:15:59+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_del/id/4/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0110s ]
+SQL: DELETE FROM `hy_article` WHERE `id` = 4 [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-12-05T11:16:00+08:00 ] 127.0.0.1 /index.php/Admin/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2018-12-05T11:16:03+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_del/id/3/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0067s ]
+SQL: DELETE FROM `hy_article` WHERE `id` = 3 [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2018-12-05T11:16:04+08:00 ] 127.0.0.1 /index.php/Admin/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005145s ]
+
+[ 2018-12-05T11:16:06+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_del/id/2/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0061s ]
+SQL: DELETE FROM `hy_article` WHERE `id` = 2 [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2018-12-05T11:16:07+08:00 ] 127.0.0.1 /index.php/Admin/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004885s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2018-12-05T11:16:09+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_update/id/1/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `hy_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: case E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\a18724743988c6f58a3628627bb6a944.php 第 54 行.
+NOTIC: [8] Undefined variable: case E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\a18724743988c6f58a3628627bb6a944.php 第 57 行.
+NOTIC: [8] Undefined variable: case E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\a18724743988c6f58a3628627bb6a944.php 第 60 行.
+NOTIC: [8] Undefined variable: case E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\a18724743988c6f58a3628627bb6a944.php 第 61 行.
+NOTIC: [8] Undefined variable: case E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\a18724743988c6f58a3628627bb6a944.php 第 62 行.
+NOTIC: [8] Undefined variable: case E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\a18724743988c6f58a3628627bb6a944.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2018-12-05T11:17:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hy_admin` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `hy_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2018-12-05T11:17:34+08:00 ] 127.0.0.1 /index.php/Admin/Article/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2018-12-05T11:17:35+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_update/id/1/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hy_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2018-12-05T11:17:42+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_update/id/1/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0067s ]
+SQL: UPDATE `hy_article` SET `title`='我是公认的',`content`='任务HETARJYM&nbsp; &nbsp; wqfegwrhetryjd',`sort`='0' WHERE `id` = 1 [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+
+[ 2018-12-05T11:17:43+08:00 ] 127.0.0.1 /index.php/Admin/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2018-12-05T11:17:48+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_add/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-12-05T11:17:51+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_add/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0057s ]
+SQL: INSERT INTO `hy_article` (`title`,`content`,`sort`) VALUES ('tryjufykgio','fyliu;oiypop\'','0') [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+
+[ 2018-12-05T11:17:52+08:00 ] 127.0.0.1 /index.php/Admin/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-12-05T11:17:55+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_del/id/12/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0061s ]
+SQL: DELETE FROM `hy_article` WHERE `id` = 12 [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2018-12-05T11:17:56+08:00 ] 127.0.0.1 /index.php/Admin/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2018-12-05T11:24:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0 LIMIT 0,8   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2018-12-05T11:24:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/navupdate/nav_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Use of undefined constant parentnav - assumed 'parentnav' E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\258ad5c0e2144369d211c17800025b53.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-12-05T11:25:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/navupdate/nav_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0062s ]
+SQL: UPDATE `hy_nav` SET `nav_name`='庆典活动',`nav_url`='/index.php/Home/Index/text',`nav_sort`='0',`nav_fid`='0' WHERE `nav_id` = 2 [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+
+[ 2018-12-05T11:25:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/nav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0 LIMIT 0,8   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2018-12-05T11:35:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/navupdate/nav_id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+
+[ 2018-12-05T11:35:21+08:00 ] 127.0.0.1 /index.php/Admin/Login/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-12-05T11:35:24+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2018-12-05T11:35:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2018-12-05T11:35:52+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `hy_admin` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `hy_admin` WHERE `aname` = 'admin' LIMIT 1   [ RunTime:0.0019s ]
+SQL: UPDATE `hy_admin` SET `aip`='127.0.0.1' WHERE `aname` = 'admin' [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0147s ]
+SQL: INSERT INTO `hy_admin_config` (`ac_name`,`ac_ip`,`ac_time`) VALUES ('admin','127.0.0.1','1543980952') [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000507s ]
+
+[ 2018-12-05T11:35:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `hy_admin` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `hy_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2018-12-05T11:35:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0 LIMIT 0,8   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2018-12-05T11:36:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/navupdate/nav_id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 11 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Use of undefined constant parentnav - assumed 'parentnav' E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\258ad5c0e2144369d211c17800025b53.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2018-12-05T11:36:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/navupdate/nav_id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0072s ]
+SQL: UPDATE `hy_nav` SET `nav_name`='开业庆典',`nav_url`='/index.php/Home/Index/text',`nav_sort`='0',`nav_fid`='2' WHERE `nav_id` = 11 [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+
+[ 2018-12-05T11:36:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/nav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0 LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2018-12-05T11:36:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/navupdate/nav_id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 12 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Use of undefined constant parentnav - assumed 'parentnav' E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\258ad5c0e2144369d211c17800025b53.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-12-05T11:36:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/navupdate/nav_id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0075s ]
+SQL: UPDATE `hy_nav` SET `nav_name`='周年庆',`nav_url`='/index.php/Home/Index/text',`nav_sort`='0',`nav_fid`='2' WHERE `nav_id` = 12 [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+
+[ 2018-12-05T11:36:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/nav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0 LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2018-12-05T11:37:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/index/aid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hy_admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hy_admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2018-12-05T11:38:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0 LIMIT 0,8   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2018-12-05T11:38:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/navupdate/nav_id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 13 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant parentnav - assumed 'parentnav' E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\258ad5c0e2144369d211c17800025b53.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2018-12-05T11:38:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/navupdate/nav_id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0060s ]
+SQL: UPDATE `hy_nav` SET `nav_name`='开工奠基',`nav_url`='parentnav',`nav_sort`='0',`nav_fid`='2' WHERE `nav_id` = 13 [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+
+[ 2018-12-05T11:38:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/nav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0 LIMIT 0,8   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-12-05T11:38:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/navupdate/nav_id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 13 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Use of undefined constant parentnav - assumed 'parentnav' E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\258ad5c0e2144369d211c17800025b53.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2018-12-05T11:38:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/navupdate/nav_id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0057s ]
+SQL: UPDATE `hy_nav` SET `nav_name`='开工奠基',`nav_url`='/index.php/Home/Index/text',`nav_sort`='0',`nav_fid`='2' WHERE `nav_id` = 13 [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+
+[ 2018-12-05T11:38:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/nav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0 LIMIT 0,8   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2018-12-05T11:38:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/navupdate/nav_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003065s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 14 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 2 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Use of undefined constant parentnav - assumed 'parentnav' E:\sunzemin\hongyu\Application\Runtime\Cache\Admin\258ad5c0e2144369d211c17800025b53.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2018-12-05T11:38:29+08:00 ] 127.0.0.1 /index.php/Admin/Index/navupdate/nav_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0058s ]
+SQL: UPDATE `hy_nav` SET `nav_name`='乔迁庆典',`nav_url`='/index.php/Home/Index/text',`nav_sort`='0',`nav_fid`='2' WHERE `nav_id` = 14 [ RunTime:0.0079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+
+[ 2018-12-05T11:38:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/nav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0 LIMIT 0,8   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2018-12-05T11:38:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/nav/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0 LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2018-12-05T11:38:48+08:00 ] 127.0.0.1 /index.php/Admin/Article/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2018-12-05T11:38:50+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_update/id/1/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hy_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2018-12-05T11:39:11+08:00 ] 127.0.0.1 /index.php/Admin/Article/article_update/id/1/p/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0064s ]
+SQL: UPDATE `hy_article` SET `title`='我是公认的',`content`='<p>
+	任务HETARJYM&nbsp; &nbsp; wqfegwrhetryjd
+</p>
+<p>
+	<img src=\"/Public/editor/attached/image/20181205/20181205033909_38844.png\" alt=\"\" />
+</p>',`sort`='0' WHERE `id` = 1 [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+
+[ 2018-12-05T11:39:12+08:00 ] 127.0.0.1 /index.php/Admin/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hy_article` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hy_article` ORDER BY sort desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2018-12-05T13:47:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/background_image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0489s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hy_background_image` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `hy_background_image` ORDER BY bi_sort desc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 4 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 3 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 5 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hy_background_image` ORDER BY bi_sort desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-12-05T13:47:43+08:00 ] 127.0.0.1 /index.php/Admin/index/background_image_add/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 0  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 3  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 4  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 5  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_fid` = 6  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2018-12-05T13:47:57+08:00 ] 127.0.0.1 /index.php/Admin/index/background_image_add/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hy_background_image` [ RunTime:0.0051s ]
+SQL: INSERT INTO `hy_background_image` (`bi_image`,`nav_id`,`bi_sort`,`bi_title`) VALUES ('/Public/editor/attached/image/20181205/20181205054756_45812.png','6','0','') [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+
+[ 2018-12-05T13:47:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/background_image/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `hy_admin_config` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `hy_admin_config` ORDER BY ac_id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hy_background_image` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `hy_background_image` ORDER BY bi_sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hy_nav` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 4 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_nav` WHERE `nav_id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hy_background_image` ORDER BY bi_sort desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
